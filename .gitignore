@@ -1,0 +1,24 @@
+# IDEs and editors
+/.idea
+.project
+.gradle
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+.index.db
+.index.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+#fsh build
+out-fsh
+/fsh-generated
+/input-cache
+/output
+/temp
+/template
