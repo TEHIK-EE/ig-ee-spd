@@ -3,13 +3,13 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: ee.fhir.qre
-canonical: https://fhir.ee/qre
-name: QRE
-title: Küsimustike teenus
+id: ee.fhir.spd
+canonical: https://fhir.ee/spd
+name: SPD
+title: Service Provider Directory
 # description: Example Implementation Guide for getting started with SUSHI
-status: active # draft | active | retired | unknown
-version: 1.0.0
+status: draft # draft | active | retired | unknown
+version: 0.1.0
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: trial-use #ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -25,7 +25,9 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 #dependencies:
-#  hl7.fhir.uv.extensions: current
+  hl7.fhir.uv.extensions: current
+  ee.fhir.base: 1.1.1
+  ee.fhir.mpi: 1.2.2
 
 
 #   hl7.fhir.us.core: 3.1.0
@@ -48,9 +50,9 @@ publisher:
 #
 pages:
   index.md:
-    title: Sissejuhatus
+    title: Home
   download.md:
-    title: Allalaadimised
+    title: Downloads
 
 
 #   implementation.xml:
@@ -80,10 +82,10 @@ pages:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Esileht: index.html
-  Artefaktid: artifacts.html
-  Muu:
-    Allalaadimised: download.html
+  Home: index.html
+  Artifacts: artifacts.html
+  About:
+    Downloads: download.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
