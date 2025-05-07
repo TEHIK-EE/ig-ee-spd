@@ -1,0 +1,1 @@
+Alias: $ee-practitioner = https://fhir.ee/base/StructureDefinition/ee-practitioner
