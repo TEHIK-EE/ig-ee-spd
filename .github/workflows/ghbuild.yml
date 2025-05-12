@@ -1,0 +1,12 @@
+name: ghbuild
+
+permissions: write-all
+on:
+  push:
+    branches-ignore:
+      - 'gh-pages'
+  workflow_dispatch:
+
+jobs:
+  call_build:
+    uses: TEHIK-EE/smart-base/.github/workflows/ghbuild.yml@main

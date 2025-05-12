@@ -25,8 +25,8 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 #dependencies:
-  ee.fhir.base: 1.1.1
-  ee.fhir.mpi: 1.2.2
+  ee.fhir.base: current
+  ee.fhir.mpi: current
 
 #   hl7.fhir.uv.extensions: current
 #   hl7.fhir.us.core: 3.1.0
