@@ -24,9 +24,9 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-#dependencies:
+dependencies:
   ee.fhir.base: current
-  ee.fhir.mpi: current
+  ee.fhir.mpi: 1.2.2
 
 #   hl7.fhir.uv.extensions: current
 #   hl7.fhir.us.core: 3.1.0
