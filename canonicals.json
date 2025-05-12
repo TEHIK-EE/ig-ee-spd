@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "ee.fhir.spd",
+    "type" : "ImplementationGuide",
+    "url" : "https://fhir.ee/spd/ImplementationGuide/ee.fhir.spd",
+    "version" : "0.1.0",
+    "name" : "SPD"
+  },
+  {
+    "id" : "ee-spd-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.ee/spd/StructureDefinition/ee-spd-practitioner",
+    "version" : "0.1.0",
+    "name" : "EESPDPractitioner"
+  },
+  {
+    "id" : "ee-tis-device-tjt",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.ee/spd/StructureDefinition/ee-tis-device-tjt",
+    "version" : "0.1.0",
+    "name" : "EETISDeviceTJT"
+  }
+]

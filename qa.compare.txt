@@ -1,0 +1,24 @@
+SPD : Validation Results
+=========================================
+
+err = 0, warn = 9, info = 0
+$--
+Generated $--. FHIR version $-- for ee.fhir.spd#$-- (canonical = https://fhir.ee/spd)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.spd : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-ee-spd-practitioner : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt : 0 / 8 / 2
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-ee.fhir.spd.json ==
+== fsh-generated/resources/StructureDefinition-ee-spd-practitioner.json ==
+WARNING: StructureDefinition.where(url = 'https://fhir.ee/spd/StructureDefinition/ee-spd-practitioner'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json ==
+WARNING: StructureDefinition/ee-tis-device-tjt: StructureDefinition.snapshot.element[10]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/ee-tis-device-tjt: StructureDefinition.snapshot.element[22]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/ee-tis-device-tjt: StructureDefinition.snapshot.element[34]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/ee-tis-device-tjt: StructureDefinition.differential.element[1]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/ee-tis-device-tjt: StructureDefinition.differential.element[4]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/ee-tis-device-tjt: StructureDefinition.differential.element[13]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/ee-tis-device-tjt: StructureDefinition.snapshot.element[35].binding: The definition for the element 'Device.name.type' binds to the value set 'http://hl7.org/fhir/ValueSet/device-nametype|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://fhir.ee/spd/StructureDefinition/ee-tis-device-tjt'): The Implementation Guide contains no examples for this profile

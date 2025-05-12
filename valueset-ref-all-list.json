@@ -1,0 +1,262 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-spd-practitioner.html" : "EESPDPractitioner"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-spd-practitioner.html" : "EESPDPractitioner",
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-availability-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceAvailabilityStatus",
+      "title" : "FHIR Device Availability Status",
+      "description" : "The availability status of the device.",
+      "systems" : ["http://hl7.org/fhir/device-availability-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3198"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3198"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceCategory",
+      "title" : "FHIR Device Category",
+      "description" : "The association state of the device.",
+      "systems" : ["http://hl7.org/fhir/device-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3307"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3307"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-nametype",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceNameType",
+      "title" : "Device Name Type",
+      "description" : "The type of name the device is referred by.",
+      "systems" : ["http://hl7.org/fhir/device-nametype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1083"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1083"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-operation-mode",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceOperationMode",
+      "title" : "FHIR Device Operation Mode",
+      "description" : "The operation mode of the device.",
+      "systems" : ["http://hl7.org/fhir/device-operation-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3309"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3309"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-property-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceType",
+      "title" : "Device Property Type",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : [
+        "urn:iso:std:iso:11073:10101",
+        "urn:oid:2.16.840.1.113883.6.276",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.3195"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3195"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-safety",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceSafety",
+      "title" : "Device Safety",
+      "description" : "Codes used to identify medical devices safety characteristics. These codes are taken from the [NCI Thesaurus](https://ncit.nci.nih.gov/ncitbrowser/pages/home.jsf) and are provided here as a suggestive example.",
+      "systems" : ["urn:oid:2.16.840.1.113883.3.26.1.1"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.213",
+        "2.16.840.1.113883.4.642.3.893"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.213",
+        "2.16.840.1.113883.4.642.3.893"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-specification-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceSpecificationCategory",
+      "title" : "Device Specification Category",
+      "description" : "The kind of standards used by the device.",
+      "systems" : ["http://hl7.org/fhir/device-specification-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3197"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3197"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-specification-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceSpecificationType",
+      "title" : "Device Specification Type",
+      "description" : "The type or specification of a standard that devices can adhere to",
+      "systems" : ["urn:iso:std:iso:11073:10101"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3204"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3204"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceStatus",
+      "title" : "FHIR Device Status",
+      "description" : "The status of the Device record.",
+      "systems" : ["http://hl7.org/fhir/device-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.199",
+        "2.16.840.1.113883.4.642.3.209"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.199",
+        "2.16.840.1.113883.4.642.3.209"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceType",
+      "title" : "Device Type",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : [
+        "urn:iso:std:iso:11073:10101",
+        "urn:oid:2.16.840.1.113883.6.276",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1376"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1376"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-versiontype",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceVersionType",
+      "title" : "Device Version Type",
+      "description" : "Describes the type of version",
+      "systems" : ["urn:iso:std:iso:11073:10101"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3202"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3202"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ee-spd-practitioner.html" : "EESPDPractitioner",
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/udi-entry-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "UDIEntryType",
+      "title" : "UDI Entry Type",
+      "description" : "Codes to identify how UDI data was entered.",
+      "systems" : ["http://hl7.org/fhir/udi-entry-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.201",
+        "2.16.840.1.113883.4.642.3.211"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.201",
+        "2.16.840.1.113883.4.642.3.211"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ee-tis-device-tjt.html" : "EETISDeviceTJT"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0360",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSDegreeLicenseCertificate",
+      "title" : "hl7VS-degreeLicenseCertificate",
+      "description" : "Concepts specifying an educational degree (e.g., MD).  Used in the CNN datatype (names and identifiers of clinicians) in Version 2 messaging.  Used in Version 2 messaging; note that in releases of HL7 prior to 2.3.1, was also used in person names (XPN), but this use was deprecated, then withdrawn in 2.7.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0360"],
+      "oids" : ["2.16.840.1.113883.21.236"],
+      "sources" : ["2.16.840.1.113883.21.236"],
+      "uses" : {
+      },
+      "StructureDefinition-ee-spd-practitioner.html" : "EESPDPractitioner"
+    }
+  ]
+}

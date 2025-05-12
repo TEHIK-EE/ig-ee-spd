@@ -1,0 +1,146 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-availability-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRDeviceAvailabilityStatus",
+      "title" : "FHIR Device Availability Status",
+      "description" : "The record status of the device.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2048"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-device-availability-status.html" : "FHIR Device Availability Status"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-category",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRDeviceCategory",
+      "title" : "FHIR Device Category",
+      "description" : "The category of the device.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2105"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-device-category.html" : "FHIR Device Category"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-nametype",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "DeviceNameType",
+      "title" : "Device Name Type",
+      "description" : "The type of name the device is referred by.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1084"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-device-nametype.html" : "Device Name Type"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-operation-mode",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRDeviceOperationMode",
+      "title" : "FHIR Device Operation Mode",
+      "description" : "The operation mode of the device.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2107"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-device-operation-mode.html" : "FHIR Device Operation Mode"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-specification-category",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRDeviceSpecializationCategory",
+      "title" : "FHIR Device Specialization Category",
+      "description" : "The kind of standards used by the device.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2054"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-device-specification-category.html" : "Device Specification Category"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRDeviceStatus",
+      "title" : "FHIR Device Status",
+      "description" : "The status of the Device record.",
+      "oids" : [
+        "2.16.840.1.113883.4.642.4.210",
+        "2.16.840.1.113883.4.642.1.200"
+      ],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-device-status.html" : "FHIR Device Status"
+    },
+    {
+      "url" : "http://hl7.org/fhir/udi-entry-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "UDIEntryType",
+      "title" : "UDI Entry Type",
+      "description" : "Codes to identify how UDI data was entered.",
+      "oids" : [
+        "2.16.840.1.113883.4.642.4.212",
+        "2.16.840.1.113883.4.642.1.202"
+      ],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-udi-entry-type.html" : "UDI Entry Type"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0360",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "DegreeLicenseCertificate",
+      "title" : "degreeLicenseCertificate",
+      "description" : "Code system of concepts specifying an educational degree (e.g., MD).  Used in the CNN datatype (names and identifiers of clinicians) in Version 2 messaging.  Used in HL7 Version 2.x messaging in the CNN segment; note that in releases of HL7 prior to 2.3.1, was also used in person names (XPN), but this use was deprecated, then withdrawn in 2.7.",
+      "oids" : ["2.16.840.1.113883.18.220"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.2.0/ValueSet-v2-0360.html" : "hl7VS-degreeLicenseCertificate"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
+    },
+    {
+      "url" : "urn:iso:std:iso:11073:10101",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Mdc",
+      "title" : "ISO 11073-10101 Health informatics - Point-of-care",
+      "description" : "The nomenclature relates primarily to vital signs monitoring, but also includes semantics of other medical devices that are commonly used in acute care settings. There are multiple coding partitions each of which has a systematic name consisting of a set of base concepts and differentiating criteria.",
+      "oids" : ["2.16.840.1.113883.6.24"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-device-property-type.html" : "Device Property Type",
+      "http://hl7.org/fhir/R5/valueset-device-versiontype.html" : "Device Version Type",
+      "http://hl7.org/fhir/R5/valueset-device-type.html" : "Device Type",
+      "http://hl7.org/fhir/R5/valueset-device-specification-type.html" : "Device Specification Type"
+    }
+  ]
+}

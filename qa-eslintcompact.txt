@@ -1,0 +1,15 @@
+SPD
+=========================================
+
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-spd-practitioner.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 1, col 64266, Warning - Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 1, col 78896, Warning - Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 1, col 92984, Warning - Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 1, col 132304, Warning - Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 1, col 132499, Warning - Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 1, col 133160, Warning - Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 0, col 0, Warning - The definition for the element 'Device.name.type' binds to the value set 'http://hl7.org/fhir/ValueSet/device-nametype|5.0.0' which is experimental, but this structure is not labeled as experimental (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-ee-tis-device-tjt.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+
+err = 0, warn = 9, info = 0
+IG Publisher Version: 1.8.26
