@@ -1,5 +1,5 @@
 Profile: EESPDPractitioner
-Parent: Practitioner
+Parent: EEBasePractitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. Practitioner in SPD"
@@ -7,6 +7,7 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
 * ^status = #draft
 * ^date = "2024-01-03T11:51:42.3642317+00:00"
 * name only HumanName
+* name 1..1
 * name ^short = "First name and given name of healthcare professional"
 * name ^definition = "Tervishoiutöötaja ees- ja perekonnanimi"
 * identifier ^slicing.discriminator.type = #value
@@ -23,3 +24,6 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
 * identifier[specialistIdentifier].system = "https://fhir.ee/sid/pro/est/pho" (exactly)
 * identifier[specialistIdentifier].period ^short = "Validity period (if applicable) of the specialist code"
 * identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."
+* gender 0..1
+* gender ^short = "Gender of practitioner"
+* gender ^definition = "Tervishoiutöötaja sugu"
