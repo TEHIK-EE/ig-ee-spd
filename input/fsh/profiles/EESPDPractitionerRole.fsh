@@ -1,5 +1,5 @@
 Profile: EESPDPractitionerRole
-Parent: Practitioner
+Parent: EEBasePractitionerRole
 Id: ee-spd-practitioner-role
 Title: "EE SPD PractitionerRole"
 Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
