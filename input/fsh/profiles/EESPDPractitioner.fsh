@@ -1,4 +1,4 @@
-Profile: EESPDPractitioner
+/*Profile: EESPDPractitioner
 Parent: Practitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
@@ -18,3 +18,4 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
 * identifier[specialistIdentifier] ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi number"
 * identifier[specialistIdentifier].period ^short = "Validity period (if applicable) of the specialist code"
 * identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."
+*/
