@@ -1,4 +1,4 @@
-/*Profile: EESPDPractitioner
+Profile: EESPDPractitioner
 Parent: Practitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
@@ -9,13 +9,17 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
 * name only HumanName
 * name ^short = "First name and given name of healthcare professional"
 * name ^definition = "Tervishoiutöötaja ees- ja perekonnanimi"
-* identifier contains 
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+* identifier contains
     personalIdentifier 1..1 and
     specialistIdentifier 0..*
 * identifier[personalIdentifier] ^short = "Personal identifier of healthcare professional"
 * identifier[personalIdentifier] ^definition = "Tervishoiutöötaja (EE) isikukood)"
+* identifier[personalIdentifier].system = "https://fhir.ee/sid/pid/est/ni" (exactly)
 * identifier[specialistIdentifier] ^short = "Specialist code assigned from Estonian Health Board consists of one capital letter and five numbers"
 * identifier[specialistIdentifier] ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi number"
+* identifier[specialistIdentifier].system = "https://fhir.ee/sid/pro/est/pho" (exactly)
 * identifier[specialistIdentifier].period ^short = "Validity period (if applicable) of the specialist code"
 * identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."
-*/
