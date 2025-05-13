@@ -1,5 +1,5 @@
 Profile: EESPDPractitioner
-Parent: $ee-practitioner
+Parent: Practitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. Practitioner in SPD"
