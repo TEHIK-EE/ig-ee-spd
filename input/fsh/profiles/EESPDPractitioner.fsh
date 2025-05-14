@@ -1,5 +1,5 @@
 Profile: EESPDPractitioner
-Parent: Practitioner
+Parent: EEBasePractitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. Practitioner in SPD"
@@ -31,13 +31,13 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 * qualification contains
-    degreeN 0..1 and
+    //degreeN 0..1 and
     speciality 0..*
 //* qualification[degreeN].code from $tervishoiutootaja-kutse
-* qualification[degreeN].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
-* qualification[degreeN].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
-* qualification[degreeN].code ^short = "Qualification, education, license"
-* qualification[degreeN].code ^definition = "KUTSE. VAJAB oma loendit?!?"
+//* qualification[degree].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
+//* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
+* qualification[degree].code ^short = "Qualification, education, license"
+* qualification[degree].code ^definition = "KUTSE. VAJAB oma loendit?!?"
 //* qualification[speciality].code = https://fhir.ee/CodeSystem/erialad/
 * qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
 * qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"

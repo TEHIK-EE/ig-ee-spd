@@ -7,3 +7,5 @@ Description: "Asukoht. Location in SPD"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
 * status 1..1 //see kardinaalsus tuleb üle vaadata, sest on pandud ainult profiili eristamiseks eebasest
+* managingOrganization only Reference(EESPDOrganization)
+* partOf only Reference(EESPDLocation)

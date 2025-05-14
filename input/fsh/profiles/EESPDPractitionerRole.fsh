@@ -1,5 +1,5 @@
 Profile: EESPDPractitionerRole
-Parent: EEBasePractitionerRole
+Parent: PractitionerRole
 Id: ee-spd-practitioner-role
 Title: "EE SPD PractitionerRole"
 Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
@@ -10,3 +10,5 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 //* practitioner only Reference(EESPDPractitioner)
 * organization 1..1
 * organization only Reference(EESPDOrganization)
+* location only Reference(EESPDLocation)
+* code.coding.system = "https://teabekeskus.tehik.ee/et/loendid/autoriseerimismooduli-kasutajarollid" (exactly)
