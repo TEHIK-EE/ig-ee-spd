@@ -1,6 +1,6 @@
 {
     "resourceType": "CodeSystem",
-    "id": "erialad--9.0.0",
+    "id": "erialad",
     "language": "et",
     "extension": [
       {

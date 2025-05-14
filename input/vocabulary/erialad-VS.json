@@ -1,6 +1,6 @@
 {
     "resourceType": "ValueSet",
-    "id": "erialad--9.0.0",
+    "id": "erialad",
     "language": "et",
     "url": "https://fhir.ee/ValueSet/erialad",
     "identifier": [

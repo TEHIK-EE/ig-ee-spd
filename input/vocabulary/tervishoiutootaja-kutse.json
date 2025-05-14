@@ -1,6 +1,6 @@
 {
     "resourceType": "CodeSystem",
-    "id": "tervishoiutootaja-kutse--1.0.0",
+    "id": "tervishoiutootaja-kutse",
     "language": "et",
     "extension": [
       {
