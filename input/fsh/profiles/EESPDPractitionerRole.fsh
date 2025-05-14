@@ -14,7 +14,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * code.coding.system = "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid" (exactly)
 * code.coding.system ^short = "Healthcare professional role eg. doctor | nurse | consent-representative | specialist | student | receptionist etc"
 * code.coding.system ^definition = "Tervishoiutöötaja rolli väärtus loendist"
-* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/eriala" (exactly)
+* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/erialad" (exactly)
 //* code[role].coding.system = "https://teabekeskus.tehik.ee/et/loendid/autoriseerimismooduli-kasutajarollid" (exactly)
 //* code[role] ^short = "Practitioner role"
 //* code[role] from EESPDPractitionerRole (extensible)
