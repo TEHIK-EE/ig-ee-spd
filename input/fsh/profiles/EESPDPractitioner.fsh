@@ -28,15 +28,17 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
 * gender ^short = "Gender of practitioner"
 * gender ^definition = "Tervishoiutöötaja sugu"
 * qualification ^slicing.discriminator.type = #value
-* qualification ^slicing.discriminator.path = "system"
+* qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 * qualification contains
     degreeN 0..1 and
     speciality 0..*
+//* qualification[degreeN].code from $tervishoiutootaja-kutse
 * qualification[degreeN].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
 * qualification[degreeN].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 * qualification[degreeN].code ^short = "Qualification, education, license"
 * qualification[degreeN].code ^definition = "KUTSE. VAJAB oma loendit?!?"
+//* qualification[speciality].code = https://fhir.ee/CodeSystem/erialad/
 * qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
 * qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
 * qualification[speciality].code ^short = "Qualification, education, license"
