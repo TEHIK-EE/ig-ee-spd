@@ -5,7 +5,7 @@ Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. Practitioner in SPD"
 * ^version = "1.0.0"
 * ^status = #draft
-* ^date = "2024-01-03T11:51:42.3642317+00:00"
+* ^date = "2025-05-14T11:51:42.3642317+00:00"
 * name only HumanName
 * name 1..1
 * name ^short = "First name and given name of healthcare professional"
@@ -17,13 +17,25 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
     personalIdentifier 1..1 and
     specialistIdentifier 0..*
 * identifier[personalIdentifier] ^short = "Personal identifier of healthcare professional"
-* identifier[personalIdentifier] ^definition = "Tervishoiutöötaja (EE) isikukood)"
+* identifier[personalIdentifier] ^definition = "Tervishoiutöötaja (EE) isikukood"
 * identifier[personalIdentifier].system = "https://fhir.ee/sid/pid/est/ni" (exactly)
 * identifier[specialistIdentifier] ^short = "Specialist code assigned from Estonian Health Board consists of one capital letter and five numbers"
-* identifier[specialistIdentifier] ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi number"
+* identifier[specialistIdentifier] ^definition = "Tervishoiutöötaja Terviseameti registri registreerimistõendi number"
 * identifier[specialistIdentifier].system = "https://fhir.ee/sid/pro/est/pho" (exactly)
 * identifier[specialistIdentifier].period ^short = "Validity period (if applicable) of the specialist code"
 * identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."
 * gender 0..1
 * gender ^short = "Gender of practitioner"
 * gender ^definition = "Tervishoiutöötaja sugu"
+* qualification ^slicing.discriminator.type = #value
+* qualification ^slicing.discriminator.path = "system"
+* qualification ^slicing.rules = #open
+* qualification contains
+    degreeN 0..1 and
+    speciality 0..*
+* qualification[degreeN].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
+* qualification[degreeN].code ^short = "Qualification, education, license"
+* qualification[degreeN].code ^definition = "KUTSE. VAJAB oma loendit?!?"
+* qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
+* qualification[speciality].code ^short = "Qualification, education, license"
+* qualification[speciality].code ^definition = "ERIALA. Erialade loendist?"
