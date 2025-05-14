@@ -1,0 +1,55 @@
+{
+    "resourceType": "ValueSet",
+    "id": "tervishoiutootaja-kutse--1.0.0",
+    "language": "et",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+        "valueUrl": "https://akk.test.tehik.ee/classifier/fhir/ValueSet/tervishoiutootaja-kutse"
+      }
+    ],
+    "url": "https://fhir.ee/ValueSet/tervishoiutootaja-kutse",
+    "version": "1.0.0",
+    "title": "Tervishoiutöötaja kutse",
+    "status": "draft",
+    "experimental": false,
+    "date": "2025-05-14T07:47:05.866541Z",
+    "publisher": "TEHIK",
+    "description": "TEST (SPD) kutse jaoks",
+    "effectivePeriod": {
+      "start": "2025-05-14T00:00:00Z"
+    },
+    "compose": {
+      "inactive": false,
+      "include": [
+        {
+          "system": "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse",
+          "version": "1.0.0",
+          "concept": [
+            {
+              "code": "E400",
+              "display": "hambaarst"
+            },
+            {
+              "code": "E600",
+              "display": "arst"
+            },
+            {
+              "code": "N500",
+              "display": "õde"
+            },
+            {
+              "code": "N600",
+              "display": "ämmaemand"
+            }
+          ]
+        }
+      ],
+      "property": [
+        "display"
+      ]
+    },
+    "expansion": {
+      "total": 0
+    }
+  }

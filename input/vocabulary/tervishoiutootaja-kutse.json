@@ -1,0 +1,54 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "tervishoiutootaja-kutse--1.0.0",
+    "language": "et",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+        "valueUrl": "https://akk.test.tehik.ee/classifier/fhir/CodeSystem/tervishoiutootaja-kutse"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+        "valueCode": "executable"
+      }
+    ],
+    "url": "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse",
+    "version": "1.0.0",
+    "title": "Tervishoiutöötaja kutse",
+    "status": "draft",
+    "experimental": true,
+    "date": "2025-05-14T07:34:52.346204Z",
+    "publisher": "TEHIK",
+    "description": "TEST (SPD) kutse jaoks",
+    "effectivePeriod": {
+      "start": "2025-05-14T00:00:00Z"
+    },
+    "caseSensitive": false,
+    "content": "complete",
+    "property": [
+      {
+        "code": "display",
+        "uri": "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+        "description": "Nimetus",
+        "type": "string"
+      }
+    ],
+    "concept": [
+      {
+        "code": "E430",
+        "display": "hambaarst"
+      },
+      {
+        "code": "E600",
+        "display": "arst"
+      },
+      {
+        "code": "N500",
+        "display": "õde"
+      },
+      {
+        "code": "N600",
+        "display": "ämmaemand"
+      }
+    ]
+  }
