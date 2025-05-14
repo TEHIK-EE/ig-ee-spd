@@ -34,8 +34,10 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
     degreeN 0..1 and
     speciality 0..*
 * qualification[degreeN].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
+* qualification[degreeN].code.coding.system = $tervishoiutootaja-kutse
 * qualification[degreeN].code ^short = "Qualification, education, license"
 * qualification[degreeN].code ^definition = "KUTSE. VAJAB oma loendit?!?"
 * qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
+* qualification[speciality].code.coding.system = $erialad
 * qualification[speciality].code ^short = "Qualification, education, license"
 * qualification[speciality].code ^definition = "ERIALA. Erialade loendist?"
