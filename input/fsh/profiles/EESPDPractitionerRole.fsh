@@ -28,3 +28,8 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * contact 1..1
 * contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use EESPDPractitioner."
 * contact ^definition = "Töötaja kontaktandmed selles konkreetses asutuses ja rollis; kontakttelefoni number, e-posti aadress ja/või faksinumber"
+* healthcareService 0..0
+* characteristic 0..0
+* communication 0..0
+* availability 0..0
+* endpoint 0..0
