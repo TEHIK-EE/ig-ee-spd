@@ -1,0 +1,228 @@
+{
+    "resourceType": "ValueSet",
+    "id": "autoriseerimismooduli-kasutajarollid",
+    "language": "et",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+        "valueUrl": "https://akk.tehik.ee/classifier/fhir/ValueSet/autoriseerimismooduli-kasutajarollid"
+      }
+    ],
+    "url": "https://fhir.ee/ValueSet/autoriseerimismooduli-kasutajarollid",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:oid:1.3.6.1.4.1.28284.6.2.1.377"
+      },
+      {
+        "type": {
+          "coding": [
+            {
+              "code": "version"
+            }
+          ]
+        },
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:oid:1.3.6.1.4.1.28284.6.2.1.377.1"
+      }
+    ],
+    "version": "1.0.0",
+    "versionAlgorithmString": "semver",
+    "name": "AutoriseerimismooduliKasutajarollid",
+    "title": "Autoriseerimismooduli kasutajarollid",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-07-16T10:14:10.542888Z",
+    "publisher": "TEHIK",
+    "description": "TIS mikroteenuste juures autoriseerimisel kasutatavate rollide loend.",
+    "effectivePeriod": {
+      "start": "2024-05-02T00:00:00Z"
+    },
+    "author": [
+      {
+        "name": "TEHIK"
+      }
+    ],
+    "compose": {
+      "inactive": false,
+      "include": [
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "version": "1.0.0"
+        }
+      ],
+      "property": [
+        "definition",
+        "comment"
+      ]
+    },
+    "expansion": {
+      "total": 16,
+      "contains": [
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "patient",
+          "display": "Patsient",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Vaatamisõigus, üldandmete lisamise ja muutmisõigus, dokumentide sulgemisõigus"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "permission-admin",
+          "display": "Õiguste administraator"
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "doctor",
+          "display": "Arst",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Kõik õigused, va suletud dokumendid"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "receptionist",
+          "display": "Registraator/klienditeenindaja",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Juurdepääs teatud teenuste lõikes (ÜDR, PÜT immuandmed epideemilises olukorras)"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "midwife",
+          "display": "Ämmaemand",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Kõik õigused, va suletud dokumendid"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "consent-representative-limited",
+          "display": "Vaatamisõiguslik patsiendi esindaja",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Vaatamisõigus. Tuleb TIS-ist."
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "physiotherapist",
+          "display": "Füsioterapeut",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Kõik õigused, va suletud dokumendid ja surma andmed"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "clinical-psychologist",
+          "display": "Kliiniline psühholoog",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Kõik õigused, va suletud dokumendid"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "nurse",
+          "display": "Õde",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Kõik õigused, va suletud dokumendid"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "legal-representative",
+          "display": "Eestkostja",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Seaduslik esindaja tuleb RR-ist"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "consent-representative",
+          "display": "Täieõiguslik esindaja",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Vaatamise ja muutmise õigus (va suletud dokumendid). Määratud esindaja tuleb TIS-ist "
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "student",
+          "display": "Abiarst",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Ainult vaatamisõigus"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "specialist",
+          "display": "Spetsialist",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Ainult vaatamisõigus"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "server",
+          "display": "Rakendus/server"
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "speech-therapist",
+          "display": "Logopeed",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Kõik õigused, va suletud dokumendid ja surma andmed"
+            }
+          ]
+        },
+        {
+          "system": "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid",
+          "code": "patient-limited",
+          "display": "Muutmisõiguseta patsient",
+          "property": [
+            {
+              "code": "comment",
+              "valueString": "Ainult vaatamisõigus"
+            }
+          ]
+        }
+      ]
+    }
+  } 

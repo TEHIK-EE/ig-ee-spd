@@ -1,4 +1,4 @@
-Instance: PractitionerN99876
+Instance: practitioner-nurse
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner N99876"
@@ -11,4 +11,6 @@ Description: "Practitioner N99876"
   * system = "https://fhir.ee/sid/pro/est/pho"
   * value = "N99876"
 * qualification[0].code = $kutse#N500 "õde"
-* qualification[+].code = $erialad#E140 "gastroenteroloogia"
+* qualification[+].code = $erialad#N210 "diabeediõendus"
+* qualification[+].code = $erialad#N800	"retseptiõigusega eriõde"
+
