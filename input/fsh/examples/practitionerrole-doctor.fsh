@@ -9,5 +9,5 @@ Description: "PractitionerRole D99876"
 * code = $rollid#doctor "Arst"
 //* code.coding.value = "doctor"
 * specialty = $erialad#E260 "ortopeedia"
-* location = Reference(Location/EESPDLocation)
+* location = Reference(Location/location-taastusravi)
 * contact.telecom.value = "5555551"

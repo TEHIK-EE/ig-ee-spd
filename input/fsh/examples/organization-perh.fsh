@@ -6,7 +6,10 @@ Description: "Organization PERH"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
 * name = "sihtasutus Põhja-Eesti Regionaalhaigla"
-* contact.telecom.value = "info@regionaalhaigla.ee"
+* contact
+  * telecom 
+    * system = #email
+    * value = "info@regionaalhaigla.ee" 
 * contact.address 
   * use = #work
   * country = "EE"
@@ -16,5 +19,5 @@ Description: "Organization PERH"
   * text = "Harju maakond, Tallinn, Lasnamäe linnaosa, Valukoja tn 10"
 * qualification.identifier.value = "L02565"
 * qualification.identifier.system = "https://fhir.ee/sid/org/est/fi"
-* qualification.code = $tegevusala#A001 "Statsionaarsed pulmonoloogiateenused"
+* qualification.code = $tegevusala#A001 "Eriarstiabi teenus"
 * qualification.period.start = "2012-01-12" 

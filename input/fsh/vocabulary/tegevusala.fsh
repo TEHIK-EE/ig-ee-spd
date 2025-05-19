@@ -8,13 +8,14 @@ Description: "TEST tegevusala"
 * ^content = #fragment
 * ^experimental = false
 
-* #A001 "Statsionaarsed pulmonoloogiateenused"
-* #A002 "Statsionaarsed psühhiaatriateenused"
-* #A003 "ambulatoorsed psühhiaatriateenused"
-* #A004 "psühhiaatria päevaraviteenused"
-* #A005 "radioloogiateenused"
-* #A006 "Statsionaarsed neuroloogiateenused"
-* #A007 "ambulatoorsed taastusravi ja füsiaatriateenused"
+* #A001 "Eriarstiabi teenus"
+* #A002 "Iseseisva füsioteraapia osutamine"
+* #A003 "Iseseisva logopeedilise ravi osutamine"
+* #A004 "Iseseisva psühholoogilise ravi osutamine"
+* #A005 "Iseseisva õendusabi osutamine"
+* #A006 "Iseseisva ämmaemandusabi osutamine"
+* #A007 "Kiirabi teenus"
+* #A008 "Perearsti nimistu alusel perearstiabi"
 
 ValueSet: TEGEVUSALA_VS
 Id: tegevusala-vs

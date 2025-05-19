@@ -29,7 +29,7 @@ Description: "Asutus. Organization in SPD"
 * qualification.period ^short = "Period of the licence validity. TEGEVUSLOA KEHTIVUS"
 * qualification.period ^definition = "Väljastatud tegevusloa kehtivusaeg."
 * qualification.code ^short = "Field of services this licence allows. TEGEVUSALA."
-* qualification.code ^definition = "tegevusala. VAJA LOENDIT"
+* qualification.code ^definition = "tegevusala. VAJA LOENDIT! See on terviseameti loend!"
 //* qualification.code ^slicing.discriminator.type = #value
 //* qualification.code ^slicing.discriminator.path = "code.coding.system"
 //* qualification.code ^slicing.rules = #open

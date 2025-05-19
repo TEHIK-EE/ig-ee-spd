@@ -8,5 +8,5 @@ Description: "PractitionerRole N99876"
 * organization = Reference(Organization/OrganizationPERH)
 * code = $rollid#nurse "Õde"
 //* code.coding.value = "doctor"
-* location = Reference(Location/EESPDLocation)
+* location = Reference(Location/location-taastusravi)
 * contact.telecom.value = "5555555"
