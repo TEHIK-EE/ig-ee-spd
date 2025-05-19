@@ -16,6 +16,7 @@ Description: "Asutus. Organization in SPD"
   * address 1..1
   * address ^short = "Address is presented using ADS"
   * address ^definition = "Asutuse aadress ADS kujul. Asutusel on üks juriidiline aadress, aga teenuse osutamine ise võib toimuda teises asukohas ja seda aadressi tuleb koguda kontakti juures."
+  * address only EEBaseAddress
 * active ^short = "Status of organization. STAATUS."
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * name ^short = "Name of the organization. NIMETUS"

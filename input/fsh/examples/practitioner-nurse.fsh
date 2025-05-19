@@ -6,7 +6,7 @@ Description: "Practitioner N99876"
 * name.given = "Kari"
 * identifier[personalIdentifier] 
   * system = "https://fhir.ee/sid/pid/est/ni"
-  * value = "38001010015"
+  * value = "49001010015"
 * identifier[specialistIdentifier]
   * system = "https://fhir.ee/sid/pro/est/pho"
   * value = "N99876"

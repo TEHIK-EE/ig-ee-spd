@@ -1,4 +1,4 @@
-Instance: practitionerrole1
+Instance: practitionerrole-nurse
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole N99876"
@@ -6,7 +6,7 @@ Description: "PractitionerRole N99876"
 * period.start = "2005-01-01"
 * practitioner = Reference(Practitioner/practitioner-nurse)
 * organization = Reference(Organization/OrganizationPERH)
-* code = $rollid#doctor "Arst"
+* code = $rollid#nurse "Õde"
 //* code.coding.value = "doctor"
 * location = Reference(Location/EESPDLocation)
 * contact.telecom.value = "5555555"
