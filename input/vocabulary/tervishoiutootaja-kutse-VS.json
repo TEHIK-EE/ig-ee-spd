@@ -15,41 +15,36 @@
     "experimental": false,
     "date": "2025-05-14T07:47:05.866541Z",
     "publisher": "TEHIK",
-    "description": "TEST (SPD) kutse jaoks",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "email",
+            "value": "andmekorraldus@tehik.ee"
+          },
+          {
+            "system": "url",
+            "value": "https://tehik.ee/"
+          }
+        ]
+      }
+    ],
+    "description": "Tervishoiutöötaja kutse. TEST.",
     "effectivePeriod": {
-      "start": "2025-05-14T00:00:00Z"
+      "start": "2016-05-06T00:00:00Z"
     },
+    "author": [
+      {
+        "name": "TEHIK"
+      }
+    ],
     "compose": {
       "inactive": false,
       "include": [
         {
           "system": "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse",
-          "version": "1.0.0",
-          "concept": [
-            {
-              "code": "E400",
-              "display": "hambaarst"
-            },
-            {
-              "code": "E600",
-              "display": "arst"
-            },
-            {
-              "code": "N500",
-              "display": "õde"
-            },
-            {
-              "code": "N600",
-              "display": "ämmaemand"
-            }
-          ]
+          "version": "1.0.0"
         }
-      ],
-      "property": [
-        "display"
       ]
-    },
-    "expansion": {
-      "total": 0
     }
   }
