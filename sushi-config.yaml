@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ee.fhir.spd
-canonical: https://fhir.ee/spd
+canonical: https://fhir.ee
 name: SPD
 title: Service Provider Directory
 # description: Example Implementation Guide for getting started with SUSHI
