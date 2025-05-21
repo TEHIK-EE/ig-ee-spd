@@ -9,6 +9,8 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * practitioner 1..1
 * practitioner only Reference(EESPDPractitioner)
 * organization 1..1
+* organization ^short = "Organization where practitioner has this role. E.g PERH"
+* organization ^definition = "Organisatrioon, kus tervishoiutöötajal on konkreetne roll. Näiteks PERH. Siit tuleb tegevusluba."
 * organization only Reference(EESPDOrganization)
 * location only Reference(EESPDLocation)
 * location ^short = "Address and exact location where this practitioner in this role performs healthcare service. HCP may have several roles each with different location (and address)"

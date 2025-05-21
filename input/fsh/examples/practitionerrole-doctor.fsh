@@ -11,3 +11,4 @@ Description: "PractitionerRole D99876"
 * specialty = $erialad#E260 "ortopeedia"
 * location = Reference(Location/location-taastusravi)
 * contact.telecom.value = "5555551"
+* contact.telecom.system = #phone

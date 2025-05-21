@@ -1,4 +1,4 @@
-Instance: location-taastusravi
+/*Instance: location-taastusravi
 InstanceOf: EESPDLocation
 Usage: #example
 Description: "Location taastusravihaigla jaoks"
@@ -16,3 +16,4 @@ Description: "Location taastusravihaigla jaoks"
 * address.extension[0].valueCodeableConcept.coding[0].code = #2107287
 * address.extension[0].valueCodeableConcept.coding[0].system = "https://fhir.ee/CodeSystem/ads-adr-id" 
 * address.extension[0].valueCodeableConcept.text = "2107287 - see on ADR number geoportaalist, see on parem kui EHAK."
+*/

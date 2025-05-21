@@ -21,6 +21,7 @@ Description: "Asutus. Organization in SPD"
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * name ^short = "Name of the organization. NIMETUS"
 * name ^definition = "Asutuse NIMETUS."
+* partOf ^short = "kas kasutada seda eristamaks allüksusi ja tegevuskohti või Locationit?!?"
 * qualification ^short = "Licence(s) to provide healthcare service. TEGEVUSLUBA."
 * qualification ^definition = "TEGEVUSLUBA"
 * qualification.identifier.system = "https://fhir.ee/sid/org/est/fi" (exactly)

@@ -2,7 +2,8 @@ Profile: EESPDPractitioner
 Parent: EEBasePractitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
-Description: "Tervishoiutöötaja. Practitioner in SPD"
+Description: "Tervishoiutöötaja. (Nt TTOdes töötavad tervishoiutöötajad, võrdsustatud spetsialistid ja spetsialistid, TTOdes töötavad registraatorid/assistendid,
+Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
@@ -44,3 +45,7 @@ Description: "Tervishoiutöötaja. Practitioner in SPD"
 * qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
 * qualification[speciality].code ^short = "Qualification, education, license"
 * qualification[speciality].code ^definition = "ERIALA. Erialade loendist?"
+* birthDate 0..0
+* deceased[x] 0..0
+* photo 0..0
+* communication 0..0
