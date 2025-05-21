@@ -5,7 +5,7 @@ Description: "Location taastusravihaigla jaoks"
 * meta.profile = "https://fhir.ee/StructureDefinition/ee-spd-location"
 * status = #active
 * name = "Taastusravi haigla"
-* managingOrganization = Reference(Organization/OrganizationPERH)
+* managingOrganization = Reference(Organization/oganization-perh)
 * address
   * use = #work
   * text = "Sõle 16, Tallinn"

@@ -1,4 +1,4 @@
-Instance: OrganizationPERH
+Instance: oganization-perh
 InstanceOf: EESPDOrganization
 Usage: #example
 Description: "Organization PERH"
