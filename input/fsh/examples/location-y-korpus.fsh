@@ -12,6 +12,7 @@ Description: "Location Y-korpuse jaoks"
 //  * country = "EE"
   // * extension[0].url= https://fhir.ee/base/StructureDefinition/ee-ads-adr-id
   // * extensible[=].valueCodeableConcept = "2107287"
+//* address.extension[0].valueCoding = https://fhir.ee/CodeSystem/ads-adr-id#2280361
 //* address.extension[0].url = "https://fhir.ee/base/StructureDefinition/ee-ads-adr-id"
 //* address.extension[0].valueCodeableConcept.coding[0].code = #2107287
 //* address.extension[0].valueCodeableConcept.coding[0].system = "https://fhir.ee/CodeSystem/ads-adr-id" 

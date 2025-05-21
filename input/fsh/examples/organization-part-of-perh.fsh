@@ -1,7 +1,7 @@
 Instance: organization-part-of-perh
 InstanceOf: EESPDOrganization
 Usage: #example
-Description: "Organization which is part of PERH"
+Description: "Organisatsioon, mis on osa teisest organisatsioonist. Äriregistrikood on sama ag tegevusluba ja aadress on teised. Organization which is part of PERH."
 * identifier.value = "90006399"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
@@ -18,7 +18,7 @@ Description: "Organization which is part of PERH"
   * postalCode = "14215"
   * text = "Harju maakond, Tallinn, Sõle 16"
 * contact.address.extension[0].url = "https://fhir.ee/base/StructureDefinition/ee-ads-adr-id"
-* contact.address.extension[0].valueCode = #2107287 //from "https://fhir.ee/CodeSystem/ads-adr-id" 
+* contact.address.extension[0].valueCoding = #2107287 //from "https://fhir.ee/CodeSystem/ads-adr-id" 
 //* contact.address.extension[0].valueCode.system = "https://fhir.ee/CodeSystem/ads-adr-id" 
 //* contact.address.extension[0].valueDisplay = "2107287 - see on ADR number geoportaalist, see on parem kui EHAK."
 * qualification[0].identifier.value = "L02565"

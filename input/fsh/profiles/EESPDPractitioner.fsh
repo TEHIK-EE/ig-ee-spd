@@ -33,7 +33,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification ^slicing.rules = #open
 * qualification contains
     //degreeN 0..1 and
-    speciality 0..*
+    speciality 0..* and
+    kutse 0..1
 //* qualification[degreeN].code from $tervishoiutootaja-kutse
 //* qualification[degree].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
@@ -45,6 +46,10 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
 * qualification[speciality].code ^short = "Qualification, education, license"
 * qualification[speciality].code ^definition = "ERIALA. Erialade loendist?"
+* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
+* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
+* qualification[kutse].code ^short = "Kutse"
+* qualification[kutse].code ^definition = "KUTSE. loendist?"
 * birthDate 0..0
 * deceased[x] 0..0
 * photo 0..0
