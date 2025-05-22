@@ -43,11 +43,11 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[degree].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
 * qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
-* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
+* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad" (exactly)
 * qualification[speciality].code ^short = "Qualification, education, license"
 * qualification[speciality].code ^definition = "ERIALA. Erialade loendist?"
 * qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
-* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
+* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
 * qualification[kutse].code ^short = "Kutse"
 * qualification[kutse].code ^definition = "KUTSE. loendist?"
 * birthDate 0..0
