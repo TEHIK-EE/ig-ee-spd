@@ -20,9 +20,11 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * identifier[personalIdentifier] ^short = "Personal identifier of healthcare professional"
 * identifier[personalIdentifier] ^definition = "Tervishoiutöötaja (EE) isikukood"
 * identifier[personalIdentifier].system = "https://fhir.ee/sid/pid/est/ni" (exactly)
+* identifier[personalIdentifier].value only string
 * identifier[specialistIdentifier] ^short = "Specialist code assigned from Estonian Health Board consists of one capital letter and five numbers"
 * identifier[specialistIdentifier] ^definition = "Tervishoiutöötaja Terviseameti registri registreerimistõendi number. THT kood."
 * identifier[specialistIdentifier].system = "https://fhir.ee/sid/pro/est/pho" (exactly)
+* identifier[specialistIdentifier].value only string
 * identifier[specialistIdentifier].period ^short = "Validity period (if applicable) of the specialist code"
 * identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."
 * gender 0..1
