@@ -1,5 +1,6 @@
 {
   "resourceType" : "ConceptMap",
+  "id" : "iso-to-tehik",
   "url" : "http://uptis.tehik.ee/tehik_contry_personal_code_to_iso3166_alpha3",
   "version" : "1.0",
   "name" : "Map between ISO 3166 Alpha-3 codes and TEHIK country specific personal codes (1.3.6.1.4.1.28284.6.2.2.16)",
