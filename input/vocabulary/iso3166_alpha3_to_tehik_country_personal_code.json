@@ -1,0 +1,1486 @@
+{
+  "resourceType" : "ConceptMap",
+  "url" : "http://uptis.tehik.ee/tehik_contry_personal_code_to_iso3166_alpha3",
+  "version" : "1.0",
+  "name" : "Map between ISO 3166 Alpha-3 codes and TEHIK country specific personal codes (1.3.6.1.4.1.28284.6.2.2.16)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-08-01",
+  "sourceScopeCanonical" : "urn:iso:std:iso:3166",
+  "targetScopeCanonical" : "urn:oid:1.3.6.1.4.1.28284.6.2.2.16",
+  "group" : [ {
+    "source" : "urn:iso:std:iso:3166",
+    "target" : "urn:oid:1.3.6.1.4.1.28284.6.2.2.16",
+    "element" : [ {
+      "code" : "AFG",
+      "display" : "Afganistani Islamivabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.4"
+      } ]
+    }, {
+      "code" : "ALA",
+      "display" : "Ahvenamaa (Soome)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.248"
+      } ]
+    }, {
+      "code" : "ALB",
+      "display" : "Albaania Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.8"
+      } ]
+    }, {
+      "code" : "DZA",
+      "display" : "Alžeeria Demokraatlik Rahvavabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.12"
+      } ]
+    }, {
+      "code" : "ASM",
+      "display" : "Ameerika Samoa (USA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.16"
+      } ]
+    }, {
+      "code" : "USA",
+      "display" : "Ameerika Ühendriigid",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.840"
+      } ]
+    }, {
+      "code" : "AND",
+      "display" : "Andorra Vürstiriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.20"
+      } ]
+    }, {
+      "code" : "AGO",
+      "display" : "Angola Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.24"
+      } ]
+    }, {
+      "code" : "AIA",
+      "display" : "Anguilla (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.660"
+      } ]
+    }, {
+      "code" : "ATA",
+      "display" : "Antarktis",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.10"
+      } ]
+    }, {
+      "code" : "ATG",
+      "display" : "Antigua ja Barbuda",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.28"
+      } ]
+    }, {
+      "code" : "ARE",
+      "display" : "Araabia Ühendemiraadid",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.784"
+      } ]
+    }, {
+      "code" : "ARG",
+      "display" : "Argentina Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.32"
+      } ]
+    }, {
+      "code" : "ARM",
+      "display" : "Armeenia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.51"
+      } ]
+    }, {
+      "code" : "ABW",
+      "display" : "Aruba",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.533"
+      } ]
+    }, {
+      "code" : "AZE",
+      "display" : "Aserbaidžaani Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.31"
+      } ]
+    }, {
+      "code" : "AUS",
+      "display" : "Austraalia",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.36"
+      } ]
+    }, {
+      "code" : "AUT",
+      "display" : "Austria Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.40"
+      } ]
+    }, {
+      "code" : "BHS",
+      "display" : "Bahama Ühendus",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.44"
+      } ]
+    }, {
+      "code" : "BHR",
+      "display" : "Bahreini Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.48"
+      } ]
+    }, {
+      "code" : "BGD",
+      "display" : "Bangladeshi Rahvavabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.50"
+      } ]
+    }, {
+      "code" : "BRB",
+      "display" : "Barbados",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.52"
+      } ]
+    }, {
+      "code" : "PLW",
+      "display" : "Belau Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.585"
+      } ]
+    }, {
+      "code" : "BEL",
+      "display" : "Belgia Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.56"
+      } ]
+    }, {
+      "code" : "BLZ",
+      "display" : "Belize",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.84"
+      } ]
+    }, {
+      "code" : "BEN",
+      "display" : "Benini Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.204"
+      } ]
+    }, {
+      "code" : "BMU",
+      "display" : "Bermuda asumaa (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.60"
+      } ]
+    }, {
+      "code" : "BTN",
+      "display" : "Bhutani Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.64"
+      } ]
+    }, {
+      "code" : "BOL",
+      "display" : "Boliivia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.68"
+      } ]
+    }, {
+      "code" : "BIH",
+      "display" : "Bosnia ja Hertsegoviina",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.70"
+      } ]
+    }, {
+      "code" : "BWA",
+      "display" : "Botswana Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.72"
+      } ]
+    }, {
+      "code" : "BVT",
+      "display" : "Bouvet' saar (Norra)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.74"
+      } ]
+    }, {
+      "code" : "BRA",
+      "display" : "Brasiilia Liitvabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.76"
+      } ]
+    }, {
+      "code" : "IOT",
+      "display" : "Briti India ookeani ala",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.86"
+      } ]
+    }, {
+      "code" : "VGB",
+      "display" : "Briti Neitsisaared",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.92"
+      } ]
+    }, {
+      "code" : "BRN",
+      "display" : "Brunei Darussalami Riik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.96"
+      } ]
+    }, {
+      "code" : "BGR",
+      "display" : "Bulgaaria Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.100"
+      } ]
+    }, {
+      "code" : "BFA",
+      "display" : "Burkina Faso",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.854"
+      } ]
+    }, {
+      "code" : "BDI",
+      "display" : "Burundi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.108"
+      } ]
+    }, {
+      "code" : "CPV",
+      "display" : "Cabo Verde Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.132"
+      } ]
+    }, {
+      "code" : "COL",
+      "display" : "Colombia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.170"
+      } ]
+    }, {
+      "code" : "COK",
+      "display" : "Cooki saared",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.184"
+      } ]
+    }, {
+      "code" : "CRI",
+      "display" : "Costa Rica Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.188"
+      } ]
+    }, {
+      "code" : "CIV",
+      "display" : "Cote d'Ivoire Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.384"
+      } ]
+    }, {
+      "code" : "DJI",
+      "display" : "Djibouti Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.262"
+      } ]
+    }, {
+      "code" : "DMA",
+      "display" : "Dominica Ühendus",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.212"
+      } ]
+    }, {
+      "code" : "DOM",
+      "display" : "Dominikaani Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.214"
+      } ]
+    }, {
+      "code" : "ECU",
+      "display" : "Ecuadori Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.218"
+      } ]
+    }, {
+      "code" : "EGY",
+      "display" : "Egiptuse Araabia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.818"
+      } ]
+    }, {
+      "code" : "GNQ",
+      "display" : "Ekvatoriaal-Guinea Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.226"
+      } ]
+    }, {
+      "code" : "SLV",
+      "display" : "El Salvadori Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.222"
+      } ]
+    }, {
+      "code" : "ERI",
+      "display" : "Eritrea Riik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.232"
+      } ]
+    }, {
+      "code" : "ETH",
+      "display" : "Etioopia Demokraatlik Liitvabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.231"
+      } ]
+    }, {
+      "code" : "FLK",
+      "display" : "Falklandi saared ja sõltkonnad (GBR, ARG)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.238"
+      } ]
+    }, {
+      "code" : "FJI",
+      "display" : "Fidži Saarte Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.242"
+      } ]
+    }, {
+      "code" : "PHL",
+      "display" : "Filipiini Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.608"
+      } ]
+    }, {
+      "code" : "FRO",
+      "display" : "Fääri saared (DNK)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.234"
+      } ]
+    }, {
+      "code" : "GAB",
+      "display" : "Gaboni Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.266"
+      } ]
+    }, {
+      "code" : "GMB",
+      "display" : "Gambia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.270"
+      } ]
+    }, {
+      "code" : "GHA",
+      "display" : "Ghana Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.288"
+      } ]
+    }, {
+      "code" : "GIB",
+      "display" : "Gibraltar (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.292"
+      } ]
+    }, {
+      "code" : "GRD",
+      "display" : "Grenada",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.308"
+      } ]
+    }, {
+      "code" : "GEO",
+      "display" : "Gruusia",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.268"
+      } ]
+    }, {
+      "code" : "GRL",
+      "display" : "Gröönimaa (DNK)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.304"
+      } ]
+    }, {
+      "code" : "GLP",
+      "display" : "Guadeloupe'i ja sõltkondade departemang (FRA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.312"
+      } ]
+    }, {
+      "code" : "GUF",
+      "display" : "Guajaana departemang",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.254"
+      } ]
+    }, {
+      "code" : "GUM",
+      "display" : "Guami ala",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.316"
+      } ]
+    }, {
+      "code" : "GTM",
+      "display" : "Guatemala Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.320"
+      } ]
+    }, {
+      "code" : "GGY",
+      "display" : "Guernsney (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.831"
+      } ]
+    }, {
+      "code" : "GIN",
+      "display" : "Guinea Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.324"
+      } ]
+    }, {
+      "code" : "GNB",
+      "display" : "Guinea-Bissau Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.624"
+      } ]
+    }, {
+      "code" : "GUY",
+      "display" : "Guyana Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.328"
+      } ]
+    }, {
+      "code" : "HTI",
+      "display" : "Haiti Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.332"
+      } ]
+    }, {
+      "code" : "HMD",
+      "display" : "Heardi ja McDonaldi saarte ala",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.334"
+      } ]
+    }, {
+      "code" : "MAC",
+      "display" : "Hiina erihalduspiirkond Aomen",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.446"
+      } ]
+    }, {
+      "code" : "HKG",
+      "display" : "Hiina erihalduspiirkond Hongkong",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.344"
+      } ]
+    }, {
+      "code" : "CHN",
+      "display" : "Hiina Rahvavabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.156"
+      } ]
+    }, {
+      "code" : "ESP",
+      "display" : "Hispaania Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.724"
+      } ]
+    }, {
+      "code" : "ANT",
+      "display" : "Hollandi Antillid",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.530"
+      } ]
+    }, {
+      "code" : "HND",
+      "display" : "Hondurase Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.340"
+      } ]
+    }, {
+      "code" : "HRV",
+      "display" : "Horvaatia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.191"
+      } ]
+    }, {
+      "code" : "IRL",
+      "display" : "Iirimaa",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.372"
+      } ]
+    }, {
+      "code" : "ISR",
+      "display" : "Iisraeli Riik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.376"
+      } ]
+    }, {
+      "code" : "IND",
+      "display" : "India Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.356"
+      } ]
+    }, {
+      "code" : "IDN",
+      "display" : "Indoneesia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.360"
+      } ]
+    }, {
+      "code" : "IRQ",
+      "display" : "Iraagi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.368"
+      } ]
+    }, {
+      "code" : "IRN",
+      "display" : "Iraani Islamivabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.364"
+      } ]
+    }, {
+      "code" : "ISL",
+      "display" : "Islandi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.352"
+      } ]
+    }, {
+      "code" : "ITA",
+      "display" : "Itaalia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.380"
+      } ]
+    }, {
+      "code" : "JPN",
+      "display" : "Jaapan",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.392"
+      } ]
+    }, {
+      "code" : "JAM",
+      "display" : "Jamaica",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.388"
+      } ]
+    }, {
+      "code" : "YEM",
+      "display" : "Jeemeni Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.887"
+      } ]
+    }, {
+      "code" : "JEY",
+      "display" : "Jersey (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.832"
+      } ]
+    }, {
+      "code" : "JOR",
+      "display" : "Jordaania Hašimiidi Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.400"
+      } ]
+    }, {
+      "code" : "CXR",
+      "display" : "Jõulusaar (AUS)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.162"
+      } ]
+    }, {
+      "code" : "CYM",
+      "display" : "Kaimanisaared (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.136"
+      } ]
+    }, {
+      "code" : "KHM",
+      "display" : "Kambodža Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.116"
+      } ]
+    }, {
+      "code" : "CMR",
+      "display" : "Kameruni Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.120"
+      } ]
+    }, {
+      "code" : "CAN",
+      "display" : "Kanada",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.124"
+      } ]
+    }, {
+      "code" : "KAZ",
+      "display" : "Kasahstani Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.398"
+      } ]
+    }, {
+      "code" : "QAT",
+      "display" : "Katari Riik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.634"
+      } ]
+    }, {
+      "code" : "KEN",
+      "display" : "Kenya Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.404"
+      } ]
+    }, {
+      "code" : "CAF",
+      "display" : "Kesk-Aafrika Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.140"
+      } ]
+    }, {
+      "code" : "KGZ",
+      "display" : "Kirgiisi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.417"
+      } ]
+    }, {
+      "code" : "KIR",
+      "display" : "Kiribati Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.296"
+      } ]
+    }, {
+      "code" : "COM",
+      "display" : "Komoori Liit",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.174"
+      } ]
+    }, {
+      "code" : "COD",
+      "display" : "Kongo Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.180"
+      } ]
+    }, {
+      "code" : "COG",
+      "display" : "Kongo Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.178"
+      } ]
+    }, {
+      "code" : "CCK",
+      "display" : "Kookossaarte ala (AUS)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.166"
+      } ]
+    }, {
+      "code" : "PRK",
+      "display" : "Korea Rahvademokraatlik Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.408"
+      } ]
+    }, {
+      "code" : "KOR",
+      "display" : "Korea Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.410"
+      } ]
+    }, {
+      "code" : "GRC",
+      "display" : "Kreeka Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.300"
+      } ]
+    }, {
+      "code" : "CUB",
+      "display" : "Kuuba Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.192"
+      } ]
+    }, {
+      "code" : "KWT",
+      "display" : "Kuveidi Riik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.414"
+      } ]
+    }, {
+      "code" : "CYP",
+      "display" : "Küprose Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.196"
+      } ]
+    }, {
+      "code" : "LAO",
+      "display" : "Laose Demokraatlik Rahvavabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.418"
+      } ]
+    }, {
+      "code" : "LTU",
+      "display" : "Leedu Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.440"
+      } ]
+    }, {
+      "code" : "LSO",
+      "display" : "Lesotho Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.426"
+      } ]
+    }, {
+      "code" : "LBR",
+      "display" : "Libeeria Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.430"
+      } ]
+    }, {
+      "code" : "LIE",
+      "display" : "Liechtensteini Vürstiriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.438"
+      } ]
+    }, {
+      "code" : "LBN",
+      "display" : "Liibanoni Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.422"
+      } ]
+    }, {
+      "code" : "LUX",
+      "display" : "Luksemburgi Suurhertsogiriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.442"
+      } ]
+    }, {
+      "code" : "ZAF",
+      "display" : "Lõuna-Aafrika Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.710"
+      } ]
+    }, {
+      "code" : "SGS",
+      "display" : "Lõuna-Georgia ja Lõuna-Sandwichi saared",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.239"
+      } ]
+    }, {
+      "code" : "LVA",
+      "display" : "Läti Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.428"
+      } ]
+    }, {
+      "code" : "ESH",
+      "display" : "Lääne-Sahara",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.732"
+      } ]
+    }, {
+      "code" : "MDG",
+      "display" : "Madagaskari Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.450"
+      } ]
+    }, {
+      "code" : "NLD",
+      "display" : "Madalmaade Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.528"
+      } ]
+    }, {
+      "code" : "MKD",
+      "display" : "Makedoonia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.807"
+      } ]
+    }, {
+      "code" : "MYS",
+      "display" : "Malaisia",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.458"
+      } ]
+    }, {
+      "code" : "MWI",
+      "display" : "Malawi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.454"
+      } ]
+    }, {
+      "code" : "MDV",
+      "display" : "Maldiivi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.462"
+      } ]
+    }, {
+      "code" : "MLI",
+      "display" : "Mali Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.466"
+      } ]
+    }, {
+      "code" : "MLT",
+      "display" : "Malta Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.470"
+      } ]
+    }, {
+      "code" : "IMN",
+      "display" : "Mani saar (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.833"
+      } ]
+    }, {
+      "code" : "MAR",
+      "display" : "Maroko Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.504"
+      } ]
+    }, {
+      "code" : "MHL",
+      "display" : "Marshalli Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.584"
+      } ]
+    }, {
+      "code" : "MTQ",
+      "display" : "Martinique'I departemang (FRA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.474"
+      } ]
+    }, {
+      "code" : "MRT",
+      "display" : "Mauritaania Islamivabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.478"
+      } ]
+    }, {
+      "code" : "MUS",
+      "display" : "Mauritiuse Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.480"
+      } ]
+    }, {
+      "code" : "MYT",
+      "display" : "Mayotte'i territoriaalühendus",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.175"
+      } ]
+    }, {
+      "code" : "MEX",
+      "display" : "Mehhiko Ühendriigid",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.484"
+      } ]
+    }, {
+      "code" : "FSM",
+      "display" : "Mikroneesia Liiduriigid",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.583"
+      } ]
+    }, {
+      "code" : "MDA",
+      "display" : "Moldova Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.498"
+      } ]
+    }, {
+      "code" : "MCO",
+      "display" : "Monaco Vürstiriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.492"
+      } ]
+    }, {
+      "code" : "MNG",
+      "display" : "Mongoolia",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.496"
+      } ]
+    }, {
+      "code" : "MNE",
+      "display" : "Montenegro Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.499"
+      } ]
+    }, {
+      "code" : "MSR",
+      "display" : "Montserrati asumaa (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.500"
+      } ]
+    }, {
+      "code" : "MOZ",
+      "display" : "Mosambiigi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.508"
+      } ]
+    }, {
+      "code" : "XYY",
+      "display" : "Mujal nimetamata territooriumid",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.896"
+      } ]
+    }, {
+      "code" : "XXX",
+      "display" : "Määramata",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.898"
+      } ]
+    }, {
+      "code" : "MMR",
+      "display" : "Myanmar'i Liit",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.104"
+      } ]
+    }, {
+      "code" : "NAM",
+      "display" : "Namiibia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.516"
+      } ]
+    }, {
+      "code" : "NRU",
+      "display" : "Nauru Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.520"
+      } ]
+    }, {
+      "code" : "NPL",
+      "display" : "Nepali Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.524"
+      } ]
+    }, {
+      "code" : "NIC",
+      "display" : "Nicaragua Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.558"
+      } ]
+    }, {
+      "code" : "NGA",
+      "display" : "Nigeeria Liitvabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.566"
+      } ]
+    }, {
+      "code" : "NER",
+      "display" : "Nigeri Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.562"
+      } ]
+    }, {
+      "code" : "NIU",
+      "display" : "Niue Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.570"
+      } ]
+    }, {
+      "code" : "NFK",
+      "display" : "Norfolki saare ala (AUS)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.574"
+      } ]
+    }, {
+      "code" : "NOR",
+      "display" : "Norra Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.578"
+      } ]
+    }, {
+      "code" : "OMN",
+      "display" : "Omaani Sultaniriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.512"
+      } ]
+    }, {
+      "code" : "PNG",
+      "display" : "Paapua Uus-Guinea Iseseisvusriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.598"
+      } ]
+    }, {
+      "code" : "PAK",
+      "display" : "Pakistani Islamivabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.586"
+      } ]
+    }, {
+      "code" : "PSE",
+      "display" : "Palestiina omavalitsus",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.275"
+      } ]
+    }, {
+      "code" : "PAN",
+      "display" : "Panama Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.591"
+      } ]
+    }, {
+      "code" : "PRY",
+      "display" : "Paraguay Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.600"
+      } ]
+    }, {
+      "code" : "PER",
+      "display" : "Peruu Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.604"
+      } ]
+    }, {
+      "code" : "PCN",
+      "display" : "Pitcairn ja sõltkonnad (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.612"
+      } ]
+    }, {
+      "code" : "POL",
+      "display" : "Poola Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.616"
+      } ]
+    }, {
+      "code" : "PRT",
+      "display" : "Portugali Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.620"
+      } ]
+    }, {
+      "code" : "ATF",
+      "display" : "Prantsuse Antarktilised ja Lõunaalad",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.260"
+      } ]
+    }, {
+      "code" : "PYF",
+      "display" : "Prantsuse Polüneesia ala",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.258"
+      } ]
+    }, {
+      "code" : "FRA",
+      "display" : "Prantsuse Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.250"
+      } ]
+    }, {
+      "code" : "PRI",
+      "display" : "Puerto Rico Ühendus (USA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.630"
+      } ]
+    }, {
+      "code" : "MNP",
+      "display" : "Põhja-Mariaani Ühendus",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.580"
+      } ]
+    }, {
+      "code" : "VAT",
+      "display" : "Püha Tool (Vatikani Linnriik)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.336"
+      } ]
+    }, {
+      "code" : "REU",
+      "display" : "Réunioni departemang (FRA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.638"
+      } ]
+    }, {
+      "code" : "SWE",
+      "display" : "Rootsi Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.752"
+      } ]
+    }, {
+      "code" : "ROU",
+      "display" : "Rumeenia",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.642"
+      } ]
+    }, {
+      "code" : "RWA",
+      "display" : "Rwanda Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.646"
+      } ]
+    }, {
+      "code" : "SLB",
+      "display" : "Saalomoni Saared",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.90"
+      } ]
+    }, {
+      "code" : "KNA",
+      "display" : "Saint Christopheri ja Nevise Föderatsioon",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.659"
+      } ]
+    }, {
+      "code" : "SHN",
+      "display" : "Saint Helena asumaa ja sõltkonnad (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.654"
+      } ]
+    }, {
+      "code" : "LCA",
+      "display" : "Saint Lucia",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.662"
+      } ]
+    }, {
+      "code" : "SPM",
+      "display" : "Saint Pierre'i ja Miqueloni territoriaalühendus (FRA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.666"
+      } ]
+    }, {
+      "code" : "VCT",
+      "display" : "Saint Vincent ja Grenadiinid",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.670"
+      } ]
+    }, {
+      "code" : "DEU",
+      "display" : "Saksamaa Liitvabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.276"
+      } ]
+    }, {
+      "code" : "ZMB",
+      "display" : "Sambia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.894"
+      } ]
+    }, {
+      "code" : "WSM",
+      "display" : "Samoa Iseseisvusriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.882"
+      } ]
+    }, {
+      "code" : "SMR",
+      "display" : "San Marino Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.674"
+      } ]
+    }, {
+      "code" : "STP",
+      "display" : "Sao Tomé ja Principe Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.678"
+      } ]
+    }, {
+      "code" : "SAU",
+      "display" : "Saudi Araabia Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.682"
+      } ]
+    }, {
+      "code" : "SYC",
+      "display" : "Seišelli Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.690"
+      } ]
+    }, {
+      "code" : "SEN",
+      "display" : "Senegali Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.686"
+      } ]
+    }, {
+      "code" : "SRB",
+      "display" : "Serbia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.688"
+      } ]
+    }, {
+      "code" : "SLE",
+      "display" : "Sierra Leone Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.694"
+      } ]
+    }, {
+      "code" : "SGP",
+      "display" : "Singapuri Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.702"
+      } ]
+    }, {
+      "code" : "SVK",
+      "display" : "Slovaki Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.703"
+      } ]
+    }, {
+      "code" : "SVN",
+      "display" : "Sloveenia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.705"
+      } ]
+    }, {
+      "code" : "SOM",
+      "display" : "Somaalia Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.706"
+      } ]
+    }, {
+      "code" : "FIN",
+      "display" : "Soome Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.246"
+      } ]
+    }, {
+      "code" : "LKA",
+      "display" : "Sri Lanka Demokraatlik Sotsialistlik Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.144"
+      } ]
+    }, {
+      "code" : "SDN",
+      "display" : "Sudaani Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.736"
+      } ]
+    }, {
+      "code" : "SUR",
+      "display" : "Suriname Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.740"
+      } ]
+    }, {
+      "code" : "LBY",
+      "display" : "Suur Liibüa Araabia Sotsialistlik Rahvadžamahirija",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.434"
+      } ]
+    }, {
+      "code" : "GBR",
+      "display" : "Suurbritannia ja Põhja-Iiri Ühendkuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.826"
+      } ]
+    }, {
+      "code" : "SWZ",
+      "display" : "Svaasimaa Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.748"
+      } ]
+    }, {
+      "code" : "SJM",
+      "display" : "Svalbard ja Jan Mayen (NOR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.744"
+      } ]
+    }, {
+      "code" : "SYR",
+      "display" : "Süüria Araabia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.760"
+      } ]
+    }, {
+      "code" : "CHE",
+      "display" : "Šveitsi Konföderatsioon",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.756"
+      } ]
+    }, {
+      "code" : "ZWE",
+      "display" : "Zimbabwe Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.716"
+      } ]
+    }, {
+      "code" : "DNK",
+      "display" : "Taani Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.208"
+      } ]
+    }, {
+      "code" : "TJK",
+      "display" : "Tadžikistani Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.762"
+      } ]
+    }, {
+      "code" : "THA",
+      "display" : "Tai Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.764"
+      } ]
+    }, {
+      "code" : "TWN",
+      "display" : "Taiwan, Hiina provints (CHN)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.158"
+      } ]
+    }, {
+      "code" : "TZA",
+      "display" : "Tansaania Ühendvabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.834"
+      } ]
+    }, {
+      "code" : "TLS",
+      "display" : "Timor-Leste Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.626"
+      } ]
+    }, {
+      "code" : "TGO",
+      "display" : "Togo Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.768"
+      } ]
+    }, {
+      "code" : "TKL",
+      "display" : "Tokelau (NZL)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.772"
+      } ]
+    }, {
+      "code" : "TON",
+      "display" : "Tonga Kuningriik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.776"
+      } ]
+    }, {
+      "code" : "TTO",
+      "display" : "Trinidadi ja Tobago Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.780"
+      } ]
+    }, {
+      "code" : "TCD",
+      "display" : "Tšaadi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.148"
+      } ]
+    }, {
+      "code" : "CZE",
+      "display" : "Tšehhi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.203"
+      } ]
+    }, {
+      "code" : "CHL",
+      "display" : "Tšiili Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.152"
+      } ]
+    }, {
+      "code" : "TUN",
+      "display" : "Tuneesia Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.788"
+      } ]
+    }, {
+      "code" : "TCA",
+      "display" : "Turksi ja Caicose saarte asumaa (GBR)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.796"
+      } ]
+    }, {
+      "code" : "TUV",
+      "display" : "Tuvalu",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.798"
+      } ]
+    }, {
+      "code" : "TUR",
+      "display" : "Türgi Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.792"
+      } ]
+    }, {
+      "code" : "TKM",
+      "display" : "Türkmenistan",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.795"
+      } ]
+    }, {
+      "code" : "UGA",
+      "display" : "Uganda Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.800"
+      } ]
+    }, {
+      "code" : "UKR",
+      "display" : "Ukraina",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.804"
+      } ]
+    }, {
+      "code" : "HUN",
+      "display" : "Ungari Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.348"
+      } ]
+    }, {
+      "code" : "URY",
+      "display" : "Uruguay Idavabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.858"
+      } ]
+    }, {
+      "code" : "UZB",
+      "display" : "Usbekistani Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.860"
+      } ]
+    }, {
+      "code" : "NCL",
+      "display" : "Uus-Kaledoonia ja sõltkondade ala (FRA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.540"
+      } ]
+    }, {
+      "code" : "NZL",
+      "display" : "Uus-Meremaa",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.554"
+      } ]
+    }, {
+      "code" : "BLR",
+      "display" : "Valgevene Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.112"
+      } ]
+    }, {
+      "code" : "WLF",
+      "display" : "Wallise ja Futuna ala (FRA)",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.876"
+      } ]
+    }, {
+      "code" : "VUT",
+      "display" : "Vanuatu Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.548"
+      } ]
+    }, {
+      "code" : "RUS",
+      "display" : "Venemaa Föderatsioon",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.643"
+      } ]
+    }, {
+      "code" : "VEN",
+      "display" : "Venezuela Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.862"
+      } ]
+    }, {
+      "code" : "VNM",
+      "display" : "Vietnami Sotsialistlik Vabariik",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.704"
+      } ]
+    }, {
+      "code" : "VIR",
+      "display" : "Ühendriikide Neitsisaared",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.850"
+      } ]
+    }, {
+      "code" : "UMI",
+      "display" : "Ühendriikide väikesed hajasaared",
+      "target" : [ {
+        "code" : "1.3.6.1.4.1.28284.6.2.2.16.581"
+      } ]
+    } ]
+  } ]
+}
