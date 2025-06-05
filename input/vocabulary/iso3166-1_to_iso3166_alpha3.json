@@ -1,5 +1,6 @@
 {
   "resourceType" : "ConceptMap",
+  "id" : "iso-num-to-iso-alpha-3",
   "url" : "http://uptis.tehik.ee/iso3166-1_to_iso3166_alpha3",
   "version" : "1.0",
   "name" : "Map between ISO 3166-1 numeric-3 and ISO 3166 Alpha-3 codes",
