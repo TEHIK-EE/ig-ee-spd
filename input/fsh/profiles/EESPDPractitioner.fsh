@@ -1,5 +1,5 @@
 Profile: EESPDPractitioner
-Parent: Practitioner
+Parent: EEBasePractitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. (Nt TTOdes töötavad tervishoiutöötajad, võrdsustatud spetsialistid ja spetsialistid, TTOdes töötavad registraatorid/assistendid,
