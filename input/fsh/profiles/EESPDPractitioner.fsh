@@ -34,13 +34,13 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 * qualification contains
-  //  speciality 0..* and
+   // degree 1..1 and
     kutse 1..1
 //* qualification[degree].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
 //* qualification[degree].code ^definition = "KUTSE. VAJAB oma loendit?!? Hetkel tehtud IG jaoks test-termX-is kutse loend."
-//* qualification[degree].code from https://fhir.ee/ValueSet/tervishoiutootaja-kutse
+* qualification[degree].code from https://fhir.ee/ValueSet/tervishoiutootaja-kutse
 //* qualification[degree].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
 //* qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
