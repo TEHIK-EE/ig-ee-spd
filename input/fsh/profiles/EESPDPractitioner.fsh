@@ -36,7 +36,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification contains
     //degreeN 0..1 and
   //  speciality 0..* and
-    kutse 0..1
+    kutse 1..1
 //* qualification[degreeN].code from $tervishoiutootaja-kutse
 //* qualification[degree].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
