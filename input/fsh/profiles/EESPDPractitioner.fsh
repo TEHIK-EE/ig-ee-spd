@@ -16,7 +16,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * identifier ^slicing.rules = #open
 * identifier contains
     personalIdentifier 1..1 and
-    specialistIdentifier 1..*
+    specialistIdentifier 0..*
 * identifier[personalIdentifier] ^short = "Personal identifier of healthcare professional"
 * identifier[personalIdentifier] ^definition = "Tervishoiutöötaja (EE) isikukood"
 * identifier[personalIdentifier].system = "https://fhir.ee/sid/pid/est/ni" (exactly)
@@ -34,10 +34,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 * qualification contains
-    //degreeN 0..1 and
   //  speciality 0..* and
     kutse 1..1
-//* qualification[degreeN].code from $tervishoiutootaja-kutse
 //* qualification[degree].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
