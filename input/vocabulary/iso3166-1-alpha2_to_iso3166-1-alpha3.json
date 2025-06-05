@@ -1,0 +1,1738 @@
+{
+  "resourceType" : "ConceptMap",
+  "url" : "http://uptis.tehik.ee/iso3166-1-alpha2_to_iso3166-1-alpha3",
+  "version" : "1.0",
+  "name" : "Map between ISO 3166-1 Alpha-2 and ISO 3166 Alpha-3 codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-03-08",
+  "sourceScopeCanonical" : "urn:iso:std:iso:3166-1-alpha2",
+  "targetScopeCanonical" : "urn:iso:std:iso:3166-1-alpha3",
+  "group" : [ {
+    "source" : "urn:iso:std:iso:3166-1-alpha2",
+    "target" : "urn:iso:std:iso:3166-1-alpha3",
+    "element" : [ {
+      "code" : "AF",
+      "display" : "Afganistani Islamivabariik",
+      "target" : [ {
+        "code" : "AFG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AX",
+      "display" : "Ahvenamaa (Soome)",
+      "target" : [ {
+        "code" : "ALA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AL",
+      "display" : "Albaania Vabariik",
+      "target" : [ {
+        "code" : "ALB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "DZ",
+      "display" : "Alžeeria Demokraatlik Rahvavabariik",
+      "target" : [ {
+        "code" : "DZA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AS",
+      "display" : "Ameerika Samoa (USA)",
+      "target" : [ {
+        "code" : "ASM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "US",
+      "display" : "Ameerika Ühendriigid",
+      "target" : [ {
+        "code" : "USA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AD",
+      "display" : "Andorra Vürstiriik",
+      "target" : [ {
+        "code" : "AND",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AO",
+      "display" : "Angola Vabariik",
+      "target" : [ {
+        "code" : "AGO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AI",
+      "display" : "Anguilla (GBR)",
+      "target" : [ {
+        "code" : "AIA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AQ",
+      "display" : "Antarktis",
+      "target" : [ {
+        "code" : "ATA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AG",
+      "display" : "Antigua ja Barbuda",
+      "target" : [ {
+        "code" : "ATG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AE",
+      "display" : "Araabia Ühendemiraadid",
+      "target" : [ {
+        "code" : "ARE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AR",
+      "display" : "Argentina Vabariik",
+      "target" : [ {
+        "code" : "ARG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AM",
+      "display" : "Armeenia Vabariik",
+      "target" : [ {
+        "code" : "ARM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AW",
+      "display" : "Aruba",
+      "target" : [ {
+        "code" : "ABW",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AZ",
+      "display" : "Aserbaidžaani Vabariik",
+      "target" : [ {
+        "code" : "AZE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AU",
+      "display" : "Austraalia",
+      "target" : [ {
+        "code" : "AUS",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AT",
+      "display" : "Austria Vabariik",
+      "target" : [ {
+        "code" : "AUT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BS",
+      "display" : "Bahama Ühendus",
+      "target" : [ {
+        "code" : "BHS",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BH",
+      "display" : "Bahreini Kuningriik",
+      "target" : [ {
+        "code" : "BHR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BD",
+      "display" : "Bangladeshi Rahvavabariik",
+      "target" : [ {
+        "code" : "BGD",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BB",
+      "display" : "Barbados",
+      "target" : [ {
+        "code" : "BRB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PW",
+      "display" : "Belau Vabariik",
+      "target" : [ {
+        "code" : "PLW",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BE",
+      "display" : "Belgia Kuningriik",
+      "target" : [ {
+        "code" : "BEL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BZ",
+      "display" : "Belize",
+      "target" : [ {
+        "code" : "BLZ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BJ",
+      "display" : "Benini Vabariik",
+      "target" : [ {
+        "code" : "BEN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BM",
+      "display" : "Bermuda asumaa (GBR)",
+      "target" : [ {
+        "code" : "BMU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BT",
+      "display" : "Bhutani Kuningriik",
+      "target" : [ {
+        "code" : "BTN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BO",
+      "display" : "Boliivia Vabariik",
+      "target" : [ {
+        "code" : "BOL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BA",
+      "display" : "Bosnia ja Hertsegoviina",
+      "target" : [ {
+        "code" : "BIH",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BW",
+      "display" : "Botswana Vabariik",
+      "target" : [ {
+        "code" : "BWA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BV",
+      "display" : "Bouvet' saar (Norra)",
+      "target" : [ {
+        "code" : "BVT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BR",
+      "display" : "Brasiilia Liitvabariik",
+      "target" : [ {
+        "code" : "BRA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IO",
+      "display" : "Briti India ookeani ala",
+      "target" : [ {
+        "code" : "IOT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "VG",
+      "display" : "Briti Neitsisaared",
+      "target" : [ {
+        "code" : "VGB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BN",
+      "display" : "Brunei Darussalami Riik",
+      "target" : [ {
+        "code" : "BRN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BG",
+      "display" : "Bulgaaria Vabariik",
+      "target" : [ {
+        "code" : "BGR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BF",
+      "display" : "Burkina Faso",
+      "target" : [ {
+        "code" : "BFA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BI",
+      "display" : "Burundi Vabariik",
+      "target" : [ {
+        "code" : "BDI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CV",
+      "display" : "Cabo Verde Vabariik",
+      "target" : [ {
+        "code" : "CPV",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CO",
+      "display" : "Colombia Vabariik",
+      "target" : [ {
+        "code" : "COL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CK",
+      "display" : "Cooki saared",
+      "target" : [ {
+        "code" : "COK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CR",
+      "display" : "Costa Rica Vabariik",
+      "target" : [ {
+        "code" : "CRI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CI",
+      "display" : "Cote d'Ivoire Vabariik",
+      "target" : [ {
+        "code" : "CIV",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "DJ",
+      "display" : "Djibouti Vabariik",
+      "target" : [ {
+        "code" : "DJI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "DM",
+      "display" : "Dominica Ühendus",
+      "target" : [ {
+        "code" : "DMA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "DO",
+      "display" : "Dominikaani Vabariik",
+      "target" : [ {
+        "code" : "DOM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "EC",
+      "display" : "Ecuadori Vabariik",
+      "target" : [ {
+        "code" : "ECU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "EE",
+      "display" : "Eesti Vabariik",
+      "target" : [ {
+        "code" : "EST",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "EG",
+      "display" : "Egiptuse Araabia Vabariik",
+      "target" : [ {
+        "code" : "EGY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GQ",
+      "display" : "Ekvatoriaal-Guinea Vabariik",
+      "target" : [ {
+        "code" : "GNQ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SV",
+      "display" : "El Salvadori Vabariik",
+      "target" : [ {
+        "code" : "SLV",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ER",
+      "display" : "Eritrea Riik",
+      "target" : [ {
+        "code" : "ERI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ET",
+      "display" : "Etioopia Demokraatlik Liitvabariik",
+      "target" : [ {
+        "code" : "ETH",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "FK",
+      "display" : "Falklandi saared ja sõltkonnad (GBR, ARG)",
+      "target" : [ {
+        "code" : "FLK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "FJ",
+      "display" : "Fidži Saarte Vabariik",
+      "target" : [ {
+        "code" : "FJI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PH",
+      "display" : "Filipiini Vabariik",
+      "target" : [ {
+        "code" : "PHL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "FO",
+      "display" : "Fääri saared (DNK)",
+      "target" : [ {
+        "code" : "FRO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GA",
+      "display" : "Gaboni Vabariik",
+      "target" : [ {
+        "code" : "GAB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GM",
+      "display" : "Gambia Vabariik",
+      "target" : [ {
+        "code" : "GMB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GH",
+      "display" : "Ghana Vabariik",
+      "target" : [ {
+        "code" : "GHA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GI",
+      "display" : "Gibraltar (GBR)",
+      "target" : [ {
+        "code" : "GIB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GD",
+      "display" : "Grenada",
+      "target" : [ {
+        "code" : "GRD",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GE",
+      "display" : "Gruusia",
+      "target" : [ {
+        "code" : "GEO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GL",
+      "display" : "Gröönimaa (DNK)",
+      "target" : [ {
+        "code" : "GRL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GP",
+      "display" : "Guadeloupe'i ja sõltkondade departemang (FRA)",
+      "target" : [ {
+        "code" : "GLP",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GF",
+      "display" : "Guajaana departemang",
+      "target" : [ {
+        "code" : "GUF",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GU",
+      "display" : "Guami ala",
+      "target" : [ {
+        "code" : "GUM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GT",
+      "display" : "Guatemala Vabariik",
+      "target" : [ {
+        "code" : "GTM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GG",
+      "display" : "Guernsney (GBR)",
+      "target" : [ {
+        "code" : "GGY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GN",
+      "display" : "Guinea Vabariik",
+      "target" : [ {
+        "code" : "GIN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GW",
+      "display" : "Guinea-Bissau Vabariik",
+      "target" : [ {
+        "code" : "GNB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GY",
+      "display" : "Guyana Vabariik",
+      "target" : [ {
+        "code" : "GUY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "HT",
+      "display" : "Haiti Vabariik",
+      "target" : [ {
+        "code" : "HTI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "HM",
+      "display" : "Heardi ja McDonaldi saarte ala",
+      "target" : [ {
+        "code" : "HMD",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MO",
+      "display" : "Hiina erihalduspiirkond Aomen",
+      "target" : [ {
+        "code" : "MAC",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "HK",
+      "display" : "Hiina erihalduspiirkond Hongkong",
+      "target" : [ {
+        "code" : "HKG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CN",
+      "display" : "Hiina Rahvavabariik",
+      "target" : [ {
+        "code" : "CHN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ES",
+      "display" : "Hispaania Kuningriik",
+      "target" : [ {
+        "code" : "ESP",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "AN",
+      "display" : "Hollandi Antillid",
+      "target" : [ {
+        "code" : "ANT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "HN",
+      "display" : "Hondurase Vabariik",
+      "target" : [ {
+        "code" : "HND",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "HR",
+      "display" : "Horvaatia Vabariik",
+      "target" : [ {
+        "code" : "HRV",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IE",
+      "display" : "Iirimaa",
+      "target" : [ {
+        "code" : "IRL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IL",
+      "display" : "Iisraeli Riik",
+      "target" : [ {
+        "code" : "ISR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IN",
+      "display" : "India Vabariik",
+      "target" : [ {
+        "code" : "IND",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ID",
+      "display" : "Indoneesia Vabariik",
+      "target" : [ {
+        "code" : "IDN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IQ",
+      "display" : "Iraagi Vabariik",
+      "target" : [ {
+        "code" : "IRQ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IR",
+      "display" : "Iraani Islamivabariik",
+      "target" : [ {
+        "code" : "IRN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IS",
+      "display" : "Islandi Vabariik",
+      "target" : [ {
+        "code" : "ISL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IT",
+      "display" : "Itaalia Vabariik",
+      "target" : [ {
+        "code" : "ITA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "JP",
+      "display" : "Jaapan",
+      "target" : [ {
+        "code" : "JPN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "JM",
+      "display" : "Jamaica",
+      "target" : [ {
+        "code" : "JAM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "YE",
+      "display" : "Jeemeni Vabariik",
+      "target" : [ {
+        "code" : "YEM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "JE",
+      "display" : "Jersey (GBR)",
+      "target" : [ {
+        "code" : "JEY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "JO",
+      "display" : "Jordaania Hašimiidi Kuningriik",
+      "target" : [ {
+        "code" : "JOR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CX",
+      "display" : "Jõulusaar (AUS)",
+      "target" : [ {
+        "code" : "CXR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KY",
+      "display" : "Kaimanisaared (GBR)",
+      "target" : [ {
+        "code" : "CYM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KH",
+      "display" : "Kambodža Kuningriik",
+      "target" : [ {
+        "code" : "KHM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CM",
+      "display" : "Kameruni Vabariik",
+      "target" : [ {
+        "code" : "CMR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CA",
+      "display" : "Kanada",
+      "target" : [ {
+        "code" : "CAN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KZ",
+      "display" : "Kasahstani Vabariik",
+      "target" : [ {
+        "code" : "KAZ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "QA",
+      "display" : "Katari Riik",
+      "target" : [ {
+        "code" : "QAT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KE",
+      "display" : "Kenya Vabariik",
+      "target" : [ {
+        "code" : "KEN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CF",
+      "display" : "Kesk-Aafrika Vabariik",
+      "target" : [ {
+        "code" : "CAF",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KG",
+      "display" : "Kirgiisi Vabariik",
+      "target" : [ {
+        "code" : "KGZ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KI",
+      "display" : "Kiribati Vabariik",
+      "target" : [ {
+        "code" : "KIR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KM",
+      "display" : "Komoori Liit",
+      "target" : [ {
+        "code" : "COM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CD",
+      "display" : "Kongo Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "COD",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CG",
+      "display" : "Kongo Vabariik",
+      "target" : [ {
+        "code" : "COG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CC",
+      "display" : "Kookossaarte ala (AUS)",
+      "target" : [ {
+        "code" : "CCK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KP",
+      "display" : "Korea Rahvademokraatlik Vabariik",
+      "target" : [ {
+        "code" : "PRK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KR",
+      "display" : "Korea Vabariik",
+      "target" : [ {
+        "code" : "KOR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GR",
+      "display" : "Kreeka Vabariik",
+      "target" : [ {
+        "code" : "GRC",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CU",
+      "display" : "Kuuba Vabariik",
+      "target" : [ {
+        "code" : "CUB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KW",
+      "display" : "Kuveidi Riik",
+      "target" : [ {
+        "code" : "KWT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CY",
+      "display" : "Küprose Vabariik",
+      "target" : [ {
+        "code" : "CYP",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LA",
+      "display" : "Laose Demokraatlik Rahvavabariik",
+      "target" : [ {
+        "code" : "LAO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LT",
+      "display" : "Leedu Vabariik",
+      "target" : [ {
+        "code" : "LTU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LS",
+      "display" : "Lesotho Kuningriik",
+      "target" : [ {
+        "code" : "LSO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LR",
+      "display" : "Libeeria Vabariik",
+      "target" : [ {
+        "code" : "LBR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LI",
+      "display" : "Liechtensteini Vürstiriik",
+      "target" : [ {
+        "code" : "LIE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LB",
+      "display" : "Liibanoni Vabariik",
+      "target" : [ {
+        "code" : "LBN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LU",
+      "display" : "Luksemburgi Suurhertsogiriik",
+      "target" : [ {
+        "code" : "LUX",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ZA",
+      "display" : "Lõuna-Aafrika Vabariik",
+      "target" : [ {
+        "code" : "ZAF",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GS",
+      "display" : "Lõuna-Georgia ja Lõuna-Sandwichi saared",
+      "target" : [ {
+        "code" : "SGS",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LV",
+      "display" : "Läti Vabariik",
+      "target" : [ {
+        "code" : "LVA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "EH",
+      "display" : "Lääne-Sahara",
+      "target" : [ {
+        "code" : "ESH",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MG",
+      "display" : "Madagaskari Vabariik",
+      "target" : [ {
+        "code" : "MDG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NL",
+      "display" : "Madalmaade Kuningriik",
+      "target" : [ {
+        "code" : "NLD",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MK",
+      "display" : "Makedoonia Vabariik",
+      "target" : [ {
+        "code" : "MKD",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MY",
+      "display" : "Malaisia",
+      "target" : [ {
+        "code" : "MYS",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MW",
+      "display" : "Malawi Vabariik",
+      "target" : [ {
+        "code" : "MWI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MV",
+      "display" : "Maldiivi Vabariik",
+      "target" : [ {
+        "code" : "MDV",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ML",
+      "display" : "Mali Vabariik",
+      "target" : [ {
+        "code" : "MLI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MT",
+      "display" : "Malta Vabariik",
+      "target" : [ {
+        "code" : "MLT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "IM",
+      "display" : "Mani saar (GBR)",
+      "target" : [ {
+        "code" : "IMN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MA",
+      "display" : "Maroko Kuningriik",
+      "target" : [ {
+        "code" : "MAR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MH",
+      "display" : "Marshalli Vabariik",
+      "target" : [ {
+        "code" : "MHL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MQ",
+      "display" : "Martinique'I departemang (FRA)",
+      "target" : [ {
+        "code" : "MTQ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MR",
+      "display" : "Mauritaania Islamivabariik",
+      "target" : [ {
+        "code" : "MRT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MU",
+      "display" : "Mauritiuse Vabariik",
+      "target" : [ {
+        "code" : "MUS",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "YT",
+      "display" : "Mayotte'i territoriaalühendus",
+      "target" : [ {
+        "code" : "MYT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MX",
+      "display" : "Mehhiko Ühendriigid",
+      "target" : [ {
+        "code" : "MEX",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "FM",
+      "display" : "Mikroneesia Liiduriigid",
+      "target" : [ {
+        "code" : "FSM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MD",
+      "display" : "Moldova Vabariik",
+      "target" : [ {
+        "code" : "MDA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MC",
+      "display" : "Monaco Vürstiriik",
+      "target" : [ {
+        "code" : "MCO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MN",
+      "display" : "Mongoolia",
+      "target" : [ {
+        "code" : "MNG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ME",
+      "display" : "Montenegro Vabariik",
+      "target" : [ {
+        "code" : "MNE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MS",
+      "display" : "Montserrati asumaa (GBR)",
+      "target" : [ {
+        "code" : "MSR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MZ",
+      "display" : "Mosambiigi Vabariik",
+      "target" : [ {
+        "code" : "MOZ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "XY",
+      "display" : "Mujal nimetamata territooriumid",
+      "target" : [ {
+        "code" : "XYY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "XX",
+      "display" : "Määramata",
+      "target" : [ {
+        "code" : "XXX",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MM",
+      "display" : "Myanmar'i Liit",
+      "target" : [ {
+        "code" : "MMR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NA",
+      "display" : "Namiibia Vabariik",
+      "target" : [ {
+        "code" : "NAM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NR",
+      "display" : "Nauru Vabariik",
+      "target" : [ {
+        "code" : "NRU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NP",
+      "display" : "Nepali Kuningriik",
+      "target" : [ {
+        "code" : "NPL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NI",
+      "display" : "Nicaragua Vabariik",
+      "target" : [ {
+        "code" : "NIC",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NG",
+      "display" : "Nigeeria Liitvabariik",
+      "target" : [ {
+        "code" : "NGA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NE",
+      "display" : "Nigeri Vabariik",
+      "target" : [ {
+        "code" : "NER",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NU",
+      "display" : "Niue Vabariik",
+      "target" : [ {
+        "code" : "NIU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NF",
+      "display" : "Norfolki saare ala (AUS)",
+      "target" : [ {
+        "code" : "NFK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NO",
+      "display" : "Norra Kuningriik",
+      "target" : [ {
+        "code" : "NOR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "OM",
+      "display" : "Omaani Sultaniriik",
+      "target" : [ {
+        "code" : "OMN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PG",
+      "display" : "Paapua Uus-Guinea Iseseisvusriik",
+      "target" : [ {
+        "code" : "PNG",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PK",
+      "display" : "Pakistani Islamivabariik",
+      "target" : [ {
+        "code" : "PAK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PS",
+      "display" : "Palestiina omavalitsus",
+      "target" : [ {
+        "code" : "PSE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PA",
+      "display" : "Panama Vabariik",
+      "target" : [ {
+        "code" : "PAN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PY",
+      "display" : "Paraguay Vabariik",
+      "target" : [ {
+        "code" : "PRY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PE",
+      "display" : "Peruu Vabariik",
+      "target" : [ {
+        "code" : "PER",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PN",
+      "display" : "Pitcairn ja sõltkonnad (GBR)",
+      "target" : [ {
+        "code" : "PCN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PL",
+      "display" : "Poola Vabariik",
+      "target" : [ {
+        "code" : "POL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PT",
+      "display" : "Portugali Vabariik",
+      "target" : [ {
+        "code" : "PRT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TF",
+      "display" : "Prantsuse Antarktilised ja Lõunaalad",
+      "target" : [ {
+        "code" : "ATF",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PF",
+      "display" : "Prantsuse Polüneesia ala",
+      "target" : [ {
+        "code" : "PYF",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "FR",
+      "display" : "Prantsuse Vabariik",
+      "target" : [ {
+        "code" : "FRA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PR",
+      "display" : "Puerto Rico Ühendus (USA)",
+      "target" : [ {
+        "code" : "PRI",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "MP",
+      "display" : "Põhja-Mariaani Ühendus",
+      "target" : [ {
+        "code" : "MNP",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "VA",
+      "display" : "Püha Tool (Vatikani Linnriik)",
+      "target" : [ {
+        "code" : "VAT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "RE",
+      "display" : "Réunioni departemang (FRA)",
+      "target" : [ {
+        "code" : "REU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SE",
+      "display" : "Rootsi Kuningriik",
+      "target" : [ {
+        "code" : "SWE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "RO",
+      "display" : "Rumeenia",
+      "target" : [ {
+        "code" : "ROU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "RW",
+      "display" : "Rwanda Vabariik",
+      "target" : [ {
+        "code" : "RWA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SB",
+      "display" : "Saalomoni Saared",
+      "target" : [ {
+        "code" : "SLB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "KN",
+      "display" : "Saint Christopheri ja Nevise Föderatsioon",
+      "target" : [ {
+        "code" : "KNA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SH",
+      "display" : "Saint Helena asumaa ja sõltkonnad (GBR)",
+      "target" : [ {
+        "code" : "SHN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LC",
+      "display" : "Saint Lucia",
+      "target" : [ {
+        "code" : "LCA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "PM",
+      "display" : "Saint Pierre'i ja Miqueloni territoriaalühendus (FRA)",
+      "target" : [ {
+        "code" : "SPM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "VC",
+      "display" : "Saint Vincent ja Grenadiinid",
+      "target" : [ {
+        "code" : "VCT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "DE",
+      "display" : "Saksamaa Liitvabariik",
+      "target" : [ {
+        "code" : "DEU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ZM",
+      "display" : "Sambia Vabariik",
+      "target" : [ {
+        "code" : "ZMB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "WS",
+      "display" : "Samoa Iseseisvusriik",
+      "target" : [ {
+        "code" : "WSM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SM",
+      "display" : "San Marino Vabariik",
+      "target" : [ {
+        "code" : "SMR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ST",
+      "display" : "Sao Tomé ja Principe Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "STP",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SA",
+      "display" : "Saudi Araabia Kuningriik",
+      "target" : [ {
+        "code" : "SAU",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SC",
+      "display" : "Seišelli Vabariik",
+      "target" : [ {
+        "code" : "SYC",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SN",
+      "display" : "Senegali Vabariik",
+      "target" : [ {
+        "code" : "SEN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "RS",
+      "display" : "Serbia Vabariik",
+      "target" : [ {
+        "code" : "SRB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SL",
+      "display" : "Sierra Leone Vabariik",
+      "target" : [ {
+        "code" : "SLE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SG",
+      "display" : "Singapuri Vabariik",
+      "target" : [ {
+        "code" : "SGP",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SK",
+      "display" : "Slovaki Vabariik",
+      "target" : [ {
+        "code" : "SVK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SI",
+      "display" : "Sloveenia Vabariik",
+      "target" : [ {
+        "code" : "SVN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SO",
+      "display" : "Somaalia Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "SOM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "FI",
+      "display" : "Soome Vabariik",
+      "target" : [ {
+        "code" : "FIN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LK",
+      "display" : "Sri Lanka Demokraatlik Sotsialistlik Vabariik",
+      "target" : [ {
+        "code" : "LKA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SD",
+      "display" : "Sudaani Vabariik",
+      "target" : [ {
+        "code" : "SDN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SR",
+      "display" : "Suriname Vabariik",
+      "target" : [ {
+        "code" : "SUR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "LY",
+      "display" : "Suur Liibüa Araabia Sotsialistlik Rahvadžamahirija",
+      "target" : [ {
+        "code" : "LBY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "GB",
+      "display" : "Suurbritannia ja Põhja-Iiri Ühendkuningriik",
+      "target" : [ {
+        "code" : "GBR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SZ",
+      "display" : "Svaasimaa Kuningriik",
+      "target" : [ {
+        "code" : "SWZ",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SJ",
+      "display" : "Svalbard ja Jan Mayen (NOR)",
+      "target" : [ {
+        "code" : "SJM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "SY",
+      "display" : "Süüria Araabia Vabariik",
+      "target" : [ {
+        "code" : "SYR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CH",
+      "display" : "Šveitsi Konföderatsioon",
+      "target" : [ {
+        "code" : "CHE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "ZW",
+      "display" : "Zimbabwe Vabariik",
+      "target" : [ {
+        "code" : "ZWE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "DK",
+      "display" : "Taani Kuningriik",
+      "target" : [ {
+        "code" : "DNK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TJ",
+      "display" : "Tadžikistani Vabariik",
+      "target" : [ {
+        "code" : "TJK",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TH",
+      "display" : "Tai Kuningriik",
+      "target" : [ {
+        "code" : "THA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TW",
+      "display" : "Taiwan, Hiina provints (CHN)",
+      "target" : [ {
+        "code" : "TWN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TZ",
+      "display" : "Tansaania Ühendvabariik",
+      "target" : [ {
+        "code" : "TZA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TL",
+      "display" : "Timor-Leste Demokraatlik Vabariik",
+      "target" : [ {
+        "code" : "TLS",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TG",
+      "display" : "Togo Vabariik",
+      "target" : [ {
+        "code" : "TGO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TK",
+      "display" : "Tokelau (NZL)",
+      "target" : [ {
+        "code" : "TKL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TO",
+      "display" : "Tonga Kuningriik",
+      "target" : [ {
+        "code" : "TON",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TT",
+      "display" : "Trinidadi ja Tobago Vabariik",
+      "target" : [ {
+        "code" : "TTO",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TD",
+      "display" : "Tšaadi Vabariik",
+      "target" : [ {
+        "code" : "TCD",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CZ",
+      "display" : "Tšehhi Vabariik",
+      "target" : [ {
+        "code" : "CZE",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "CL",
+      "display" : "Tšiili Vabariik",
+      "target" : [ {
+        "code" : "CHL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TN",
+      "display" : "Tuneesia Vabariik",
+      "target" : [ {
+        "code" : "TUN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TC",
+      "display" : "Turksi ja Caicose saarte asumaa (GBR)",
+      "target" : [ {
+        "code" : "TCA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TV",
+      "display" : "Tuvalu",
+      "target" : [ {
+        "code" : "TUV",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TR",
+      "display" : "Türgi Vabariik",
+      "target" : [ {
+        "code" : "TUR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "TM",
+      "display" : "Türkmenistan",
+      "target" : [ {
+        "code" : "TKM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "UG",
+      "display" : "Uganda Vabariik",
+      "target" : [ {
+        "code" : "UGA",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "UA",
+      "display" : "Ukraina",
+      "target" : [ {
+        "code" : "UKR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "HU",
+      "display" : "Ungari Vabariik",
+      "target" : [ {
+        "code" : "HUN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "UY",
+      "display" : "Uruguay Idavabariik",
+      "target" : [ {
+        "code" : "URY",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "UZ",
+      "display" : "Usbekistani Vabariik",
+      "target" : [ {
+        "code" : "UZB",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NC",
+      "display" : "Uus-Kaledoonia ja sõltkondade ala (FRA)",
+      "target" : [ {
+        "code" : "NCL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "NZ",
+      "display" : "Uus-Meremaa",
+      "target" : [ {
+        "code" : "NZL",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "BY",
+      "display" : "Valgevene Vabariik",
+      "target" : [ {
+        "code" : "BLR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "WF",
+      "display" : "Wallise ja Futuna ala (FRA)",
+      "target" : [ {
+        "code" : "WLF",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "VU",
+      "display" : "Vanuatu Vabariik",
+      "target" : [ {
+        "code" : "VUT",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "RU",
+      "display" : "Venemaa Föderatsioon",
+      "target" : [ {
+        "code" : "RUS",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "VE",
+      "display" : "Venezuela Vabariik",
+      "target" : [ {
+        "code" : "VEN",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "VN",
+      "display" : "Vietnami Sotsialistlik Vabariik",
+      "target" : [ {
+        "code" : "VNM",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "VI",
+      "display" : "Ühendriikide Neitsisaared",
+      "target" : [ {
+        "code" : "VIR",
+        "relationship" : "equivalent"
+      } ]
+    }, {
+      "code" : "UM",
+      "display" : "Ühendriikide väikesed hajasaared",
+      "target" : [ {
+        "code" : "UMI",
+        "relationship" : "equivalent"
+      } ]
+    } ]
+  } ]
+}
