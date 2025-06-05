@@ -1,4 +1,4 @@
-Instance: oganization-perh
+/*Instance: oganization-perh
 InstanceOf: EESPDOrganization
 Usage: #example
 Description: "Asutus Põhja-Eesti Regionaalhaigla oma äriregistrikoodi, juriidilise aadressi ning tegvuslubadega (osad). Organization PERH"
@@ -29,3 +29,4 @@ Description: "Asutus Põhja-Eesti Regionaalhaigla oma äriregistrikoodi, juriidi
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusala#A007 "Kiirabi teenus"
 * qualification[=].period.start = "2011-01-12" 
+*/

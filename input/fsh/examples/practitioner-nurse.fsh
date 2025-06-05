@@ -1,4 +1,4 @@
-Instance: practitioner-nurse
+/*Instance: practitioner-nurse
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner N99876"
@@ -13,4 +13,4 @@ Description: "Practitioner N99876"
 * qualification[0].code = $kutse#N500 "õde"
 * qualification[+].code = $erialad#N210 "diabeediõendus"
 * qualification[+].code = $erialad#N800	"retseptiõigusega eriõde"
-
+*/
