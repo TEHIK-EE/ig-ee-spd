@@ -11,16 +11,16 @@ Description: "Practitioner D99876"
   * system = "https://fhir.ee/sid/pro/est/pho"
   * value = "D99876"
 * qualification[speciality]
-  * code.coding.system = "https://fhir.ee/ValueSet/erialad" 
+  * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E260 "ortopeedia"
 * qualification[speciality]
-  * code.coding.system = "https://fhir.ee/ValueSet/erialad" 
+  * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E140 "gastroenteroloogia"
 * qualification[speciality]
-  * code.coding.system = "https://fhir.ee/ValueSet/erialad" 
+  * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E500 "meditsiinigeneetika"
 * qualification[kutse]
-  * code.coding.system = "https://fhir.ee/ValueSet/tervishoiutootaja-kutse" 
+  * code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" 
   * code = #E600 "arst"
 //* qualification[+].code.coding.system = $erialad#E140 "gastroenteroloogia"
 //* qualification[+].code.coding.system = $erialad#E500 "meditsiinigeneetika"
