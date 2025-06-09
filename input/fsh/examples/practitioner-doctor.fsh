@@ -10,13 +10,13 @@ Description: "Practitioner D99876"
 * identifier[specialistIdentifier]
   * system = "https://fhir.ee/sid/pro/est/pho"
   * value = "D99876"
-* qualification[speciality]
+* qualification[speciality][0]
   * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E260 "ortopeedia"
-* qualification[speciality]
+* qualification[speciality][+]
   * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E140 "gastroenteroloogia"
-* qualification[speciality]
+* qualification[speciality][+]
   * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E500 "meditsiinigeneetika"
 * qualification[kutse]
