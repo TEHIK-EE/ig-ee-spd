@@ -20,6 +20,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * code.coding.system ^definition = "Tervishoiutöötaja rolli väärtus loendist"
 * specialty[eriala].coding.system ^short = "use local codesystem and codes eg. E140 etc. Use ONLY the code (in case of several) that is relevant in this role."
 * specialty[eriala].coding.system ^definition = "ERIALADE loend terminoloogiaserverist. Siin kasutada AINULT seda eriala, mis on oluline konkreetses rollis!"
+* specialty[eriala].coding.system from https://fhir.ee/CodeSystem/erialad
 //* code[role].coding.system = "https://teabekeskus.tehik.ee/et/loendid/autoriseerimismooduli-kasutajarollid" (exactly)
 //* code[role] ^short = "Practitioner role"
 //* code[role] from EESPDPractitionerRole (extensible)
