@@ -7,6 +7,7 @@ Description: "TEST tegevusala"
 * ^status = #draft
 * ^content = #fragment
 * ^experimental = false
+* ^caseSensitive = false
 
 * #A001 "Eriarstiabi teenus"
 * #A002 "Iseseisva füsioteraapia osutamine"
