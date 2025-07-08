@@ -1,4 +1,4 @@
-Instance: practitioner-doctor
+/*Instance: practitioner-doctor
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner D99876"
@@ -25,3 +25,4 @@ Description: "Practitioner D99876"
 //* qualification[+].code.coding.system = $erialad#E140 "gastroenteroloogia"
 //* qualification[+].code.coding.system = $erialad#E500 "meditsiinigeneetika"
 //* qualification[+].code.coding.system = $kutse#E600 "arst"
+*/

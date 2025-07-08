@@ -31,7 +31,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * gender ^short = "Gender of practitioner"
 * gender ^definition = "Tervishoiutöötaja sugu"
 * qualification ^slicing.discriminator.type = #value
-* qualification ^slicing.discriminator.path = "system"
+* qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 * qualification contains
     speciality 0..* and
@@ -44,13 +44,13 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[degree].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
 //* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
 //* qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
-* qualification[speciality].code from $erialad-VS
+* qualification[speciality].code.coding.system = $erialad-VS
 //* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad" (exactly)
 * qualification[speciality] ^short = "Qualification, education, license"
 * qualification[speciality] ^definition = "ERIALA. Erialade loendist?"
 //* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
-* qualification[kutse].code from $tervishoiutootaja-kutse-VS
+* qualification[kutse].code.coding.system = $tervishoiutootaja-kutse-VS
 * qualification[kutse] ^short = "Kutse"
 * qualification[kutse] ^definition = "KUTSE. loendist? Sellist loendit pole päriselt olemas? Või terviseametil on?"
 * birthDate 0..0
