@@ -10,5 +10,5 @@ Alias: $kutse-VS = https://fhir.ee/ValueSet/tervishoiutootaja-kutse
 Alias: $rollid = https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid
 Alias: $rollid-VS = https://fhir.ee/ValueSet/autoriseerimismooduli-kasutajarollid
 
-Alias: $tegevusala-vs = https://fhir.ee/ValueSet/tegevusala-vs
+Alias: $tegevusala-vs = https://fhir.ee/ValueSet/tegevusala
 Alias: $tegevusala = https://fhir.ee/CodeSystem/tegevusala
