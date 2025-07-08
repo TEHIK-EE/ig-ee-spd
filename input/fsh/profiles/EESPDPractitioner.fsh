@@ -31,7 +31,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * gender ^short = "Gender of practitioner"
 * gender ^definition = "Tervishoiutöötaja sugu"
 * qualification ^slicing.discriminator.type = #value
-* qualification ^slicing.discriminator.path = "$this"
+* qualification ^slicing.discriminator.path = "system"
 * qualification ^slicing.rules = #open
 * qualification contains
     speciality 0..* and
