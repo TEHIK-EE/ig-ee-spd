@@ -50,9 +50,9 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification[speciality].code ^definition = "ERIALA. Erialade loendist?"
 //* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
-* qualification[kutse].code.coding.system from https://fhir.ee/ValueSet/tervishoiutootaja-kutse
+* qualification[kutse].code.coding.system from $tervishoiutootaja-kutse-VS
 * qualification[kutse].code ^short = "Kutse"
-* qualification[kutse].code ^definition = "KUTSE. loendist?"
+* qualification[kutse].code ^definition = "KUTSE. loendist? Sellist loendit pole päriselt olemas? Või terviseametil on?"
 * birthDate 0..0
 * deceased[x] 0..0
 * photo 0..0

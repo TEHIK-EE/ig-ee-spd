@@ -20,7 +20,7 @@ Description: "Practitioner D99876"
   * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E500 "meditsiinigeneetika"
 * qualification[kutse]
-  * code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" 
+  * code.coding.system = $tervishoiutootaja-kutse 
   * code = #E600 "arst"
 //* qualification[+].code.coding.system = $erialad#E140 "gastroenteroloogia"
 //* qualification[+].code.coding.system = $erialad#E500 "meditsiinigeneetika"

@@ -15,5 +15,5 @@ Title: "tervishoiutootaja kutse test vs"
 Description: "TEST kutse VS"
 
 * ^experimental = false
-* ^url = $tervishoiutootaja-kutse
+* ^url = $tervishoiutootaja-kutse-VS
 * include codes from system $tervishoiutootaja-kutse
