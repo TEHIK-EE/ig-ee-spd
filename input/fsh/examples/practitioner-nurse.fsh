@@ -13,11 +13,11 @@ Description: "Practitioner N99876"
 * identifier[+].system = "https://fhir.ee/sid/pro/est/pho"
 * identifier[=].value = "D99876"*/
 * qualification[speciality].code.coding[0].system = "https://fhir.ee/ValueSet/erialad" 
-* qualification[speciality].code.coding[0].code = #N210 
-* qualification[speciality].code.coding[0].display = "diabeediõendus"
+* qualification[speciality].code.coding[0].code = #N100
+* qualification[speciality].code.coding[0].display = "Intensiivõendus"
 * qualification[speciality].code.coding[+].system = "https://fhir.ee/ValueSet/erialad" 
-* qualification[speciality].code.coding[+].code = #N800
-* qualification[speciality].code.coding[+].display = "retseptiõigusega eriõd"
+* qualification[speciality].code.coding[+].code = #N300
+* qualification[speciality].code.coding[+].display = "Terviseõendus"
  /*qualification[=]
   * code.coding.system = "https://fhir.ee/CodeSystem/erialad" 
   * code = #E140 "gastroenteroloogia"
