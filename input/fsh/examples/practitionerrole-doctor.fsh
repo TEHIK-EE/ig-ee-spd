@@ -10,7 +10,7 @@ Description: "PractitionerRole D99876"
 * code.coding.code = #doctor
 * code.coding.display = "Arst"
 //* code.coding.value = "doctor"
-* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/eriala" //NB! EEBases juba valesti see CS lõpp! muuda ära
+//* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
 * specialty[eriala].coding.code = #E260 
 * specialty[eriala].coding.display = "ortopeedia"
 * location = Reference(Location/location-y-korpus)
