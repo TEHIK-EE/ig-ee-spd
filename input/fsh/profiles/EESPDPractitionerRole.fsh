@@ -28,7 +28,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 //* code[tor] ^short = "Official occupation at the national register"
 //* code[tor] ^short = "Ametinimetus (Töötamiseregistri andmete järgi)"
 //* code[tor] from EEOccupation (extensible)
-* contact 1..1
+* contact 0..1
 * contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use EESPDPractitioner."
 * contact ^definition = "Töötaja kontaktandmed selles konkreetses asutuses ja rollis; kontakttelefoni number, e-posti aadress ja/või faksinumber"
 * healthcareService 0..0
