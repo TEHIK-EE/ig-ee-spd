@@ -9,14 +9,14 @@ Description: "Asutus. Organization in SPD"
 * identifier ^short = "Business registry code, VATin code or some other identifying code of organization must be here"
 * identifier ^definition = "Äriregistri kood, KMKR kood vm"
 * identifier.system ^binding.description = "Äriregistril https://fhir.ee/sid/org/est/br, KMKR puhul https://fhir.ee/sid/org/est/vatin"
-* contact 1..1
-  * telecom 1..1 
+* contact 0..1
+  * telecom 0..1 
   * telecom ^short = "phone, e-mail and/or fax of the organization must be provided"
   * telecom ^definition = "Asutuse kontakttelefoni number, e-posti aadress ja/või faksinumber."
-  * address 1..1
-  * address ^short = "Address is presented using ADS"
-  * address ^definition = "Asutuse aadress ADS kujul. Asutusel on üks juriidiline aadress, aga teenuse osutamine ise võib toimuda teises asukohas ja seda aadressi tuleb koguda kontakti juures."
-  * address only EEBaseAddress
+  //* address 0..1
+  //* address ^short = "Address is presented using ADS"
+  //* address ^definition = "Asutuse aadress ADS kujul. Asutusel on üks juriidiline aadress, aga teenuse osutamine ise võib toimuda teises asukohas ja seda aadressi tuleb koguda kontakti juures."
+  //* address only EEBaseAddress
 * contact ^short = "Asutuse kontaktandmed, email, telefon ja aadress.JURIIDILINE AADRESS"
 * active ^short = "Status of organization. STAATUS."
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
