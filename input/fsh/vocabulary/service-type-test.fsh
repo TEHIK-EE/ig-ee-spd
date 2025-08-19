@@ -3,7 +3,7 @@ Id: service-type-test
 Title: "service type test cs"
 Description: "TEST service-type CS"
 
-* ^url = $service-type
+* ^url = $service-type-test
 * ^status = #draft
 * ^content = #not-present
 * ^experimental = false
@@ -24,5 +24,5 @@ Title: "service-type test vs"
 Description: "TEST service-type VS"
 
 * ^experimental = false
-* ^url = $service-type-vs
-* include codes from system $service-type
+* ^url = $service-type-test-vs
+* include codes from system $service-type-test
