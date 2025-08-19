@@ -10,5 +10,8 @@ Description: "Teenus"
 * type.coding.system from $service-type-test-vs
 * type 1..1
 * providedBy ^short = "Teenuse osutamise tegevuskohad. Viide EESPDOrganizationile?"
+* providedBy only Reference(EESPDOrganization)
+* location ^short = "Viide locationile??"
+* location only Reference(EESPDLocation)
 * availability ^short = "Teenus kehtiv alates ja kuni?"
 * availability 0..1
