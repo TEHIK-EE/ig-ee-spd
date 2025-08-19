@@ -12,3 +12,6 @@ Alias: $rollid-VS = https://fhir.ee/ValueSet/autoriseerimismooduli-kasutajarolli
 
 Alias: $tegevusala-vs = https://fhir.ee/ValueSet/tegevusala
 Alias: $tegevusala = https://fhir.ee/CodeSystem/tegevusala
+
+Alias: $service-type = https://fhir.ee/CodeSystem/service-type
+Alias: $service-type-vs = https://fhir.ee/ValueSet/service-type
