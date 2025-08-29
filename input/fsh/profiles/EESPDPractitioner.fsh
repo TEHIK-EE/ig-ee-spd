@@ -11,8 +11,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * name 1..1
 * name ^short = "First name and given name of healthcare professional"
 * name ^definition = "Tervishoiutöötaja ees- ja perekonnanimi"
-* identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "system"
+* identifier ^short = "Identifier of practitioner can be Estonian personal identification code or health care specialist code provided by Terviseamet, consisting of one letter and 5 numbers"
+/* identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains
     personalIdentifier 1..1 and
@@ -26,7 +26,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * identifier[specialistIdentifier].system = "https://fhir.ee/sid/pro/est/pho" (exactly) 
 * identifier[specialistIdentifier].value only string
 * identifier[specialistIdentifier].period ^short = "Validity period (if applicable) of the specialist code"
-* identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."
+* identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."*/
 * gender 0..0
 //* gender ^short = "Gender of practitioner"
 //* gender ^definition = "Tervishoiutöötaja sugu"
