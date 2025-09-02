@@ -72,7 +72,7 @@ pages:
     title: Changes
   documentation.md:
     title: Documentation
-  newtab.md
+  newtab.md:
     title: New
 
 
