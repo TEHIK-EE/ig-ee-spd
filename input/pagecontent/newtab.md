@@ -1,1 +1,0 @@
-## testin kas saab ainult gitiga muudatusi teha. 1.9.2025 kk. 

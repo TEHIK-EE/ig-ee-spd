@@ -72,9 +72,7 @@ pages:
     title: Changes
   documentation.md:
     title: Documentation
-  newtab.md:
-    title: New
-
+  
 
 #   implementation.xml:
 #   examples.xml:
@@ -117,7 +115,7 @@ menu:
     Contacts: contacts.html
   Changes: changes.html
   Table of contents: toc.html
-  New: newtab.html
+ 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
