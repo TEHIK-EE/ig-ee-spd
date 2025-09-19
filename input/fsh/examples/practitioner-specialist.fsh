@@ -26,7 +26,7 @@ Description: "Healthcare specialist, speech therapist "
   * code = #E500 "meditsiinigeneetika"*/
 * qualification[kutse].code.coding[0].system = $tervishoiutootaja-kutse-VS
 * qualification[kutse].code.coding[=].code = #31
-* qualification[kutse].code.coding[=].display = "füsioterapeut"
+* qualification[kutse].code.coding[=].display = "logopeed"
 //* qualification[kutse].code.coding[+].system = $tervishoiutootaja-kutse-VS
 //* qualification[kutse].code.coding[=].code = #33 
 //* qualification[kutse].code.coding[=].display = "füsioterapeut"
