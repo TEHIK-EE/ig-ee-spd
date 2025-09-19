@@ -1,14 +1,14 @@
-Instance: practitionerrole-registrator
+Instance: practitionerrole-student
 InstanceOf: EESPDPractitionerRole
 Usage: #example
-Description: "PractitionerRole for receptionist"
+Description: "PractitionerRole for student who hasn't got MEDRE D-code yet)"
 * active = true
 * period.start = "2008-01-01"
-* practitioner = Reference(Practitioner/practitioner-receptionist)
+* practitioner = Reference(Practitioner/practitioner-other)
 * organization = Reference(Organization/oganization-perh)
 * code.coding.system = $rollid
-* code.coding.code = #receptionist
-* code.coding.display = "Registraator/klienditeenindaja"
+* code.coding.code = #student
+* code.coding.display = "Abiarst"
 //* code.coding.value = "doctor"
 //* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
 //* specialty[eriala].coding.code = #E170
