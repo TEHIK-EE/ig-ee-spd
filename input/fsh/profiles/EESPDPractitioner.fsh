@@ -51,8 +51,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
 * qualification[kutse].code.coding.system = $tervishoiutootaja-kutse-VS
-* qualification[kutse] ^short = "Kutse. Siin IG-s on tehtud kunstlik viide kunstlikule loendile. Vajab tähelepanu."
-* qualification[kutse] ^definition = "KUTSE. loendist? Sellist loendit POLE päriselt olemas? Või terviseametil on? "
+* qualification[kutse] ^short = "Kutse. Siin IG-s on tehtud kunstlik viide kunstlikule loendile. Vaja viide korrigeerida."
+* qualification[kutse] ^definition = "KUTSE. MEDRE loendi koopia TermX. "
 * birthDate 0..0
 * deceased[x] 0..0
 * photo 0..0
