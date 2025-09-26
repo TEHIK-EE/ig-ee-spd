@@ -17,6 +17,7 @@ Description: "Asutus Põhja-Eesti Regionaalhaigla oma äriregistrikoodi, juriidi
   * city = "Tallinn"
   * postalCode = "14215"
   * text = "Harju maakond, Tallinn, Sütiste tee 19"
+* type = #prov
 * qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusala#A001 "Eriarstiabi teenus"
