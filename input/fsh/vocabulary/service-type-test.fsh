@@ -1,4 +1,4 @@
-CodeSystem: SERVICE_TYPE_TEST
+/*CodeSystem: SERVICE_TYPE_TEST
 Id: service-type-test
 Title: "service type test cs"
 Description: "TEST service-type CS"
@@ -26,3 +26,4 @@ Description: "TEST service-type VS"
 * ^experimental = false
 * ^url = $service-type-test-vs
 * include codes from system $service-type-test
+*/

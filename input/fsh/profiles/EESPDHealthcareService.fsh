@@ -6,12 +6,12 @@ Description: "Teenus"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
-* type ^short = "Teenuse kood. Näiteks T0003 hambaraviteenused. VAJA LOENDIT"
+* type ^short = "Teenuse kood. Näiteks T0003 hambaraviteenused."
 * type.coding.system from $service-type-test-vs
 * type 1..1
 * providedBy ^short = "Teenuse osutamise tegevuskohad. Viide EESPDOrganizationile?"
 * providedBy only Reference(EESPDOrganization)
-* location ^short = "Viide locationile??"
+* location ^short = "Viide tegevuskohale"
 * location only Reference(EESPDLocation)
 * availability ^short = "Teenus kehtiv alates ja kuni?"
 * availability 0..1
