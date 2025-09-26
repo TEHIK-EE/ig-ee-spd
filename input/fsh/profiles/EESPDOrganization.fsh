@@ -23,7 +23,7 @@ Description: "Asutus. Organization in SPD"
 * type ^short = "Asutuse tüüp. Kui tuleb siis VAJAB LOENDIT!"
 * name ^short = "Name of the organization. NIMETUS"
 * name ^definition = "Asutuse NIMETUS."
-* partOf ^short = "kas kasutada seda eristamaks allüksusi ja tegevuskohti või Locationit?!?"
+* partOf ^short = "Allüksuste eristamiseks kasutada EESPDLocationit"
 * qualification ^short = "Licence(s) to provide healthcare service. TEGEVUSLUBA."
 * qualification ^definition = "TEGEVUSLUBA"
 * qualification.identifier.system = "https://fhir.ee/sid/org/est/fi" (exactly)

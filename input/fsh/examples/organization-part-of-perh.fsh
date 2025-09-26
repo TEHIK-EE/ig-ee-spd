@@ -1,4 +1,4 @@
-Instance: organization-part-of-perh
+/*Instance: organization-part-of-perh
 InstanceOf: EESPDOrganization
 Usage: #example
 Description: "Organisatsioon, mis on osa teisest organisatsioonist. Äriregistrikood on sama ag tegevusluba ja aadress on teised. Organization which is part of PERH."
@@ -25,3 +25,4 @@ Description: "Organisatsioon, mis on osa teisest organisatsioonist. Äriregistri
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusala#A001 "Eriarstiabi teenus"
 * partOf = Reference(Organization/oganization-perh)
+*/
