@@ -17,7 +17,7 @@ Description: "TEST service-type CS"
 * #A006 "Iseseisva ämmaemandusabi osutamine"
 * #A007 "Kiirabi teenus"
 * #A008 "Perearsti nimistu alusel perearstiabi"
-*/
+
 ValueSet: SERVICE_TYPE_VS
 Id: service-type-test
 Title: "service-type test vs"

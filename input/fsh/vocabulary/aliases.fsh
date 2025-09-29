@@ -15,3 +15,6 @@ Alias: $tegevusala = https://fhir.ee/CodeSystem/tegevusala
 
 Alias: $service-type-test = https://fhir.ee/CodeSystem/medre-tegevusalaga-seotud-teenus
 Alias: $service-type-test-vs = https://fhir.ee/ValueSet/medre-tegevusalaga-seotud-teenus
+
+Alias: $practitioner-identifier-domain-VS = https://fhir.ee/ValueSet/tervishoiutootaja-identifikaatorite-domeen
+Alias: $identifier-domain = https://fhir.ee/CodeSystem/identifikaatorite-domeen
