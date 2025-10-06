@@ -15,5 +15,3 @@ Description: "Teenus"
 * providedBy only Reference(EESPDOrganization)
 * location ^short = "Viide tegevuskohale"
 * location only Reference(EESPDLocation)
-* availability ^short = "Teenus kehtiv alates ja kuni?"
-* availability 0..1
