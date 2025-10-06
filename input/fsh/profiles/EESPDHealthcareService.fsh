@@ -6,6 +6,8 @@ Description: "Teenus"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
+* extension contains
+    ExtensionEETISHealthcareServiceValidity named validityTime 0..*
 * type ^short = "Teenuse kood. Näiteks T0003 hambaraviteenused."
 * type.coding.system from $service-type-test-vs
 * type 1..1
