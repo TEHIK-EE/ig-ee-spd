@@ -10,8 +10,8 @@ Alias: $tervishoiutootaja-kutse-VS = https://fhir.ee/ValueSet/tervishoiutootaja-
 Alias: $rollid = https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid
 Alias: $rollid-VS = https://fhir.ee/ValueSet/autoriseerimismooduli-kasutajarollid
 
-Alias: $tegevusala-vs = https://fhir.ee/ValueSet/tegevusala
-Alias: $tegevusala = https://fhir.ee/CodeSystem/tegevusala
+Alias: $tegevusloa-liik-vs = https://fhir.ee/ValueSet/medre-tegevusloa-liik
+Alias: $tegevusloa-liik = https://fhir.ee/CodeSystem/medre-tegevusloa-liik
 
 Alias: $service-type-test = https://fhir.ee/CodeSystem/medre-tegevusalaga-seotud-teenus
 Alias: $service-type-test-vs = https://fhir.ee/ValueSet/medre-tegevusalaga-seotud-teenus

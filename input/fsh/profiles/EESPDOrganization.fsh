@@ -17,7 +17,7 @@ Description: "Asutus. Organization in SPD"
   //* address ^short = "Address is presented using ADS"
   //* address ^definition = "Asutuse aadress ADS kujul. Asutusel on üks juriidiline aadress, aga teenuse osutamine ise võib toimuda teises asukohas ja seda aadressi tuleb koguda kontakti juures."
   //* address only EEBaseAddress
-* contact ^short = "Asutuse kontaktandmed, email, telefon ja aadress.JURIIDILINE AADRESS"
+* contact ^short = "Asutuse kontaktandmed, email, telefon. (aadress tuleb locationi alt iga tegevuskoha kohta eraldi)"
 * active ^short = "Status of organization. STAATUS."
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * type ^short = "Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga"
@@ -31,8 +31,9 @@ Description: "Asutus. Organization in SPD"
 * qualification.identifier ^definition = "TEGEVUSLOA NUMBER"
 * qualification.period ^short = "Period of the licence validity. TEGEVUSLOA KEHTIVUS"
 * qualification.period ^definition = "Väljastatud tegevusloa kehtivusaeg."
-* qualification.code ^short = "Field of services this licence allows. TEGEVUSALA."
-* qualification.code ^definition = "tegevusala. VAJA LOENDIT! See on terviseameti loend!"
+* qualification.code ^short = "Field of services this licence allows. TEGEVUSLOA LIIK."
+* qualification.code ^definition = "TEGEVUSLOA LIIK. Terviseameti loend!"
+* qualification.code from $tegevusloa-liik-vs
 //* qualification.code ^slicing.discriminator.type = #value
 //* qualification.code ^slicing.discriminator.path = "code.coding.system"
 //* qualification.code ^slicing.rules = #open

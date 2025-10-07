@@ -10,23 +10,24 @@ Description: "Asutus Põhja-Eesti Regionaalhaigla oma äriregistrikoodi, juriidi
   * telecom 
     * system = #email
     * value = "info@regionaalhaigla.ee" 
-* contact.address 
+/** contact.address 
   * use = #work
   * country = "EE"
   * state = "Harju"
   * city = "Tallinn"
   * postalCode = "14215"
   * text = "Harju maakond, Tallinn, Sütiste tee 19"
+*/
 * type = #prov
 * qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
-* qualification[=].code = $tegevusala#A001 "Eriarstiabi teenus"
+* qualification[=].code = $tegevusloa-liik#1 "Eriarstiabi teenus"
 * qualification[=].period.start = "2012-01-12" 
 * qualification[+].identifier.value = "L02947"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
-* qualification[=].code = $tegevusala#A005 "Iseseisva õendusabi osutamine"
+* qualification[=].code = $tegevusloa-liik#2 "Iseseisva õendusabi osutamine"
 * qualification[=].period.start = "2011-01-12" 
 * qualification[+].identifier.value = "L03671"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
-* qualification[=].code = $tegevusala#A007 "Kiirabi teenus"
+* qualification[=].code = $tegevusloa-liik#3 "Kiirabi teenus"
 * qualification[=].period.start = "2011-01-12" 

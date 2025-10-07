@@ -10,17 +10,19 @@ Description: "Organization without tegevusluba"
   * telecom 
     * system = #email
     * value = "info@massage.ee" 
-* contact.address 
+/* contact.address 
   * use = #work
   * country = "EE"
   * state = "Harju"
   * city = "Tallinn"
   * postalCode = "14215"
-  * text = "Harju maakond, Tallinn, Valu tee 19"
-/* qualification[0].identifier.value = "L02565"
+   * text = "Harju maakond, Tallinn, Valu tee 19"
+*/
+* qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
-* qualification[=].code = $tegevusala#A001 "Eriarstiabi teenus"
+* qualification[=].code = $tegevusloa-liik#1 "Eriarstiabi teenus"
 * qualification[=].period.start = "2012-01-12" 
+/*
 * qualification[+].identifier.value = "L02947"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusala#A005 "Iseseisva õendusabi osutamine"

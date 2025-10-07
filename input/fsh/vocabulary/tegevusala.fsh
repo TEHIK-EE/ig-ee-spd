@@ -1,4 +1,4 @@
-CodeSystem: TEGEVUSALA
+/*CodeSystem: TEGEVUSALA
 Id: tegevusala
 Title: "tegevusala test cs"
 Description: "TEST tegevusala CS"
@@ -17,7 +17,7 @@ Description: "TEST tegevusala CS"
 * #A006 "Iseseisva ämmaemandusabi osutamine"
 * #A007 "Kiirabi teenus"
 * #A008 "Perearsti nimistu alusel perearstiabi"
-*/
+
 ValueSet: TEGEVUSALA_VS
 Id: tegevusala
 Title: "tegevusala test vs"
@@ -26,3 +26,4 @@ Description: "TEST tegevusala VS"
 * ^experimental = false
 * ^url = $tegevusala-vs
 * include codes from system $tegevusala
+*/
