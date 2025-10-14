@@ -89,7 +89,7 @@ pages:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 #
 parameters:
-   pin-all: true
+   pin-canonicals: pin-all
 #   validation: [allow-any-extensions, no-broken-links]
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
