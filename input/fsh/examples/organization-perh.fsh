@@ -1,4 +1,4 @@
-Instance: oganization-perh
+Instance: organization-perh123
 InstanceOf: EESPDOrganization
 Usage: #example
 Description: "Asutus Põhja-Eesti Regionaalhaigla oma äriregistrikoodi, juriidilise aadressi ning tegvuslubadega (osad). Organization PERH"

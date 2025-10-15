@@ -6,7 +6,7 @@ Description: "PractitionerRole N99876"
 * active = true
 * period.start = "2005-01-01"
 * practitioner = Reference(Practitioner/practitioner-nurse)
-* organization = Reference(Organization/organization-perh)
+* organization = Reference(Organization/organization-perh123)
 * code = $rollid#nurse "Õde"
 //* code.coding.value = "doctor"
 //* location = Reference(Location/location-taastusravi)
