@@ -88,11 +88,11 @@ pages:
 # partial list of allowed parameters see:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 #
-parameters:
-   pin-canonicals: pin-multiples
-   special-url:
-    - https://fhir.ee/CodeSystem
-    - https://fhir.ee/ValueSet
+#parameters:
+#   pin-canonicals: pin-multiples
+#   special-url:
+#    - https://fhir.ee/CodeSystem
+#    - https://fhir.ee/ValueSet
 #   validation: [allow-any-extensions, no-broken-links]
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
