@@ -90,6 +90,9 @@ pages:
 #
 parameters:
    pin-canonicals: pin-multiples
+   special-url:
+    - https://fhir.ee/CodeSystem
+    - https://fhir.ee/ValueSet
 #   validation: [allow-any-extensions, no-broken-links]
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
