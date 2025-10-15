@@ -10,7 +10,7 @@ Description: "Example of healthcare service (ee Tervishoiuteenuse näidis)"
 * type.coding.code = #T0068 
 * type.coding.system = $service-type-test
 * type.coding.display = "ambulatoorsed gastroenteroloogiateenused"
-* providedBy = Reference(Organization/oganization-perh)
+* providedBy = Reference(Organization/organization-perh123)
 * location = Reference(Location/location-y-korpus)
 
 

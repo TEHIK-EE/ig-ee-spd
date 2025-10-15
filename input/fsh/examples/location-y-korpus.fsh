@@ -6,7 +6,7 @@ Description: "Location Y-korpuse jaoks"
 * language = #et
 * status = #active
 * name = "Y-korpus"
-* managingOrganization = Reference(Organization/oganization-perh)
+* managingOrganization = Reference(Organization/organization-perh123)
 //* address
 //  * use = #work
 //  * text = "Sõle 16, Tallinn"

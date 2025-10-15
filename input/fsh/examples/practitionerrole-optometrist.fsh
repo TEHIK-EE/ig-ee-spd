@@ -6,7 +6,7 @@ Description: "PractitionerRole for other specialist e.g optometrist"
 * active = true
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-other)
-* organization = Reference(Organization/oganization-perh)
+* organization = Reference(Organization/organization-perh123)
 * code.coding.system = $rollid
 * code.coding.code = #specialist
 * code.coding.display = "Spetsialist"

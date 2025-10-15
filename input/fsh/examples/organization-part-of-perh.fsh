@@ -24,5 +24,5 @@ Description: "Organisatsioon, mis on osa teisest organisatsioonist. Äriregistri
 * qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusala#A001 "Eriarstiabi teenus"
-* partOf = Reference(Organization/oganization-perh)
+* partOf = Reference(Organization/organization-perh123)
 */

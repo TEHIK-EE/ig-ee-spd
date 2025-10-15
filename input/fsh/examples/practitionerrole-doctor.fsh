@@ -6,7 +6,7 @@ Description: "PractitionerRole D99876"
 * active = true
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-doctor)
-* organization = Reference(Organization/oganization-perh)
+* organization = Reference(Organization/organization-perh123)
 * code.coding.system = $rollid
 * code.coding.code = #doctor
 * code.coding.display = "Arst"

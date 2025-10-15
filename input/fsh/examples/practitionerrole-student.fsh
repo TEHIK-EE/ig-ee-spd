@@ -6,7 +6,7 @@ Description: "PractitionerRole for student who hasn't got MEDRE D-code yet)"
 * active = true
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-other)
-* organization = Reference(Organization/oganization-perh)
+* organization = Reference(Organization/organization-perh123)
 * code.coding.system = $rollid
 * code.coding.code = #student
 * code.coding.display = "Abiarst"
