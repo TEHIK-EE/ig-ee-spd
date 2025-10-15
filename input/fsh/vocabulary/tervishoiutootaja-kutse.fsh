@@ -1,4 +1,4 @@
-CodeSystem: TERVISHOIUTOOTAJA_KUTSE
+/*CodeSystem: TERVISHOIUTOOTAJA_KUTSE
 Id: tervishoiutootaja-kutse
 Title: "tervishoiutootaja kutse test cs"
 Description: "TEST kutse CS"
@@ -17,3 +17,4 @@ Description: "TEST kutse VS"
 * ^experimental = false
 * ^url = $tervishoiutootaja-kutse-VS
 * include codes from system $tervishoiutootaja-kutse
+*/
