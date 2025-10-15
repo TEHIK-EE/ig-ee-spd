@@ -4,7 +4,7 @@ Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. (Nt TTOdes töötavad tervishoiutöötajad, võrdsustatud spetsialistid ja spetsialistid, TTOdes töötavad registraatorid/assistendid,
 Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
-* ^version = "1.0.0"
+//* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
 * name only HumanName

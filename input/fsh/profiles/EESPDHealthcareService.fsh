@@ -3,7 +3,7 @@ Parent: EEBaseHealthcareService
 Id: ee-spd-healthcare-service
 Title: "EE SPD HealthcareService"
 Description: "Teenus"
-* ^version = "1.0.0"
+//* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
 * extension contains
