@@ -2,6 +2,7 @@ Instance: practitioner-two-occupations
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner with two qualifications"
+* language = #et
 * name.family = "Hool"
 * name.given = "Dajja"
 * identifier[0].system = "https://fhir.ee/sid/pid/est/ni"

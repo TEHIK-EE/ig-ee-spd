@@ -2,6 +2,7 @@ Instance: practitionerrole-doctor
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole D99876"
+* language = #et
 * active = true
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-doctor)

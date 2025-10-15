@@ -2,6 +2,7 @@ Instance: oganization-perh
 InstanceOf: EESPDOrganization
 Usage: #example
 Description: "Asutus Põhja-Eesti Regionaalhaigla oma äriregistrikoodi, juriidilise aadressi ning tegvuslubadega (osad). Organization PERH"
+* language = #et
 * identifier.value = "90006399"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true

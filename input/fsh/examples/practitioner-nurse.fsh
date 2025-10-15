@@ -2,6 +2,7 @@ Instance: practitioner-nurse
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner N99876"
+* language = #et
 * name.family = "Õde"
 * name.given = "Kari"
 * identifier[0].system = "https://fhir.ee/sid/pid/est/ni"

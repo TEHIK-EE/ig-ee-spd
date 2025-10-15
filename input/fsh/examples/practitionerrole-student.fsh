@@ -2,6 +2,7 @@ Instance: practitionerrole-student
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole for student who hasn't got MEDRE D-code yet)"
+* language = #et
 * active = true
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-other)

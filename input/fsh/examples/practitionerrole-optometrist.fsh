@@ -2,6 +2,7 @@ Instance: practitionerrole-other-specialist-optometrist
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole for other specialist e.g optometrist"
+* language = #et
 * active = true
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-other)

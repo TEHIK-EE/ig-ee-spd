@@ -2,6 +2,7 @@ Instance: oganization-other
 InstanceOf: EESPDOrganization
 Usage: #example
 Description: "Organization without tegevusluba"
+* language = #et
 * identifier.value = "1234567"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true

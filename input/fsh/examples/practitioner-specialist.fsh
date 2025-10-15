@@ -2,6 +2,7 @@ Instance: practitioner-specialist
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Healthcare specialist, speech therapist "
+* language = #et
 * name.family = "Keel"
 * name.given = "Laes"
 * identifier[0].system = "https://fhir.ee/sid/pid/est/ni"

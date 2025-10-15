@@ -3,6 +3,7 @@ InstanceOf: EESPDLocation
 Usage: #example
 Description: "Location Y-korpuse jaoks"
 * meta.profile = "https://fhir.ee/StructureDefinition/ee-spd-location"
+* language = #et
 * status = #active
 * name = "Y-korpus"
 * managingOrganization = Reference(Organization/oganization-perh)
