@@ -1,7 +1,7 @@
-Profile: EESPDPractitionerNoIK
+Profile: EESPDPractitionerNoID
 Parent: EEBasePractitioner
-Id: ee-spd-practitioner-no-ik
-Title: "EE SPD Practitioner"
+Id: ee-spd-practitioner-no-id
+Title: "EE SPD PractitionerNoIDCode"
 Description: "Tervishoiutöötaja ilma isikukoodita. Healthcare professional with only THT code, no personal identification code."
 //* ^version = "1.0.0"
 * ^status = #draft
@@ -10,7 +10,7 @@ Description: "Tervishoiutöötaja ilma isikukoodita. Healthcare professional wit
 * name 1..1
 * name ^short = "First name and given name of healthcare professional"
 * name ^definition = "Tervishoiutöötaja ees- ja perekonnanimi"
-* identifier ^short = "Identifier of practitioner can be Estonian personal identification code or health care specialist code provided by Terviseamet, consisting of one letter and 5 numbers"
+* identifier ^short = "Identifier of practitioner is health care specialist code provided by Terviseamet, consisting of one letter and 5 numbers"
 * identifier.system = "https://fhir.ee/sid/pro/est/pho" (exactly) 
 /** identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
