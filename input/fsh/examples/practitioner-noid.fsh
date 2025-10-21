@@ -1,5 +1,5 @@
-Instance: practitioner-noid 
-InstanceOf: EESPDPractitionerNoID
+Instance: practitioner-minimal
+InstanceOf: EESPDPractitionerMinimal
 Usage: #example
 Description: "Practitioner for whom is only the THT code provided, no national identification code."
 * language = #et
