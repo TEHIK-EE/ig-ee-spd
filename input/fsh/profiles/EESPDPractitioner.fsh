@@ -33,10 +33,11 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification ^slicing.discriminator.type = #value
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
+* qualification.code from $erialad
 * qualification contains
-    speciality 0..* and
+    //speciality 0..* and
     kutse 0..*
-//* qualification[degree].code.coding.system ^binding.description = "Kutse loend? Arst | Hambaarst | Õde | Ämmaemand"
+//* qualification[degree].code.coding.system = $erialad-VS
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
 //* qualification[degree].code ^definition = "KUTSE. VAJAB oma loendit?!? Hetkel tehtud IG jaoks test-termX-is kutse loend."
@@ -44,10 +45,10 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[degree].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
 //* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
 //* qualification[speciality].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/erialad"
-* qualification[speciality].code.coding.system = $erialad-VS
+//* qualification[speciality].code.coding.system = $erialad-VS
 //* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad" (exactly)
-* qualification[speciality] ^short = "ERIALA. Qualification, education, license"
-* qualification[speciality] ^definition = "ERIALA. Erialade loendist. LOEND OLEMAS."
+//* qualification[speciality] ^short = "ERIALA. Qualification, education, license"
+//* qualification[speciality] ^definition = "ERIALA. Erialade loendist. LOEND OLEMAS."
 //* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
 * qualification[kutse].code.coding.system = $tervishoiutootaja-kutse-VS
