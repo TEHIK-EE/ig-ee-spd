@@ -30,7 +30,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * gender 0..0
 //* gender ^short = "Gender of practitioner"
 //* gender ^definition = "Tervishoiutöötaja sugu"
-* qualification.code ^binding.description = ()
+* qualification.code ^binding.description = "hl7VS-degreeLicenceCertificate is NOT in use! See appropriate slice for right coding."
 * qualification ^slicing.discriminator.type = #value
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
@@ -40,9 +40,12 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
     proffession 0..*
 * qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
+* qualification.extension ^short = "Use this extension to represent exact THT code related to this specialty."
 * qualification[degree].extension contains
     ExtensionEETISTHTCode named THTcode 0..1
+* qualification[degree].extension ^short = "Use this extension to represent exact THT code related to this specialty."
 * qualification[degree].code from $erialad-VS
+* qualification[degree] ^short = "ERIALA. Erialade loendist."
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
 //* qualification[degree].code ^definition = "KUTSE. VAJAB oma loendit?!? Hetkel tehtud IG jaoks test-termX-is kutse loend."
@@ -57,8 +60,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
 * qualification[proffession].code from $tervishoiutootaja-kutse-VS
-* qualification[proffession] ^short = "Kutse. Siin IG-s on tehtud kunstlik viide kunstlikule loendile. Vaja viide korrigeerida."
-* qualification[proffession] ^definition = "KUTSE. MEDRE loendi koopia TermX. "
+* qualification[proffession] ^short = "KUTSE."
+* qualification[proffession] ^definition = "KUTSE. MEDRE loendi koopia TermX-s. "
 * birthDate 0..0
 * deceased[x] 0..0
 * photo 0..0
