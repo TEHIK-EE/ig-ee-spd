@@ -30,6 +30,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * gender 0..0
 //* gender ^short = "Gender of practitioner"
 //* gender ^definition = "Tervishoiutöötaja sugu"
+* qualification.code ^binding.description = "Olenevalt slicest on siin erinevad VS"
 * qualification ^slicing.discriminator.type = #value
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
@@ -37,6 +38,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification contains
    // speciality 0..* and
     proffession 0..*
+* extension contains 
+    ExtensionEETISTHTCode named THTcode 0..1
 * qualification[degree].code from $erialad-VS
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
