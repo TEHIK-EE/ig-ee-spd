@@ -40,6 +40,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
     proffession 0..*
 * qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
+* qualification[degree].extension contains
+    ExtensionEETISTHTCode named THTcode 0..1
 * qualification[degree].code from $erialad-VS
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
