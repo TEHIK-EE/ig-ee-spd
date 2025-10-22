@@ -9,6 +9,7 @@ Description: "Teenus"
 * extension contains
     ExtensionEETISHealthcareServiceValidity named validityTime 0..*
 * type ^short = "Teenuse kood. Näiteks T0003 hambaraviteenused."
+* type from $service-type-test-vs
 * type.coding.system from $service-type-test-vs
 * type 1..1
 * category 0..0
