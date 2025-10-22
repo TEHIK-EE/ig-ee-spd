@@ -11,6 +11,7 @@ Description: "Teenus"
 * type ^short = "Teenuse kood. Näiteks T0003 hambaraviteenused."
 * type.coding.system from $service-type-test-vs
 * type 1..1
+* category 0..0
 * providedBy ^short = "Teenuse osutamise tegevuskohad. Viide EESPDOrganizationile?"
 * providedBy only Reference(EESPDOrganization)
 * location ^short = "Viide tegevuskohale"
