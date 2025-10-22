@@ -30,7 +30,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * gender 0..0
 //* gender ^short = "Gender of practitioner"
 //* gender ^definition = "Tervishoiutöötaja sugu"
-* qualification.code ^binding.description = "hl7VS-degreeLicenceCertificate is NOT in use! See appropriate slice for right coding."
+* qualification.code.coding ^binding.description = "Please don't use hl7 VS here!"
 * qualification ^slicing.discriminator.type = #value
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
