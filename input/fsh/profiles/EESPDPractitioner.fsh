@@ -32,7 +32,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* gender ^definition = "Tervishoiutöötaja sugu"
 * qualification.code ^binding.description = "Siia siis vastav loend." //from $erialad-VS (example)
 * qualification ^slicing.discriminator.type = #value
-* qualification ^slicing.discriminator.path = "code.coding.system"
+* qualification ^slicing.discriminator.path = "code" //.coding.system"
 * qualification ^slicing.rules = #open
 //* qualification from $erialad
 * qualification contains
@@ -44,7 +44,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[degree].extension contains
 //    ExtensionEETISTHTCode named THTcode 0..1
 * qualification[degree].extension ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[degree].code.coding.system ^binding.description = "do not use HL7 example binding"
+* qualification[degree].code from $erialad-VS
 * qualification[degree] ^short = "ERIALA. Erialade loendist."
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
