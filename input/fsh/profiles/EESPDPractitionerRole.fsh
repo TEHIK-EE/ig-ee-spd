@@ -10,7 +10,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * identifier.system from $practitioner-identifier-domain-VS
 * identifier.value ^short = "Eesti isikukood või tervishoiutöötaja kood, JUHUL kui need erinevad Practitioneri ressursi omadest."
 * practitioner 1..1
-* practitioner only Reference(EESPDPractitioner)
+//* practitioner only Reference(EESPDPractitioner)
 * organization 1..1
 * organization ^short = "Organization where practitioner has this role. E.g PERH"
 * organization ^definition = "Organisatsioon, kus tervishoiutöötajal on konkreetne roll. Näiteks PERH. Siit tuleb tegevusluba."

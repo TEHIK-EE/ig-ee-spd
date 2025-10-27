@@ -1,5 +1,5 @@
 Profile: EESPDPractitioner
-Parent: EEBasePractitioner
+Parent: Practitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. (Nt TTOdes töötavad tervishoiutöötajad, võrdsustatud spetsialistid ja spetsialistid, TTOdes töötavad registraatorid/assistendid,
@@ -30,21 +30,21 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * gender 0..0
 //* gender ^short = "Gender of practitioner"
 //* gender ^definition = "Tervishoiutöötaja sugu"
-* qualification.code from $erialad-VS (example)
+* qualification.code ^binding.description = "Siia siis vastav loend." //from $erialad-VS (example)
 * qualification ^slicing.discriminator.type = #value
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 //* qualification from $erialad
 * qualification contains
-   // speciality 0..* and
+    degree 0..* and
     proffession 0..*
 * qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
 * qualification.extension ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[degree].extension contains
-    ExtensionEETISTHTCode named THTcode 0..1
+//* qualification[degree].extension contains
+//    ExtensionEETISTHTCode named THTcode 0..1
 * qualification[degree].extension ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[degree].code from $erialad-VS
+* qualification[degree].code.coding.system ^binding.description = "do not use HL7 example binding"
 * qualification[degree] ^short = "ERIALA. Erialade loendist."
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
