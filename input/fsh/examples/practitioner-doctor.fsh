@@ -1,4 +1,4 @@
-Instance: practitioner-doctor
+/*Instance: practitioner-doctor
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner D99876"
@@ -20,4 +20,4 @@ Description: "Practitioner D99876"
 * qualification[proffession].code.coding.system = $tervishoiutootaja-kutse-VS
 * qualification[proffession].code.coding.code = #E600 
 * qualification[proffession].code.coding.display = "arst"
-
+*/

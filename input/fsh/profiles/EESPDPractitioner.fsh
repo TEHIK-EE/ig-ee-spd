@@ -1,5 +1,5 @@
 Profile: EESPDPractitioner
-Parent: Practitioner
+Parent: EEBasePractitioner
 Id: ee-spd-practitioner
 Title: "EE SPD Practitioner"
 Description: "Tervishoiutöötaja. (Nt TTOdes töötavad tervishoiutöötajad, võrdsustatud spetsialistid ja spetsialistid, TTOdes töötavad registraatorid/assistendid,
@@ -36,7 +36,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification ^slicing.rules = #open
 //* qualification from $erialad
 * qualification contains
-    degree 0..* and
+    //degree 0..* and
     proffession 0..*
 * qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
