@@ -36,16 +36,16 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification ^slicing.rules = #open
 //* qualification from $erialad
 * qualification contains
-    //degree 0..* and
+    speciality 0..* and
     proffession 0..*
 * qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
 * qualification.extension ^short = "Use this extension to represent exact THT code related to this specialty."
 //* qualification[degree].extension contains
 //    ExtensionEETISTHTCode named THTcode 0..1
-* qualification[degree].extension ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[degree].code from $erialad-VS
-* qualification[degree] ^short = "ERIALA. Erialade loendist."
+* qualification[speciality].extension ^short = "Use this extension to represent exact THT code related to this specialty."
+* qualification[speciality].code from $erialad-VS
+* qualification[speciality] ^short = "ERIALA. Erialade loendist."
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
 //* qualification[degree].code ^definition = "KUTSE. VAJAB oma loendit?!? Hetkel tehtud IG jaoks test-termX-is kutse loend."
