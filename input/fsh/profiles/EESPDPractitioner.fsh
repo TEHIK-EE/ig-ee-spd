@@ -32,7 +32,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* gender ^definition = "Tervishoiutöötaja sugu"
 * qualification.code ^binding.description = "Siia siis vastav loend." //from $erialad-VS (example)
 * qualification ^slicing.discriminator.type = #value
-* qualification ^slicing.discriminator.path = "code" //.coding.system"
+* qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 //* qualification from $erialad
 * qualification contains
