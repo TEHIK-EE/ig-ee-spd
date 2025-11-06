@@ -5,14 +5,14 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ee.fhir.spd
 canonical: https://fhir.ee/spd
-name: SPD
-title: Service Provider Directory
-# description: Example Implementation Guide for getting started with SUSHI
+name: SPD - Service Provider Directory
+title: EE TIS IG Service Provider Directory
+description: Implementation guide for Service Provider Directory in Estonia
 status: draft # draft | active | retired | unknown
 version: 0.2.0
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
-releaseLabel: trial-use #ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: draft #ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: MIT # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#EST "Estonia" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:

@@ -5,5 +5,5 @@ Description: "Practitioner who is NOT healthcare specialist but works in healthc
 * language = #et
 * name.family = "Tule"
 * name.given = "Meile"
-* identifier[0].system = "https://fhir.ee/sid/pid/est/ni"
-* identifier[=].value = "49001010010"
+* identifier.system = "https://fhir.ee/sid/pid/est/ni"
+* identifier.value = "49001010010"
