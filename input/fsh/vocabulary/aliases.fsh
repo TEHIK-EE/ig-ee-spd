@@ -18,3 +18,6 @@ Alias: $service-type-test-vs = https://fhir.ee/ValueSet/medre-tegevusalaga-seotu
 
 Alias: $practitioner-identifier-domain-VS = https://fhir.ee/ValueSet/tervishoiutootaja-identifikaatorite-domeen
 Alias: $identifier-domain = https://fhir.ee/CodeSystem/identifikaatorite-domeen
+
+Alias: $occupation-VS = https://fhir.ee/ValueSet/ametite-klassifikaator
+Alias: $occupation = https://fhir.ee/CodeSystem/ametite-klassifikaator

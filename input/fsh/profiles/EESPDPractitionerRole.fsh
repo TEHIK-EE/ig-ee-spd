@@ -28,14 +28,14 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 //* code.coding.system ^short = "Healthcare professional role e.g. doctor | nurse | consent-representative | specialist | student | receptionist etc. NB! code all on ka TÖR jaotus EEBase järgi kui vaja lisada."
 //* code.coding.system ^definition = "Tervishoiutöötaja rolli väärtus loendist. Näitab, mis õigused konkreetsel rollil on (nt muutmis/vaatamis õigus jne)"
 
-* code[role].coding.system = "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid" (exactly)
+* code[role].coding.system from $rollid-VS
 * code[role] ^short = "Practitioner role as defined in autoriseerimismooduli kasutajarollid"
-* code[tor].coding.system = "https://fhir.ee/ValueSet/ametite-klassifikaator" (exactly)
+* code[tor].coding.system from $occupation-VS
 * code[tor] ^short = "Official occupation at the national register"
 * code[tor] ^short = "Ametinimetus (Töötamiseregistri andmete järgi)"
 * specialty.coding.system ^short = "use local codesystem and codes eg. E140 etc. Use ONLY the code (in case of several) that is relevant in this role. NB! Eriala tuleb ka Practitioner profiiliga kaasa!"
 * specialty.coding.system ^definition = "ERIALADE loend terminoloogiaserverist. Siin kasutada AINULT seda eriala, mis on oluline konkreetses rollis!"
-* specialty.coding.system from https://fhir.ee/CodeSystem/eriala 
+* specialty.coding.system from $erialad-VS
 * contact 0..1
 * contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use EESPDPractitioner."
 * contact ^definition = "Töötaja kontaktandmed selles konkreetses asutuses ja rollis; kontakttelefoni number, e-posti aadress ja/või faksinumber"
