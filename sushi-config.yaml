@@ -5,8 +5,8 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ee.fhir.spd
 canonical: https://fhir.ee/spd
-name: SPD - Service Provider Directory
-title: EE TIS IG Service Provider Directory
+name: EE TIS IG Service Provider Directory
+title: SPD - Service Provider Directory
 description: Implementation guide for Service Provider Directory in Estonia
 status: draft # draft | active | retired | unknown
 version: 0.2.0
