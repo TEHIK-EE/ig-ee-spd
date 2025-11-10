@@ -35,6 +35,7 @@ Description: "Asutus. Organization in SPD"
     hospitalType 0..1
 * type[hospitalType] ^short = "|Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|"
 * type[hospitalType] ^binding.description = "Use this slice for hospital type"
+* type[hospitalType].text = "As long as there is no VS, use text to describe the hospital type"
 * name ^short = "Name of the organization. (ee Asutuse NIMETUS)"
 * name ^definition = "Asutuse NIMETUS."
 * partOf 0..0
