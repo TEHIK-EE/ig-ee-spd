@@ -1,4 +1,4 @@
-Instance: practitionerrole-student
+/*Instance: practitionerrole-student
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole for student who hasn't got MEDRE D-code yet)"
@@ -17,3 +17,4 @@ Description: "PractitionerRole for student who hasn't got MEDRE D-code yet)"
 * location = Reference(Location/location-y-korpus)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone
+*/

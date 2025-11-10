@@ -1,4 +1,4 @@
-Instance: practitionerrole-other-specialist-optometrist
+/*Instance: practitionerrole-other-specialist-optometrist
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole for other specialist e.g optometrist"
@@ -17,3 +17,4 @@ Description: "PractitionerRole for other specialist e.g optometrist"
 * location = Reference(Location/location-y-korpus)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone
+*/

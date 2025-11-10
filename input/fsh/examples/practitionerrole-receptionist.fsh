@@ -1,4 +1,4 @@
-Instance: practitionerrole-receptionist
+/*Instance: practitionerrole-receptionist
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole for receptionist"
@@ -17,3 +17,4 @@ Description: "PractitionerRole for receptionist"
 * location = Reference(Location/location-y-korpus)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone
+*/
