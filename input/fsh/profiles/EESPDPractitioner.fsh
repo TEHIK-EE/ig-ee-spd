@@ -46,7 +46,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[degree].extension contains
 //    ExtensionEETISTHTCode named THTcode 0..1
 * qualification[speciality].extension ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[speciality].code from $erialad-VS
+* qualification[speciality].code.coding.system from $erialad-VS
 * qualification[speciality] ^short = "ERIALA. Erialade loendist."
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
@@ -61,7 +61,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 //* qualification[speciality] ^definition = "ERIALA. Erialade loendist. LOEND OLEMAS."
 //* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
-* qualification[proffession].code from $tervishoiutootaja-kutse-VS
+* qualification[proffession].code.coding.system from $tervishoiutootaja-kutse-VS
 * qualification[proffession] ^short = "KUTSE."
 * qualification[proffession] ^definition = "KUTSE. MEDRE loendi koopia TermX-s. "
 * birthDate 0..0
