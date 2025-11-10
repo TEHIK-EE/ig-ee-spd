@@ -6,7 +6,7 @@ Description: "KRA. Organization without licence. (ee Tegevusloata organisatsioon
 * identifier.value = "70007647"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
-* type[0] = #bus
+* type[organizationType] = #bus
 * name = "Kaitseressursside Amet"
 * contact.telecom[email].system = #email
 * contact.telecom[email].value = "krainfo@kra.ee"
