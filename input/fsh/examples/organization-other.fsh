@@ -1,29 +1,26 @@
 Instance: oganization-other
 InstanceOf: EESPDOrganization
 Usage: #example
-Description: "Organization without tegevusluba"
+Description: "KRA. Organization without licence. (ee Tegevusloata organisatsioon. Ei ole TTO, aga samas on õigus edastada seal töötaval tervihsoiutöötajal TIS-i dokumente. Ei oma tegevusluba.)"
 * language = #et
-* identifier.value = "1234567"
+* identifier.value = "70007647"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
-* name = "massaazi salong"
-* contact
+* type = #bus
+* name = "Kaitseressursside Amet"
+* contact[0]
   * telecom 
     * system = #email
-    * value = "info@massage.ee" 
-/* contact.address 
-  * use = #work
-  * country = "EE"
-  * state = "Harju"
-  * city = "Tallinn"
-  * postalCode = "14215"
-   * text = "Harju maakond, Tallinn, Valu tee 19"
-*/
-* qualification[0].identifier.value = "L02565"
+    * value = "krainfo@kra.ee"
+* contact[+]  
+  * telecom 
+    * system = #phone
+    * value = "+372 7170700" 
+/** qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusloa-liik#1 "Eriarstiabi teenus"
 * qualification[=].period.start = "2012-01-12" 
-/*
+
 * qualification[+].identifier.value = "L02947"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusala#A005 "Iseseisva õendusabi osutamine"

@@ -1,25 +1,18 @@
 Instance: organization-perh123
 InstanceOf: EESPDOrganization
 Usage: #example
-Description: "Asutus Põhja-Eesti Regionaalhaigla oma äriregistrikoodi, juriidilise aadressi ning tegvuslubadega (osad). Organization PERH"
+Description: "Organization PERH with several licences. (ee Asutus Põhja-Eesti Regionaalhaigla tegvuslubadega)"
 * language = #et
 * identifier.value = "90006399"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
-* name = "sihtasutus Põhja-Eesti Regionaalhaigla"
+* name = "Sihtasutus Põhja-Eesti Regionaalhaigla"
 * contact
   * telecom 
     * system = #email
     * value = "info@regionaalhaigla.ee" 
-/** contact.address 
-  * use = #work
-  * country = "EE"
-  * state = "Harju"
-  * city = "Tallinn"
-  * postalCode = "14215"
-  * text = "Harju maakond, Tallinn, Sütiste tee 19"
-*/
-* type = #prov
+* type[0] = #prov
+* type[+].text = "Taastusravi haigla"
 * qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusloa-liik#1 "Eriarstiabi teenus"
