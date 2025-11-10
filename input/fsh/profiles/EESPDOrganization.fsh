@@ -8,7 +8,12 @@ Description: "Asutus. Organization in SPD"
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
 * identifier ^short = "Business registry code, VATin code or some other identifying code of organization must be here"
 * identifier ^definition = "Äriregistri kood, KMKR kood vm"
+* identifier.use 0..0
+* identifier.type 0..0
+* identifier.period 0..0
+* identifier.assigner 0..0
 * identifier.system ^binding.description = "Äriregistril https://fhir.ee/sid/org/est/br, KMKR puhul https://fhir.ee/sid/org/est/vatin"
+* alias 0..0
 * contact 0..1
   * telecom 0..1 
   * telecom ^short = "phone, e-mail and/or fax of the organization must be provided"
@@ -17,18 +22,29 @@ Description: "Asutus. Organization in SPD"
   //* address ^short = "Address is presented using ADS"
   //* address ^definition = "Asutuse aadress ADS kujul. Asutusel on üks juriidiline aadress, aga teenuse osutamine ise võib toimuda teises asukohas ja seda aadressi tuleb koguda kontakti juures."
   //* address only EEBaseAddress
+* contact.purpose 0..0
+* contact.name 0..0
+* contact.address 0..0
+* contact.organization 0..0
+* contact.period 0..0  
 * contact ^short = "Asutuse kontaktandmed, email, telefon. (aadress tuleb locationi alt iga tegevuskoha kohta eraldi)"
 * active ^short = "Status of organization. STAATUS."
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * type ^short = "Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga"
 * name ^short = "Name of the organization. NIMETUS"
 * name ^definition = "Asutuse NIMETUS."
-* partOf ^short = "Allüksuste eristamiseks kasutada EESPDLocationit"
+* partOf 0..0
+* endpoint 0..0
 * qualification ^short = "Licence(s) to provide healthcare service. TEGEVUSLUBA."
 * qualification ^definition = "TEGEVUSLUBA"
 * qualification.identifier.system = "https://fhir.ee/sid/org/est/fi" (exactly)
 * qualification.identifier ^short = "Number of the licence"
 * qualification.identifier ^definition = "TEGEVUSLOA NUMBER"
+* qualification.identifier.use 0..0
+* qualification.identifier.type 0..0
+* qualification.identifier.period 0..0
+* qualification.identifier.assigner 0..0
+* qualification.issuer 0..0
 * qualification.period ^short = "Period of the licence validity. TEGEVUSLOA KEHTIVUS"
 * qualification.period ^definition = "Väljastatud tegevusloa kehtivusaeg."
 * qualification.code ^short = "Field of services this licence allows. TEGEVUSLOA LIIK."
