@@ -15,9 +15,21 @@ Description: "Asutus. Organization in SPD"
 * identifier.system ^binding.description = "Äriregistril https://fhir.ee/sid/org/est/br, KMKR puhul https://fhir.ee/sid/org/est/vatin"
 * alias 0..0
 * contact 0..*
-  * telecom 0..1 
-  * telecom ^short = "phone, e-mail and/or fax of the organization must be provided"
-  * telecom ^definition = "Asutuse kontakttelefoni number, e-posti aadress ja/või faksinumber."
+* contact.telecom ^slicing.discriminator.type = #value
+* contact.telecom ^slicing.discriminator.path = "system"
+* contact.telecom ^slicing.rules = #closed
+* contact.telecom contains 
+    phone 0..* and 
+    email 0..*
+* contact.telecom[phone].system = #phone
+    //telecom[phone].system 1..1  
+* contact.telecom[phone] ^short = "Telefoni number"
+* contact.telecom[email].system = #email
+* contact.telecom[email].system 1..1 
+* contact.telecom[email] ^short = "E-Mail"
+//  * telecom 0..1 
+//  * telecom ^short = "phone, e-mail and/or fax of the organization must be provided"
+//  * telecom ^definition = "Asutuse kontakttelefoni number, e-posti aadress ja/või faksinumber."
 * contact.purpose 0..0
 * contact.name 0..0
 * contact.address 0..0
@@ -28,7 +40,7 @@ Description: "Asutus. Organization in SPD"
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * type ^short = "Type of organization. Use slice hospital when expressing hospital type. (ee Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga. Haigla liik läheb hospital alla.)"
 * type ^slicing.discriminator.type = #value
-* type ^slicing.discriminator.path = "$this"
+* type ^slicing.discriminator.path = "$system"
 * type ^slicing.rules = #open
 * type contains
     organizationType 0..1 and

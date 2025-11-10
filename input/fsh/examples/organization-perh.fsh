@@ -7,10 +7,10 @@ Description: "Organization PERH with several licences. (ee Asutus Põhja-Eesti R
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
 * name = "Sihtasutus Põhja-Eesti Regionaalhaigla"
-* contact
-  * telecom 
-    * system = #email
-    * value = "info@regionaalhaigla.ee" 
+* contact.telecom[email].system = #email
+* contact.telecom[email].value = "info@regionaalhaigla.ee"
+* contact.telecom[phone].system = #phone
+* contact.telecom[phone].value = "+372 617 1300" 
 * type[0] = #prov
 * type[+].text = "Taastusravi haigla"
 * qualification[0].identifier.value = "L02565"

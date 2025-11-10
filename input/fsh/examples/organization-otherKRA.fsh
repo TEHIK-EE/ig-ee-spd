@@ -8,14 +8,10 @@ Description: "KRA. Organization without licence. (ee Tegevusloata organisatsioon
 * active = true
 * type[0] = #bus
 * name = "Kaitseressursside Amet"
-* contact[0]
-  * telecom 
-    * system = #email
-    * value = "krainfo@kra.ee"
-* contact[+]  
-  * telecom 
-    * system = #phone
-    * value = "+372 7170700" 
+* contact.telecom[email].system = #email
+* contact.telecom[email].value = "krainfo@kra.ee"
+* contact.telecom[phone].system = #phone
+* contact.telecom[phone].value = "+372 7170700" 
 /** qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusloa-liik#1 "Eriarstiabi teenus"
