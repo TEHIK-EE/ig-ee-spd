@@ -40,7 +40,7 @@ Description: "Asutus. Organization in SPD"
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * type ^short = "Type of organization. Use slice hospital when expressing hospital type. (ee Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga. Haigla liik läheb hospital alla.)"
 * type ^slicing.discriminator.type = #value
-* type ^slicing.discriminator.path = "$this"
+* type ^slicing.discriminator.path = "coding.system"
 * type ^slicing.rules = #open
 * type contains
     organizationType 0..1 and
