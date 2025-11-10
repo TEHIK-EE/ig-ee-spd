@@ -9,11 +9,11 @@ Description: "Practitioner D99876"
 * identifier[=].value = "38201010015"
 * identifier[+].system = "https://fhir.ee/sid/pro/est/pho"
 * identifier[=].value = "D99876"
+* qualification[0].extension.url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
+* qualification[=].extension.valueString = "D99876"
 * qualification[0].code.coding.system = $erialad
 * qualification[=].code.coding.code = #E260 
 * qualification[=].code.coding.display = "ortopeedia"
-* qualification[0].extension[0].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
-* qualification[=].extension[=].valueString = "D99876"
 * qualification[+].code.coding.system = $tervishoiutootaja-kutse-VS
 * qualification[=].code.coding.code = #E600 
 * qualification[=].code.coding.display = "arst"
