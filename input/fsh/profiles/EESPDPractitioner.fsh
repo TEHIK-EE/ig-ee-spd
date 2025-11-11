@@ -40,12 +40,12 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification contains
     speciality 0..* and
     proffession 0..*
-* qualification.modifierExtension.extension contains 
+* qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
-* qualification.modifierExtension.extension ^short = "Use this extension to represent exact THT code related to this specialty."
+* qualification.extension ^short = "Use this extension to represent exact THT code related to this specialty."
 //* qualification[degree].extension contains
 //    ExtensionEETISTHTCode named THTcode 0..1
-* qualification[speciality].extension ^short = "Use this extension to represent exact THT code related to this specialty."
+* qualification[speciality] ^short = "Use this extension to represent exact THT code related to this specialty."
 * qualification[speciality].code.coding.system from $erialad-VS
 * qualification[speciality] ^short = "ERIALA. Erialade loendist."
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
