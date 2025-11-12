@@ -1,4 +1,4 @@
-/*Instance: practitionerrole-nurse
+Instance: practitionerrole-nurse
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole N99876"
@@ -12,4 +12,3 @@ Description: "PractitionerRole N99876"
 //* location = Reference(Location/location-taastusravi)
 * contact.telecom.value = "5555555"
 * contact.telecom.system = #phone
-*/
