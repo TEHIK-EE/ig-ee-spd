@@ -1,4 +1,4 @@
-/*Instance: practitioner-two-occupations
+Instance: practitioner-two-occupations
 InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner with two qualifications"
@@ -9,16 +9,15 @@ Description: "Practitioner with two qualifications"
 * identifier[=].value = "49001010000"
 * identifier[+].system = "https://fhir.ee/sid/pro/est/pho"
 * identifier[=].value = "D99876"
-* qualification[speciality].code.coding[0].system = "https://fhir.ee/ValueSet/erialad" 
-* qualification[speciality].code.coding[0].code = #E280
-* qualification[speciality].code.coding[0].display = "patoloogia"
-* qualification[speciality].code.coding[+].system = "https://fhir.ee/ValueSet/erialad" 
-* qualification[speciality].code.coding[+].code = #E210
-* qualification[speciality].code.coding[+].display = "nefroloogia"
-* qualification[kutse].code.coding[0].system = $tervishoiutootaja-kutse-VS
-* qualification[kutse].code.coding[=].code = #11 
-* qualification[kutse].code.coding[=].display = "arst"
-* qualification[kutse].code.coding[+].system = $tervishoiutootaja-kutse-VS
-* qualification[kutse].code.coding[=].code = #33 
-* qualification[kutse].code.coding[=].display = "füsioterapeut"
-*/
+* qualification[speciality][0].code.coding.system = $erialad
+* qualification[speciality][=].code.coding.code = #E280
+* qualification[speciality][=].code.coding.display = "patoloogia"
+* qualification[speciality][+].code.coding.system = $erialad
+* qualification[speciality][=].code.coding.code = #E210
+* qualification[speciality][=].code.coding.display = "nefroloogia"
+* qualification[proffession][0].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[proffession][=].code.coding.code = #11 
+* qualification[proffession][=].code.coding.display = "arst"
+* qualification[proffession][+].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[proffession][=].code.coding.code = #33 
+* qualification[proffession][=].code.coding.display = "füsioterapeut"

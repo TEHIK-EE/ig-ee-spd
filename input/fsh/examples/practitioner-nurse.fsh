@@ -19,8 +19,8 @@ Description: "Practitioner N99876"
 * qualification[kutse].code.coding[0].code = #E500 
 * qualification[kutse].code.coding[0].display = "õde"
 */
-* qualification[0].extension.url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
-* qualification[=].extension.valueString = "N99876"
+* qualification.extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
+* qualification.extension[THTcode].valueString = "N99876"
 * qualification[0].code.coding.system = $erialad
 * qualification[0].code.coding.code = #N100
 * qualification[0].code.coding.display = "Intensiivõendus"
