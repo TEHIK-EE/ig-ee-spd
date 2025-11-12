@@ -12,9 +12,13 @@ Description: "Practitioner with two qualifications"
 * qualification[speciality][0].code.coding.system = $erialad
 * qualification[speciality][=].code.coding.code = #E280
 * qualification[speciality][=].code.coding.display = "patoloogia"
-* qualification[speciality][+].code.coding.system = $erialad
+* qualification[speciality][0].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
+* qualification[speciality][=].extension[THTcode].valueString = "D99876"
+* qualification[speciality][1].code.coding.system = $erialad
 * qualification[speciality][=].code.coding.code = #E210
 * qualification[speciality][=].code.coding.display = "nefroloogia"
+* qualification[speciality][1].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
+* qualification[speciality][=].extension[THTcode].valueString = "D99876"
 * qualification[proffession][0].code.coding.system = $tervishoiutootaja-kutse-VS
 * qualification[proffession][=].code.coding.code = #11 
 * qualification[proffession][=].code.coding.display = "arst"
