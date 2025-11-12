@@ -21,7 +21,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * location only Reference(EESPDLocation)
 * location ^short = "Address and exact location where this practitioner in this role performs healthcare service. HCP may have several roles each with different location (and address)"
 * location ^definition = "Näitab millise asutuse tegevuskohaga see isik ja roll seotud on. Sest organisatsiooni aadress võib olla juriidiline aadress aga mitte täpne asukoha aadress. Location profiili kaudu saab aadressi ja seda aadressi haldava organisatsiooni kätte"
-* code ^slicing.discriminator.type = #value
+* code ^slicing.discriminator.type = #exists //#value
 * code ^slicing.discriminator.path = "$coding.system"
 * code ^slicing.rules = #open
 * code contains
