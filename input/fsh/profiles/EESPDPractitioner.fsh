@@ -42,7 +42,7 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
     proffession 0..*
 * qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
-* qualification.extension ^short = "Use this extension to represent exact THT code related to this specialty."
+* qualification.extension[THTcode] ^short = "Use this extension to represent exact THT code related to this specialty."
 //* qualification[degree].extension contains
 //    ExtensionEETISTHTCode named THTcode 0..1
 * qualification[speciality] ^short = "Use this extension to represent exact THT code related to this specialty."
