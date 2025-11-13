@@ -22,7 +22,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * location ^short = "Address and exact location where this practitioner in this role performs healthcare service. HCP may have several roles each with different location (and address)"
 * location ^definition = "Näitab millise asutuse tegevuskohaga see isik ja roll seotud on. Sest organisatsiooni aadress võib olla juriidiline aadress aga mitte täpne asukoha aadress. Location profiili kaudu saab aadressi ja seda aadressi haldava organisatsiooni kätte"
 * code.coding ^slicing.discriminator.type = #value
-* code.coding ^slicing.discriminator.path = "$code.coding.system"
+* code.coding ^slicing.discriminator.path = "$code"
 * code.coding ^slicing.rules = #open
 * code.coding contains
     role 0..* and
@@ -30,11 +30,11 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 //* code.coding.system = "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid"
 //* code.coding.system ^short = "Healthcare professional role e.g. doctor | nurse | consent-representative | specialist | student | receptionist etc. NB! code all on ka TÖR jaotus EEBase järgi kui vaja lisada."
 //* code.coding.system ^definition = "Tervishoiutöötaja rolli väärtus loendist. Näitab, mis õigused konkreetsel rollil on (nt muutmis/vaatamis õigus jne)"
-//* code.coding[role].system = "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid"
-* code.coding[role].system from $rollid-VS
+* code.coding[role].system = "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid"
+//* code.coding[role].system from $rollid-VS
 * code.coding[role] ^short = "Practitioner role as defined in autoriseerimismooduli kasutajarollid"
-//* code.coding[tor].system = "https://fhir.ee/CodeSystem/ametite-klassifikaator"
-* code.coding[tor].system from $occupation-VS
+* code.coding[tor].system = "https://fhir.ee/CodeSystem/ametite-klassifikaator"
+//* code.coding[tor].system from $occupation-VS
 * code.coding[tor] ^short = "Official occupation at the national register (ee Ametinimetus TÖRi andmete järgi)"
 * specialty ^short = "use local codesystem and codes eg. E140 etc. Use ONLY the code (in case of several) that is relevant in this role. NB! Eriala tuleb ka Practitioner profiiliga kaasa!"
 * specialty ^definition = "ERIALADE loend terminoloogiaserverist. Siin kasutada AINULT seda eriala, mis on oluline konkreetses rollis!"
