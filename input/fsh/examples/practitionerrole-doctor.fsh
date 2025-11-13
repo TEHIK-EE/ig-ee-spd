@@ -7,9 +7,9 @@ Description: "PractitionerRole D99876"
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-doctor)
 * organization = Reference(Organization/organization-perh123)
-* code[0].coding.system = $rollid
-* code[=].coding.code = #doctor
-* code[=].coding.display = "Arst"
+* code.coding[role].system = $rollid
+* code.coding[role].code = #doctor
+* code.coding[role].display = "Arst"
 //* code.coding.value = "doctor"
 * specialty.coding.system = $erialad //"https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
 * specialty.coding.code = #E170
