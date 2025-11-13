@@ -11,9 +11,9 @@ Description: "PractitionerRole D99876"
 * code.coding[role].code = #doctor
 * code.coding[role].display = "Arst"
 //* code.coding.value = "doctor"
-* specialty.code.coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
-* specialty.code.coding.code = #E170
-* specialty.code.coding.display = "Kardioloogia"
+* specialty.coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
+* specialty.coding.code = #E170
+* specialty.coding.display = "Kardioloogia"
 * location = Reference(Location/location-y-korpus)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone
