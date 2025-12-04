@@ -61,7 +61,7 @@ Description: "Asutus. Organization in SPD"
 * qualification.identifier.system = "https://fhir.ee/sid/org/est/fi" (exactly)
 * qualification.identifier.system 1..1
 * qualification.identifier.value 1..1
-* qualification.identifier 1..*
+* qualification.identifier 1..1
 * qualification.identifier ^short = "Number of the licence"
 * qualification.identifier ^definition = "TEGEVUSLOA NUMBER"
 * qualification.identifier.use 0..0
