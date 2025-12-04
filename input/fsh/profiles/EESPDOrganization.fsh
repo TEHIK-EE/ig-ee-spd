@@ -38,6 +38,7 @@ Description: "Asutus. Organization in SPD"
 * contact ^short = "Contact details of the organization. (ee Asutuse kontaktandmed, email, telefon. (aadress tuleb locationi alt iga tegevuskoha kohta eraldi))"
 * active ^short = "Status of organization. (ee STAATUS näitab, kas asutus on  Äriregistris aktiivne)"
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
+* type 1..*
 * type ^short = "Type of organization. Use slice hospital when expressing hospital type. (ee Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga. Haigla liik läheb hospital alla.)"
 * type ^slicing.discriminator.type = #value
 * type ^slicing.discriminator.path = "coding.system"
@@ -52,11 +53,15 @@ Description: "Asutus. Organization in SPD"
 //* type[hospitalType].text = "As long as there is no VS, use text to describe the hospital type"
 * name ^short = "Name of the organization. (ee Asutuse NIMETUS)"
 * name ^definition = "Asutuse NIMETUS."
+* description 0..0
 * partOf 0..0
 * endpoint 0..0
 * qualification ^short = "Licence(s) to provide healthcare service. (ee TEGEVUSLUBA)"
 * qualification ^definition = "TEGEVUSLUBA"
 * qualification.identifier.system = "https://fhir.ee/sid/org/est/fi" (exactly)
+* qualification.identifier.system 1..1
+* qualification.identifier.value 1..1
+* qualification.identifier 1..*
 * qualification.identifier ^short = "Number of the licence"
 * qualification.identifier ^definition = "TEGEVUSLOA NUMBER"
 * qualification.identifier.use 0..0
@@ -66,6 +71,7 @@ Description: "Asutus. Organization in SPD"
 * qualification.issuer 0..0
 * qualification.period ^short = "Period of the licence validity. (ee TEGEVUSLOA KEHTIVUS)"
 * qualification.period ^definition = "Väljastatud tegevusloa kehtivusaeg."
+* qualification.period.start 1..1
 * qualification.code ^short = "Field of services this licence allows. (ee TEGEVUSLOA LIIK)"
 * qualification.code ^definition = "TEGEVUSLOA LIIK. Terviseameti loend!"
 * qualification.code from $tegevusloa-liik-vs
