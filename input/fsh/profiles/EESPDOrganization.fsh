@@ -58,6 +58,9 @@ Description: "Asutus. Organization in SPD"
 * endpoint 0..0
 * qualification ^short = "Licence(s) to provide healthcare service. (ee TEGEVUSLUBA)"
 * qualification ^definition = "TEGEVUSLUBA"
+* qualification.extension contains 
+    ExtensionEETISLicenceStopped named licenceStopped 0..*
+* qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED."
 * qualification.identifier.system = "https://fhir.ee/sid/org/est/fi" (exactly)
 * qualification.identifier.system 1..1
 * qualification.identifier.value 1..1
@@ -74,6 +77,17 @@ Description: "Asutus. Organization in SPD"
 * qualification.period.start 1..1
 * qualification.code ^short = "Field of services this licence allows. (ee TEGEVUSLOA LIIK)"
 * qualification.code ^definition = "TEGEVUSLOA LIIK. Terviseameti loend!"
-* qualification.code from $tegevusloa-liik-vs
-
+//* qualification.code from $tegevusloa-liik-vs or from $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus-VS
+* qualification.code.coding ^slicing.discriminator.type = #value
+* qualification.code.coding ^slicing.discriminator.path = "system"
+* qualification.code.coding ^slicing.rules = #open
+* qualification.code.coding contains
+    tto 0..* and
+    pharmacy 0..*
+* qualification.code.coding[tto].system from $tegevusloa-liik-vs
+//* code.coding[role].system from $rollid-VS
+* qualification.code.coding[tto] ^short = "Tegevusloa liik on TTO"
+* qualification.code.coding[pharmacy].system from $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus-VS
+//* code.coding[tor].system from $occupation-VS
+* qualification.code.coding[pharmacy] ^short = "Pharmacy licence"
 

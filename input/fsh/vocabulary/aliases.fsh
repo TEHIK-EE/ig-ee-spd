@@ -21,3 +21,6 @@ Alias: $identifier-domain = https://fhir.ee/CodeSystem/identifikaatorite-domeen
 
 Alias: $occupation-VS = https://fhir.ee/ValueSet/ametite-klassifikaator
 Alias: $occupation = https://fhir.ee/CodeSystem/ametite-klassifikaator
+
+Alias: $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus-VS = https://fhir.ee/ValueSet/ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
+Alias: $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus = https://fhir.ee/CodeSystem/ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
