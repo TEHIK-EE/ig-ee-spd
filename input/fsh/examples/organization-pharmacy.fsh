@@ -4,7 +4,7 @@ Usage: #example
 Description: "Organization pharmacy. (Organisatsioon apteek, mis ei ole TTO)"
 * language = #et
 * identifier.value = "12694290"
-* identifier.system = "https://fhir.ee/sid/org/est/br"
+* identifier.system = "https://fhir.ee/CodeSystem/organisatsiooni-identifikaatorite-domeen"
 * active = true
 * name = "Mustamäe Keskuse Apteek"
 * contact.telecom[email].system = #email
