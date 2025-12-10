@@ -1,3 +1,5 @@
+Alias: $effective-period = http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod
+
 Profile: EESPDOrganization
 Parent: EEBaseOrganization
 Id: ee-spd-organization
@@ -48,20 +50,15 @@ Description: "Asutus. Organization in SPD"
     hospitalType 0..1
 * type[organizationType].coding.system from http://hl7.org/fhir/ValueSet/organization-type 
 * type[hospitalType] ^short = "As long as there is no VS, use text to describe the hospital type. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|)"
-//* type[hospitalType] ^binding.description = "Use this slice for hospital type"
 * type[hospitalType].coding.system from https://fhir.ee/ValueSet/medre-haigla-liik
-//* type[hospitalType].text = "As long as there is no VS, use text to describe the hospital type"
 * name ^short = "Name of the organization. (ee Asutuse NIMETUS)"
 * name ^definition = "Asutuse NIMETUS."
-* description 0..0
-* partOf 0..0
-* endpoint 0..0
 * qualification ^short = "Licence(s) to provide healthcare service. (ee TEGEVUSLUBA)"
 * qualification ^definition = "TEGEVUSLUBA"
 * qualification.extension contains 
-    ExtensionEETISLicenceStopped named licenceStopped 0..*
+    $effective-period named licenceStopped 0..*
 * qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED."
-* qualification.identifier.system = "https://fhir.ee/sid/org/est/fi" (exactly)
+* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier.system 1..1
 * qualification.identifier.value 1..1
 * qualification.identifier 1..1
@@ -90,4 +87,7 @@ Description: "Asutus. Organization in SPD"
 * qualification.code.coding[pharmacy].system from $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus-VS
 //* code.coding[tor].system from $occupation-VS
 * qualification.code.coding[pharmacy] ^short = "Pharmacy licence"
+* description 0..0
+* partOf 0..0
+* endpoint 0..0
 

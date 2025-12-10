@@ -1,3 +1,5 @@
+Alias: $effective-period = http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod
+
 Profile: EESPDLocation
 Parent: EEBaseLocation
 Id: ee-spd-location
@@ -6,15 +8,22 @@ Description: "TEGEVUSKOHT (näiteks korpus, osakond, korrus, palat jne). Locatio
 //* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
-* language = #et
+* extension contains    
+    $effective-period named validityPeriod 0..*
+* extension[validityPeriod] ^short = "Period when location is actively operating. (ee TEGEVUSKOHA KEHTIVUSE AJAVAHEMIK)"
 * status 0..1 
 * address ^short = "AdrId is mandatory"
-//* address.id 1..1
+* identifier ^short = "Identifier for this location, used for PHARMACIES only. (ee TEGEVUSKOHA KOOD AINULT apteekide puhul)"
+* identifier.system ^binding.description = "Apteekide puhul on Ravimikäitlejate andmekogu"
+* identifier.use 0..0
+* identifier.type 0..0
+* identifier.period 0..0
+* identifier.assigner 0..0
 * managingOrganization only Reference(EESPDOrganization)
 * managingOrganization 1..1
 * partOf only Reference(EESPDLocation)
-* description ^short = "If location has no other characteristic"
-* description ^definition = "Kui asukohta pole võimalik muul viisil kirjeldada."
+//* description ^short = "If location has no other characteristic"
+//* description ^definition = "Kui asukohta pole võimalik muul viisil kirjeldada."
 * contact 0..*
 * contact.telecom ^slicing.discriminator.type = #value
 * contact.telecom ^slicing.discriminator.path = "system"

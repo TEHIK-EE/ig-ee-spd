@@ -6,5 +6,6 @@ Description: "Period during which healthcare provision licence is STOPPED."
 * ^context.expression = "Organization.qualification"
 * . ^short = "Period durinc which healthcare provision licence is STOPPED."
 * . ^definition = "Tegevusloa peatamise ajavahemik"
-* valuePeriod.start 0..1
-* valuePeriod.end 0..1
+* value[x] only Period
+//* valuePeriod.start 0..1
+//* valuePeriod.end 0..1
