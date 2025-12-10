@@ -12,7 +12,9 @@ Description: "Organization PERH with several licences. (ee Asutus Põhja-Eesti R
 * contact.telecom[phone].system = #phone
 * contact.telecom[phone].value = "+372 617 1300" 
 * type[organizationType] = #prov
+* type[organizationType].coding.system = "http://hl7.org/fhir/ValueSet/organization-type"
 * type[hospitalType].coding.display = "Taastusravi haigla"
+//* type[hospitalType].coding.system = "https://fhir.ee/ValueSet/medre-haigla-liik"
 * qualification[0].identifier.value = "L02565"
 * qualification[=].identifier.system = "https://fhir.ee/sid/org/est/fi"
 * qualification[=].code = $tegevusloa-liik#1 "Eriarstiabi teenus"
