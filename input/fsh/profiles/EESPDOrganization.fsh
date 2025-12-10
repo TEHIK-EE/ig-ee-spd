@@ -55,8 +55,9 @@ Description: "Asutus. Organization in SPD"
 * name ^definition = "Asutuse NIMETUS."
 * qualification ^short = "Licence(s) to provide healthcare service. (ee TEGEVUSLUBA)"
 * qualification ^definition = "TEGEVUSLUBA"
+* qualification.extension 0..*
 * qualification.extension contains 
-    $effective-period named licenceStopped 0..*
+    $effective-period named licenceStopped 0..1
 * qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED."
 * qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier.system 1..1

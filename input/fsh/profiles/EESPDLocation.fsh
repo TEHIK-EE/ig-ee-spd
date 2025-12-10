@@ -56,4 +56,3 @@ Description: "TEGEVUSKOHT (näiteks korpus, osakond, korrus, palat jne). Locatio
 * type 0..0
 * form 0..0
 * partOf 0..0
-* text 0..0
