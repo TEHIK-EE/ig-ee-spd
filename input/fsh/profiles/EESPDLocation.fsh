@@ -35,7 +35,7 @@ Description: "TEGEVUSKOHT (näiteks korpus, osakond, korrus, palat jne). Locatio
 * contact.telecom[phone].system = #phone
 * contact.telecom[phone] ^short = "Telefoni number"
 * contact.telecom[email].system = #email
-* contact.telecom[email].system 1..1 
+//* contact.telecom[email].system 1..1 
 * contact.telecom[email] ^short = "E-Mail"
 * contact.purpose 0..0
 * contact.name 0..0
