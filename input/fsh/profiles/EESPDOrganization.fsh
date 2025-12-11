@@ -20,7 +20,6 @@ Description: "Asutus. Organization in SPD"
 * alias 0..0
 
 * contact 0..*
-/*
 * contact.telecom.id 0..0
 * contact.telecom.extension 0..0
 * contact.telecom.rank 0..0
@@ -49,7 +48,6 @@ Description: "Asutus. Organization in SPD"
 * contact.organization 0..0
 * contact.period 0..0  
 * contact ^short = "Contact details of the organization. (ee Asutuse kontaktandmed, email, telefon. (aadress tuleb locationi alt iga tegevuskoha kohta eraldi))"
-*/
 * active ^short = "Status of organization. (ee STAATUS näitab, kas asutus on  Äriregistris aktiivne)"
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * type 1..*
@@ -67,7 +65,7 @@ Description: "Asutus. Organization in SPD"
 * type[organizationType].coding.system 1..1
 * type[organizationType].coding.userSelected 0..0
 * type[hospitalType] ^short = "As long as there is no VS, use text to describe the hospital type. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|)"
-* type[hospitalType].coding.system ^binding.description = "https://fhir.ee/ValueSet/medre-haigla-liik - this is FAKE"
+* type[hospitalType].coding.system from "https://fhir.ee/ValueSet/medre-haigla-liik"
 * type[hospitalType].coding.display ^short = "medre-haigla-liik VS does NOT excist, use text"
 * name ^short = "Name of the organization. (ee Asutuse NIMETUS)"
 * name ^definition = "Asutuse NIMETUS."
