@@ -18,6 +18,7 @@ Description: "Asutus. Organization in SPD"
 * identifier.extension 0..0
 * identifier.system ^binding.description = "Äriregistril https://fhir.ee/sid/org/est/br, KMKR puhul https://fhir.ee/sid/org/est/vatin"
 * alias 0..0
+/*
 * contact 0..*
 * contact.telecom.id 0..0
 * contact.telecom.extension 0..0
@@ -47,6 +48,7 @@ Description: "Asutus. Organization in SPD"
 * contact.organization 0..0
 * contact.period 0..0  
 * contact ^short = "Contact details of the organization. (ee Asutuse kontaktandmed, email, telefon. (aadress tuleb locationi alt iga tegevuskoha kohta eraldi))"
+*/
 * active ^short = "Status of organization. (ee STAATUS näitab, kas asutus on  Äriregistris aktiivne)"
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * type 1..*
