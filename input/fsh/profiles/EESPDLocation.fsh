@@ -8,8 +8,9 @@ Description: "TEGEVUSKOHT (näiteks korpus, osakond, korrus, palat jne). Locatio
 //* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
+* extension 0..*
 * extension contains    
-    $effective-period named validityPeriod 0..*
+    $effective-period named validityPeriod 0..1
 * extension[validityPeriod] ^short = "Period when location is actively operating. (ee TEGEVUSKOHA KEHTIVUSE AJAVAHEMIK)"
 * status 0..1 
 * address ^short = "AdrId is mandatory"
