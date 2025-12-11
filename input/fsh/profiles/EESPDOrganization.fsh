@@ -75,9 +75,10 @@ Description: "Asutus. Organization in SPD"
 * qualification.extension 0..*
 * qualification.extension.extension contains 
     $effective-period named licenceStopped 0..1
-* qualification.extension.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED."
-* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
+* qualification.extension.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED. (ee TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms)"
+//* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier.system 1..1
+* qualification.identifier.system from https://fhir.ee/sid/org/est/fi
 * qualification.identifier.value 1..1
 * qualification.identifier 1..1
 * qualification.identifier ^short = "Number of the licence"
