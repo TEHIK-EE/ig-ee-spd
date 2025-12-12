@@ -1,7 +1,7 @@
 CodeSystem: EEAdsAdrId
 Id: ads-adr-id
 Title: "ADS AdrId"
-Description: "Address identifiers in the Estonian Address."
+Description: "Address identifiers in the Estonian Address." 
 * ^experimental = true
 * ^caseSensitive = false
 * ^content = #fragment
@@ -12,7 +12,7 @@ Description: "Address identifiers in the Estonian Address."
 //* #3066282 "Tartu maakond, Tartu linn, Tartu linn, K. Veeberi tn 4"
 //* #3020415 "Tartu maakond, Tartu linn, Tähtvere küla"
 
-ValueSet: EEAdsAdrId
+ValueSet: EEAdsAdrId_VS
 Id: ads-adr-id
 Title: "ADS AdrId"
 Description: "Address identifiers in the Estonian Address."
@@ -33,7 +33,7 @@ Description: "Address objects in the Estonian Address System."
 //* #EE00752500 "Tartu maakond, Tartu linn, Tartu linn, K. Veeberi tn 4"
 //* #AY00008560 "Tartu maakond, Tartu linn, Tähtvere küla"
 
-ValueSet: EEAdsOid
+ValueSet: EEAdsOid_VS
 Id: ads-oid
 Title: "ADS Oid"
 Description: "Address objects in the Estonian Address System."

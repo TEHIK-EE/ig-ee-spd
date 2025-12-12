@@ -15,8 +15,8 @@ Description: "Location Narva Haigla jaoks"
   * type = #physical
   * country = "EE"
   * text = "Ida-Viru maakond, Narva linn, Kalda tn 9"
-  * extension[adsAdrId].valueCoding = https://fhir.ee/base/CodeSystem/ads-adr-id#2881142 //lisatud base
-  * extension[adsOid].valueCoding = https://fhir.ee/base/CodeSystem/ads-oid#ME01648705 // lisatud base
+  * extension[adsAdrId].valueCoding = https://fhir.ee/CodeSystem/ads-adr-id#2881142 //lisatud base
+  * extension[adsOid].valueCoding = https://fhir.ee/CodeSystem/ads-oid#ME01648705 // lisatud base
   * extension[official].valueBoolean = true
 //* address.extension[0].url = "https://fhir.ee/base/StructureDefinition/ee-ads-adr-id"
 //* address.extension[0].valueCoding.code = #2881142
