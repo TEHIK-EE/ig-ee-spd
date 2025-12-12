@@ -16,7 +16,7 @@ Description: "Asutus. Organization in SPD"
 * identifier.assigner 0..0
 * identifier.id 0..0
 * identifier.extension 0..0
-* identifier.system ^binding.description = "Äriregistril https://fhir.ee/sid/org/est/br, KMKR puhul https://fhir.ee/sid/org/est/vatin"
+//* identifier.system ^binding.description = "Äriregistril https://fhir.ee/sid/org/est/br, KMKR puhul https://fhir.ee/sid/org/est/vatin"
 * alias 0..0
 
 * contact 0..*
