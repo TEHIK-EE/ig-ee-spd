@@ -80,7 +80,7 @@ Description: "Asutus. Organization in SPD"
 //* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier ^short = "Healthcareprovider identifier system must be ... pharmacy has no identifier system"
 * qualification.identifier ^slicing.discriminator.type = #value
-* qualification.identifier ^slicing.discriminator.path = "value"
+* qualification.identifier ^slicing.discriminator.path = "system"
 * qualification.identifier ^slicing.rules = #open
 * qualification.identifier contains
     hcpIdentifier 0..1 and
@@ -91,6 +91,7 @@ Description: "Asutus. Organization in SPD"
 * qualification.identifier[pharmacyIdentifier] ^short = "Identifier of pharmacy licence"
 //* qualification.identifier[pharmacyIdentifier].system = "https://fhir.ee/sid/org/est/fi" (exactly)
 * qualification.identifier[pharmacyIdentifier].value only string
+* qualification.identifier[pharmacyIdentifier].system 0..0 //^binding.description = "something something"
 //* qualification.identifier.system 1..1
 //* qualification.identifier.system ^short = "(ee TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms)"
 //* qualification.identifier.system from https://fhir.ee/sid/org/est/fi

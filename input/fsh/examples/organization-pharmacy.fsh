@@ -16,9 +16,9 @@ Description: "Organization pharmacy. (Organisatsioon apteek, mis ei ole TTO)"
 * qualification.code.coding[pharmacy].system = $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
 * qualification.code.coding[pharmacy].display = "Üldapteek"
 * qualification.code.coding[pharmacy].code = #YLD
-* qualification.extension.url = "http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod"
-* qualification.extension[0].valuePeriod.start = "2025-12-01"
-* qualification.extension[=].valuePeriod.end = "2025-12-31"
+* qualification.extension[0].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-effective-period"
+* qualification.extension[=].valuePeriod.start = "2015-02-07T13:28:17-05:00"
+* qualification.extension[=].valuePeriod.end = "2017-02-07T13:28:17-05:00"
 //* qualification.extension.url = "http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod"
 * qualification.period.start = "2012-01-12" 
 * qualification.identifier[pharmacyIdentifier].value = "242"
