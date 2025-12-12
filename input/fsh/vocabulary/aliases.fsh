@@ -25,5 +25,6 @@ Alias: $occupation = https://fhir.ee/CodeSystem/ametite-klassifikaator
 Alias: $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus-VS = https://fhir.ee/ValueSet/ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
 Alias: $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus = https://fhir.ee/CodeSystem/ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
 
+Alias: $org-type = http://terminology.hl7.org/CodeSystem/organization-type
 //Alias: $adr-id = https://fhir.ee/base/CodeSystem/ads-adr-id
 //Alias: $ads-oid = https://fhir.ee/base/CodeSystem/ads-oid
