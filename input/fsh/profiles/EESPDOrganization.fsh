@@ -74,9 +74,9 @@ Description: "Asutus. Organization in SPD"
 * qualification.modifierExtension 0..0
 * qualification.id 0..0
 * qualification.extension 0..*
-* qualification.extension.extension contains 
+* qualification.extension contains 
     $effective-period named licenceStopped 0..1
-* qualification.extension.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED." 
+* qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED." 
 //* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier ^short = "Healthcareprovider identifier system must be ... pharmacy has no identifier system"
 * qualification.identifier ^slicing.discriminator.type = #value
