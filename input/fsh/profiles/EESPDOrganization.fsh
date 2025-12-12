@@ -76,14 +76,28 @@ Description: "Asutus. Organization in SPD"
 * qualification.extension 0..*
 * qualification.extension.extension contains 
     $effective-period named licenceStopped 0..1
-* qualification.extension.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED. (ee TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms)"
+* qualification.extension.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED." 
 //* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
-* qualification.identifier.system 1..1
-* qualification.identifier.system from https://fhir.ee/sid/org/est/fi
-* qualification.identifier.value 1..1
-* qualification.identifier 1..1
-* qualification.identifier ^short = "Number of the licence"
-* qualification.identifier ^definition = "TEGEVUSLOA NUMBER"
+* qualification.identifier ^short = "Healthcareprovider identifier system must be ... pharmacy has no identifier system"
+* qualification.identifier ^slicing.discriminator.type = #value
+* qualification.identifier ^slicing.discriminator.path = "value"
+* qualification.identifier ^slicing.rules = #open
+* qualification.identifier contains
+    hcpIdentifier 0..1 and
+    pharmacyIdentifier 0..*
+* qualification.identifier[hcpIdentifier] ^short = "Identifier of hcp licence"
+* qualification.identifier[hcpIdentifier].system = "https://fhir.ee/sid/org/est/fi" (exactly)
+* qualification.identifier[hcpIdentifier].value only string
+* qualification.identifier[pharmacyIdentifier] ^short = "Identifier of pharmacy licence"
+//* qualification.identifier[pharmacyIdentifier].system = "https://fhir.ee/sid/org/est/fi" (exactly)
+* qualification.identifier[pharmacyIdentifier].value only string
+//* qualification.identifier.system 1..1
+//* qualification.identifier.system ^short = "(ee TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms)"
+//* qualification.identifier.system from https://fhir.ee/sid/org/est/fi
+//* qualification.identifier.value 1..1
+//* qualification.identifier 1..1
+* qualification.identifier ^short = "Number of the licence. (ee TEGEVUSLOA NUMBER)"
+//* qualification.identifier ^definition = "TEGEVUSLOA NUMBER"
 * qualification.identifier.id 0..0
 * qualification.identifier.extension 0..0
 * qualification.identifier.use 0..0
