@@ -26,5 +26,6 @@ Alias: $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus-VS = https://fhir.
 Alias: $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus = https://fhir.ee/CodeSystem/ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
 
 Alias: $org-type = http://terminology.hl7.org/CodeSystem/organization-type
+Alias: $haigla-liik = https://fhir.ee/ValueSet/medre-haigla-liik 
 //Alias: $adr-id = https://fhir.ee/base/CodeSystem/ads-adr-id
 //Alias: $ads-oid = https://fhir.ee/base/CodeSystem/ads-oid
