@@ -7,6 +7,8 @@ Description: "Period during which healthcare provision licence is STOPPED."
 * ^context[=].expression = "Organization.qualification"
 * ^context[+].type = #element
 * ^context[=].expression = "Location"
+* ^context[+].type = #element
+* ^context[=].expression = "HealthcareService"
 //* ^context.expression = "Organization.qualification and Location"
 * . ^short = "Period durinc which healthcare provision licence is VALID or STOPPED."
 * . ^definition = "Tegevusloa peatamise ajavahemik"

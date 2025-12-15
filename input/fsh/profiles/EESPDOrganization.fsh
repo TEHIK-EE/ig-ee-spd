@@ -1,5 +1,3 @@
-Alias: $effective-period = http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod
-
 Profile: EESPDOrganization
 Parent: EEBaseOrganization
 Id: ee-spd-organization
@@ -56,7 +54,7 @@ Description: "Asutus. Organization in SPD"
 * type.coding.version 0..0
 * type ^short = "Type of organization. Use slice hospital when expressing hospital type. (ee Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga. Haigla liik läheb hospital alla.)"
 * type ^slicing.discriminator.type = #value
-* type ^slicing.discriminator.path = "$this" //"coding.system" //olicoding.system
+* type ^slicing.discriminator.path = "coding.system" //olicoding.system
 * type ^slicing.rules = #open
 * type contains
     organizationType 1..1 and
@@ -75,7 +73,8 @@ Description: "Asutus. Organization in SPD"
 * qualification.id 0..0
 * qualification.extension 0..*
 * qualification.extension contains 
-    $effective-period named licenceStopped 0..1
+     ExtensionEETISEffectivePeriod named licenceStopped 0..1
+//* qualification.extension[licenceStopped].url = "https://fhir.ee/StructureDefinition/ee-tis-effective-period"
 * qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED." 
 //* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier ^short = "Healthcareprovider identifier system must be ... pharmacy has no identifier system"

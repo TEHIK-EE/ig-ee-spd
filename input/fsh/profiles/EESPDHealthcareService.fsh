@@ -1,5 +1,3 @@
-Alias: $effective-period = http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod
-
 Profile: EESPDHealthcareService
 Parent: EEBaseHealthcareService
 Id: ee-spd-healthcare-service
@@ -9,7 +7,8 @@ Description: "Teenus"
 * ^status = #draft
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
 * extension contains
-    $effective-period named validityTime 0..*
+    ExtensionEETISEffectivePeriod named validityTime 0..1
+//* extension[validityTime].url = "https://fhir.ee/StructureDefinition/ee-tis-effective-period"   
 * type ^short = "Teenuse kood. Näiteks T0003 hambaraviteenused."
 * type from $service-type-test-vs
 * type.coding.system from $service-type-test-vs
