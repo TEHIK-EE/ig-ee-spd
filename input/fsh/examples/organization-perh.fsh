@@ -14,8 +14,9 @@ Description: "Organization PERH with several licences. (ee Asutus Põhja-Eesti R
 * type[organizationType].coding.code = #prov
 * type[organizationType].coding.system = "http://terminology.hl7.org/CodeSystem/organization-type"
 * type[hospitalType].coding.display = "Taastusravi haigla"
+* type[hospitalType].coding.system = "https://fhir.ee/ValueSet/medre-haigla-liik"
 //* type[hospitalType].coding.system = "https://fhir.ee/ValueSet/medre-haigla-liik"
-* qualification.extension[0].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-effective-period"
+* qualification.extension[0].url = "http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod"
 * qualification.extension[=].valuePeriod.start = "2015-02-07T13:28:17-05:00"
 * qualification.extension[=].valuePeriod.end = "2017-02-07T13:28:17-05:00"
 * qualification[0].identifier.value = "L02565"
