@@ -9,6 +9,7 @@ Description: "Practitioner N99876"
 * identifier[=].value = "49001010015"
 * identifier[+].system = "https://fhir.ee/sid/pro/est/pho"
 * identifier[=].value = "N99876"
+* identifier[=].period.start = "2012-01-12"
 /* qualification[speciality].code.coding[0].system = "https://fhir.ee/ValueSet/erialad" 
 * qualification[speciality].code.coding[0].code = #N100
 * qualification[speciality].code.coding[0].display = "Intensiivõendus"
@@ -24,9 +25,12 @@ Description: "Practitioner N99876"
 * qualification[0].code.coding.system = $erialad
 * qualification[0].code.coding.code = #N100
 * qualification[0].code.coding.display = "Intensiivõendus"
+* qualification[0].period.start = "2017-01-12"
 * qualification[1].code.coding.system = $erialad
 * qualification[1].code.coding.code = #N300
 * qualification[1].code.coding.display = "Terviseõendus"
+* qualification[1].period.start = "2015-01-12"
 * qualification[+].code.coding.system = $tervishoiutootaja-kutse-VS
 * qualification[=].code.coding.code = #E50000
 * qualification[=].code.coding.display = "õde"
+* qualification[=].period.start = "2012-01-12"

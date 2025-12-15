@@ -9,9 +9,21 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * ^date = "2025-05-14T11:51:42.3642317+00:00"
 * name only HumanName
 * name 1..1
+* name.id 0..0
+* name.extension 0..0
+* name.use 0..0
+* name.text 0..0
+* name.prefix 0..0
+* name.suffix 0..0
+* name.period 0..0
 * name ^short = "First name and given name of healthcare professional"
 * name ^definition = "Tervishoiutöötaja ees- ja perekonnanimi"
 * identifier 1..*
+* identifier.id 0..0
+* identifier.extension 0..0
+* identifier.use 0..0
+* identifier.type 0..0
+* identifier.assigner 0..0
 * identifier ^short = "Identifier of practitioner can be Estonian personal identification code or health care specialist code provided by Terviseamet, consisting of one letter and 5 numbers"
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
@@ -32,6 +44,17 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * gender 0..0
 //* gender ^short = "Gender of practitioner"
 //* gender ^definition = "Tervishoiutöötaja sugu"
+* qualification.id 0..0
+* qualification.modifierExtension 0..0
+* qualification.identifier 0..0
+* qualification.code.id 0..0
+* qualification.code.extension 0..0
+* qualification.code.coding.id 0..0
+* qualification.code.coding.extension 0..0
+* qualification.code.coding.version 0..0
+* qualification.code.coding.userSelected 0..0
+* qualification.code.text 0..0
+* qualification.issuer 0..0
 * qualification.code ^binding.description = "Siia siis vastav loend." //from $erialad-VS (example)
 * qualification ^slicing.discriminator.type = #value
 * qualification ^slicing.discriminator.path = "code.coding.system"
@@ -68,3 +91,11 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * deceased[x] 0..0
 * photo 0..0
 * communication 0..0
+* contained 0..0
+* extension 0..0
+* modifierExtension 0..0
+* telecom.system 1..1
+* telecom.value 1..1
+* telecom.use 1..1
+* telecom.period 0..0
+* address 0..0
