@@ -13,6 +13,7 @@ Description: "Organization pharmacy. (Organisatsioon apteek, mis ei ole TTO)"
 * contact.telecom[phone].value = "+372 444555" 
 * type[0].coding.code = #bus
 * type[=].coding.system = $org-type 
+* type[=].coding.display = "Non-Healthcare Business or Corporation"
 * qualification.code.coding[pharmacy].system = $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
 * qualification.code.coding[pharmacy].display = "Üldapteek"
 * qualification.code.coding[pharmacy].code = #YLD
