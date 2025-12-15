@@ -17,3 +17,4 @@ Description: "Teenus"
 * providedBy only Reference(EESPDOrganization)
 * location ^short = "Viide tegevuskohale"
 * location only Reference(EESPDLocation)
+* text 0..0 //katsetan
