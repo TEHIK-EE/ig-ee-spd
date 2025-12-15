@@ -1,7 +1,7 @@
 Profile: EESPDPractitionerLimited
 Parent: EEBasePractitioner
 Id: ee-spd-practitioner-limited 
-Title: "EE SPD PractitionerMinimal"
+Title: "EE SPD PractitionerLimited"
 Description: "Tervishoiutöötaja ilma identifikaatorita või ainult THT koodiga. Healthcare professional with no identificator or only THT code, no personal identification code."
 //* ^version = "1.0.0"
 * ^status = #draft

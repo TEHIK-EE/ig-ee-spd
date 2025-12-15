@@ -11,10 +11,10 @@ Description: "Organization PERH with several licences. (ee Asutus Põhja-Eesti R
 * contact.telecom[email].value = "info@regionaalhaigla.ee"
 * contact.telecom[phone].system = #phone
 * contact.telecom[phone].value = "+372 617 1300" 
-* type[0].coding = $org-type#prov
-//* type[organizationType].coding.system = "http://terminology.hl7.org/CodeSystem/organization-type"
-* type[+].coding.display = "Taastusravi haigla"
-* type[=].coding.system = $haigla-liik //"https://fhir.ee/ValueSet/medre-haigla-liik"
+* type[organizationType].coding.system = $org-type
+* type[organizationType].coding.code = #prov //"http://terminology.hl7.org/CodeSystem/organization-type"
+* type[hospitalType].coding.display = "Taastusravi haigla"
+* type[hospitalType].coding.system = $haigla-liik //"https://fhir.ee/ValueSet/medre-haigla-liik"
 //* type[hospitalType].coding.system = "https://fhir.ee/ValueSet/medre-haigla-liik"
 * qualification[0].extension[0].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-effective-period"
 * qualification[=].extension[=].valuePeriod.start = "2015-02-07T13:28:17-05:00"
