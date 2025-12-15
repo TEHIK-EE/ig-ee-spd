@@ -1,6 +1,6 @@
-Profile: EESPDPractitionerMinimal
+Profile: EESPDPractitionerLimited
 Parent: EEBasePractitioner
-Id: ee-spd-practitioner-minimal 
+Id: ee-spd-practitioner-limited 
 Title: "EE SPD PractitionerMinimal"
 Description: "Tervishoiutöötaja ilma identifikaatorita või ainult THT koodiga. Healthcare professional with no identificator or only THT code, no personal identification code."
 //* ^version = "1.0.0"
@@ -10,8 +10,21 @@ Description: "Tervishoiutöötaja ilma identifikaatorita või ainult THT koodiga
 * name 1..1
 * name ^short = "First name and given name of healthcare professional"
 * name ^definition = "Tervishoiutöötaja ees- ja perekonnanimi"
+* name.id 0..0
+* name.extension 0..0
+* name.use 0..0
+* name.text 0..0
+* name.prefix 0..0
+* name.suffix 0..0
+* name.period 0..0
 * identifier ^short = "Identifier of practitioner is health care specialist code provided by Terviseamet, consisting of one letter and 5 numbers"
 * identifier.system = "https://fhir.ee/sid/pro/est/pho" (exactly) 
+* identifier.id 0..0
+* identifier.extension 0..0
+* identifier.use 0..0
+* identifier.type 0..0
+* identifier.assigner 0..0
+
 /** identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains
@@ -28,6 +41,17 @@ Description: "Tervishoiutöötaja ilma identifikaatorita või ainult THT koodiga
 * identifier[specialistIdentifier].period ^short = "Validity period (if applicable) of the specialist code"
 * identifier[specialistIdentifier].period ^definition = "Tervishoiutöötajatel Terviseameti registri registreerimistõendi kehtivus."*/
 * gender 0..0
+* qualification.id 0..0
+* qualification.modifierExtension 0..0
+* qualification.identifier 0..0
+* qualification.code.id 0..0
+* qualification.code.extension 0..0
+* qualification.code.coding.id 0..0
+* qualification.code.coding.extension 0..0
+* qualification.code.coding.version 0..0
+* qualification.code.coding.userSelected 0..0
+* qualification.code.text 0..0
+* qualification.issuer 0..0
 * qualification.code ^binding.description = "Siia siis vastav loend." //from $erialad-VS (example)
 * qualification ^slicing.discriminator.type = #value
 * qualification ^slicing.discriminator.path = "code.coding.system"
@@ -36,12 +60,20 @@ Description: "Tervishoiutöötaja ilma identifikaatorita või ainult THT koodiga
     speciality 0..* and
     proffession 0..*
 * qualification[speciality].extension ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[speciality].code from $erialad-VS
+* qualification[speciality].code.coding.system from $erialad-VS
 * qualification[speciality] ^short = "ERIALA. Erialade loendist."
-* qualification[proffession].code from $tervishoiutootaja-kutse-VS
+* qualification[proffession].code.coding.system from $tervishoiutootaja-kutse-VS
 * qualification[proffession] ^short = "KUTSE."
 * qualification[proffession] ^definition = "KUTSE. MEDRE loendi koopia TermX-s. "
 * birthDate 0..0
 * deceased[x] 0..0
 * photo 0..0
 * communication 0..0
+* contained 0..0
+* extension 0..0
+* modifierExtension 0..0
+* telecom.system 1..1
+* telecom.value 1..1
+* telecom.use 1..1
+* telecom.period 0..0
+* address 0..0

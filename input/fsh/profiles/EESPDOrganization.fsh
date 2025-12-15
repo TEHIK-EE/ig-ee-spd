@@ -59,11 +59,11 @@ Description: "Asutus. Organization in SPD"
 * type contains
     organizationType 1..1 and
     hospitalType 0..1
-//* type[organizationType].coding.system from http://hl7.org/fhir/ValueSet/organization-type 
+* type[organizationType].coding.system from http://hl7.org/fhir/ValueSet/organization-type 
 * type[organizationType].coding.system 1..1
 * type[organizationType].coding.userSelected 0..0
 * type[hospitalType] ^short = "As long as there is no VS, use text to describe the hospital type. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|)"
-//* type[hospitalType].coding.system from https://fhir.ee/ValueSet/medre-haigla-liik
+* type[hospitalType].coding.system from https://fhir.ee/ValueSet/medre-haigla-liik
 * type[hospitalType].coding.display ^short = "medre-haigla-liik VS does NOT excist, use text"
 * name ^short = "Name of the organization. (ee Asutuse NIMETUS)"
 * name ^definition = "Asutuse NIMETUS."
