@@ -59,10 +59,10 @@ Description: "Asutus. Organization in SPD"
 * type contains
     organizationType 1..1 and
     hospitalType 0..1
-* type[organizationType] from http://hl7.org/fhir/ValueSet/organization-type //.coding.system 
+* type[organizationType] from https://fhir.ee/ValueSet/organisatsiooni-tyyp //http://hl7.org/fhir/ValueSet/organization-type //.coding.system 
 //* type[organizationType].coding.system 1..1
 * type[organizationType].coding.userSelected 0..0
-* type[hospitalType] ^short = "As long as there is no VS, use text to describe the hospital type. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|)"
+* type[hospitalType] ^short = "As long as there is no VS, use text to describe the hospital type. FAKE codesystem is for slicing purposes. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|)"
 * type[hospitalType] from https://fhir.ee/ValueSet/medre-haigla-liik //.coding.system 
 //* type[hospitalType].coding.display ^short = "medre-haigla-liik VS does NOT excist, use text"
 * name ^short = "Name of the organization. (ee Asutuse NIMETUS)"
@@ -84,10 +84,10 @@ Description: "Asutus. Organization in SPD"
 * qualification.identifier contains
     hcpIdentifier 0..1 and
     pharmacyIdentifier 0..*
-* qualification.identifier[hcpIdentifier] ^short = "Identifier of hcp licence"
+* qualification.identifier[hcpIdentifier] ^short = "Identifier of hcp licence. (ee TERVISEAMETI LITSENTSI NUMBER)"
 * qualification.identifier[hcpIdentifier].system = "https://fhir.ee/sid/org/est/fi" (exactly)
 * qualification.identifier[hcpIdentifier].value only string
-* qualification.identifier[pharmacyIdentifier] ^short = "Identifier of pharmacy licence"
+* qualification.identifier[pharmacyIdentifier] ^short = "Identifier of pharmacy licence. (ee Apteegi tegevusluba on KOLMEKOHALINE NUMBER mis erineb tegevuskoha koodist.)"
 //* qualification.identifier[pharmacyIdentifier].system = "https://fhir.ee/sid/org/est/fi" (exactly)
 * qualification.identifier[pharmacyIdentifier].value only string
 * qualification.identifier[pharmacyIdentifier].system 0..0 //^binding.description = "something something"
