@@ -11,9 +11,9 @@ Description: "Organization pharmacy. (Organisatsioon apteek, mis ei ole TTO)"
 * contact.telecom[email].value = "testandmed@ravimiamet.ee"
 * contact.telecom[phone].system = #phone
 * contact.telecom[phone].value = "+372 444555" 
-* type[0].coding.code = #bus
-* type[=].coding.system = $org-type 
-* type[=].coding.display = "Non-Healthcare Business or Corporation"
+* type[0] = $org-type#bus "Non-Healthcare Business or Corporation"
+//* type[=].coding.system = $org-type 
+//* type[=].coding.display = "Non-Healthcare Business or Corporation"
 * qualification.code.coding[pharmacy].system = $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus
 * qualification.code.coding[pharmacy].display = "Üldapteek"
 * qualification.code.coding[pharmacy].code = #YLD

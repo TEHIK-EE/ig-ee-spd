@@ -11,8 +11,8 @@ Description: "Organization PERH with several licences. (ee Asutus Põhja-Eesti R
 * contact.telecom[email].value = "info@regionaalhaigla.ee"
 * contact.telecom[phone].system = #phone
 * contact.telecom[phone].value = "+372 617 1300" 
-* type[0].coding.system = $org-type
-* type[=].coding.code = #prov //"http://terminology.hl7.org/CodeSystem/organization-type"
+* type[0] = $org-type#prov "Healthcare Provider"
+//* type[=].coding.code = #prov //"http://terminology.hl7.org/CodeSystem/organization-type"
 * type[+].coding.display = "Taastusravi haigla"
 * type[=].coding.system = $haigla-liik //"https://fhir.ee/ValueSet/medre-haigla-liik"
 //* type[hospitalType].coding.system = "https://fhir.ee/ValueSet/medre-haigla-liik"
