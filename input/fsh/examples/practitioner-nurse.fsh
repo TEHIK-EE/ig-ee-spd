@@ -31,6 +31,8 @@ Description: "Practitioner N99876"
 * qualification[1].code.coding.display = "Terviseõendus"
 * qualification[1].period.start = "2015-01-12"
 * qualification[+].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[=].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
+* qualification[=].extension[THTcode].valueString = "N99876"
 * qualification[=].code.coding.code = #E50000
 * qualification[=].code.coding.display = "õde"
 * qualification[=].period.start = "2012-01-12"
