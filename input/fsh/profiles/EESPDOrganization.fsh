@@ -59,7 +59,7 @@ Description: "Asutus. Organization in SPD"
 * type contains
     organizationType 1..1 and
     hospitalType 0..1
-* type[organizationType] from https://fhir.ee/ValueSet/organisatsiooni-tyyp //http://hl7.org/fhir/ValueSet/organization-type //.coding.system 
+* type[organizationType] from http://hl7.org/fhir/ValueSet/organization-type //https://fhir.ee/ValueSet/organisatsiooni-tyyp // //.coding.system 
 //* type[organizationType].coding.system 1..1
 * type[organizationType].coding.userSelected 0..0
 * type[hospitalType] ^short = "As long as there is no VS, use text to describe the hospital type. FAKE codesystem is for slicing purposes. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|)"
