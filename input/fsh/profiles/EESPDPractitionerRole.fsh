@@ -39,7 +39,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * specialty ^short = "use local codesystem and codes eg. E140 etc. Use ONLY the code (in case of several) that is relevant in this role. NB! Eriala tuleb ka Practitioner profiiliga kaasa!"
 * specialty ^definition = "ERIALADE loend terminoloogiaserverist. Siin kasutada AINULT seda eriala, mis on oluline konkreetses rollis!"
 * specialty from $erialad-VS
-* contact 0..1
+* contact.address.extension 1..1
 * contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use EESPDPractitioner."
 * contact ^definition = "Töötaja kontaktandmed selles konkreetses asutuses ja rollis; kontakttelefoni number, e-posti aadress ja/või faksinumber"
 * healthcareService 0..0
