@@ -4,10 +4,14 @@ Usage: #example
 Description: "PractitionerRole D99876"
 * language = #et
 * active = true
+* identifier.value = "D99876"
+* identifier.system = $practitioner-identifier-domain-VS
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-doctor)
 * organization = Reference(Organization/organization-perh123)
-* code.coding[role] = $rollid#doctor "Arst"
+* contact.telecom.system = #phone
+* contact.telecom.value = "+372 444555" 
+* code.coding[tor] = $occupation#22120901 "Kardioloog"
 //* code.coding[role].code = #doctor
 //* code.coding[role].display = "Arst"
 //* code.coding.value = "doctor"

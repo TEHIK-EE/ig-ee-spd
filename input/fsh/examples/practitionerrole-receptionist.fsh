@@ -1,4 +1,4 @@
-/*Instance: practitionerrole-receptionist
+Instance: practitionerrole-receptionist
 InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole for receptionist"
@@ -7,9 +7,9 @@ Description: "PractitionerRole for receptionist"
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-other)
 * organization = Reference(Organization/organization-perh123)
-* code.coding.system = $rollid
-* code.coding.code = #receptionist
-* code.coding.display = "Registraator/klienditeenindaja"
+* code.coding[tor].system = $occupation
+* code.coding[tor].code = #42260001
+* code.coding[tor].display = "Administraator"
 //* code.coding.value = "doctor"
 //* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
 //* specialty[eriala].coding.code = #E170
@@ -17,4 +17,4 @@ Description: "PractitionerRole for receptionist"
 * location = Reference(Location/location-y-korpus)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone
-*/
+
