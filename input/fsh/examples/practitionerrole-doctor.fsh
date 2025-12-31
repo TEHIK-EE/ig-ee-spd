@@ -5,7 +5,7 @@ Description: "PractitionerRole D99876"
 * language = #et
 * active = true
 * identifier.value = "D99876"
-* identifier.system = $practitioner-identifier-domain-VS
+* identifier.system = $identifier-domain //practitioner-identifier-domain-VS
 * period.start = "2008-01-01"
 * practitioner = Reference(Practitioner/practitioner-doctor)
 * organization = Reference(Organization/organization-perh123)
