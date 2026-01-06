@@ -61,32 +61,32 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * qualification ^slicing.rules = #open
 //* qualification from $erialad
 * qualification contains
-    speciality 0..* and
-    proffession 0..*
+    specialty 0..* and
+    profession 0..*
 * qualification.extension contains 
     ExtensionEETISTHTCode named THTcode 0..1
 * qualification.extension[THTcode] ^short = "Use this extension to represent exact THT code related to this specialty."
 //* qualification[degree].extension contains
 //    ExtensionEETISTHTCode named THTcode 0..1
-* qualification[speciality] ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[speciality].code.coding.system from $erialad-VS
-* qualification[speciality] ^short = "ERIALA. Erialade loendist."
+* qualification[specialty] ^short = "Use this extension to represent exact THT code related to this specialty."
+* qualification[specialty].code.coding.system from $erialad-VS
+* qualification[specialty] ^short = "ERIALA. Erialade loendist."
 //* qualification[degree].code.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0360"
 //* qualification[degree].code ^short = "Qualification, education, license"
 //* qualification[degree].code ^definition = "KUTSE. VAJAB oma loendit?!? Hetkel tehtud IG jaoks test-termX-is kutse loend."
 //* qualification[degree].code from https://fhir.ee/ValueSet/tervishoiutootaja-kutse
 //* qualification[degree].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
-//* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
-//* qualification[speciality].code.coding ^binding.description = "https://fhir.ee/CodeSystem/erialad"
-//* qualification[speciality].code.coding.system = $erialad-VS
-//* qualification[speciality].code.coding.system = "https://fhir.ee/CodeSystem/erialad" (exactly)
-//* qualification[speciality] ^short = "ERIALA. Qualification, education, license"
-//* qualification[speciality] ^definition = "ERIALA. Erialade loendist. LOEND OLEMAS."
+//* qualification[specialty].code.coding.system = "https://fhir.ee/CodeSystem/erialad"
+//* qualification[specialty].code.coding ^binding.description = "https://fhir.ee/CodeSystem/erialad"
+//* qualification[specialty].code.coding.system = $erialad-VS
+//* qualification[specialty].code.coding.system = "https://fhir.ee/CodeSystem/erialad" (exactly)
+//* qualification[specialty] ^short = "ERIALA. Qualification, education, license"
+//* qualification[specialty] ^definition = "ERIALA. Erialade loendist. LOEND OLEMAS."
 //* qualification[kutse].code.coding.system ^binding.description = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse"
 //* qualification[kutse].code.coding.system = "https://fhir.ee/CodeSystem/tervishoiutootaja-kutse" (exactly)
-* qualification[proffession].code.coding.system from $tervishoiutootaja-kutse-VS
-* qualification[proffession] ^short = "KUTSE."
-* qualification[proffession] ^definition = "KUTSE. MEDRE loendi koopia TermX-s. "
+* qualification[profession].code.coding.system from $tervishoiutootaja-kutse-VS
+* qualification[profession] ^short = "KUTSE."
+* qualification[profession] ^definition = "KUTSE. MEDRE loendi koopia TermX-s. "
 * birthDate 0..0
 * deceased[x] 0..0
 * photo 0..0

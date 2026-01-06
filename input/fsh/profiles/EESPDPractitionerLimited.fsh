@@ -57,14 +57,14 @@ Description: "Tervishoiutöötaja ilma identifikaatorita või ainult THT koodiga
 * qualification ^slicing.discriminator.path = "code.coding.system"
 * qualification ^slicing.rules = #open
 * qualification contains
-    speciality 0..* and
-    proffession 0..*
-* qualification[speciality].extension ^short = "Use this extension to represent exact THT code related to this specialty."
-* qualification[speciality].code.coding.system from $erialad-VS
-* qualification[speciality] ^short = "ERIALA. Erialade loendist."
-* qualification[proffession].code.coding.system from $tervishoiutootaja-kutse-VS
-* qualification[proffession] ^short = "KUTSE."
-* qualification[proffession] ^definition = "KUTSE. MEDRE loendi koopia TermX-s. "
+    specialty 0..* and
+    profession 0..*
+* qualification[specialty].extension ^short = "Use this extension to represent exact THT code related to this specialty."
+* qualification[specialty].code.coding.system from $erialad-VS
+* qualification[specialty] ^short = "ERIALA. Erialade loendist."
+* qualification[profession].code.coding.system from $tervishoiutootaja-kutse-VS
+* qualification[profession] ^short = "KUTSE."
+* qualification[profession] ^definition = "KUTSE. MEDRE loendi koopia TermX-s. "
 * birthDate 0..0
 * deceased[x] 0..0
 * photo 0..0

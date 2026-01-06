@@ -9,9 +9,9 @@ Description: "Healthcare specialist, speech therapist "
 * identifier[=].value = "49001010001"
 * identifier[+].system = "https://fhir.ee/sid/pro/est/pho"
 * identifier[=].value = "T12345"
-* qualification[speciality].code.coding[0].system = "https://fhir.ee/ValueSet/erialad" 
-* qualification[speciality].code.coding[0].code = #S180
-* qualification[speciality].code.coding[0].display = "logopeed"
+* qualification[specialty].code.coding[0].system = "https://fhir.ee/ValueSet/erialad" 
+* qualification[specialty].code.coding[0].code = #S180
+* qualification[specialty].code.coding[0].display = "logopeed"
 * qualification[kutse].code.coding[0].system = $tervishoiutootaja-kutse-VS
 * qualification[kutse].code.coding[=].code = #31
 * qualification[kutse].code.coding[=].display = "logopeed"
