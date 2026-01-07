@@ -4,6 +4,9 @@ Usage: #example
 Description: "Location for Mustamäe keskuses apteek"
 * meta.profile = "https://fhir.ee/StructureDefinition/ee-spd-location"
 * status = #active
+* extension[0].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-effective-period"
+* extension[=].valuePeriod.start = "2020-07-01"
+* extension[=].valuePeriod.end = "2100-01-01"
 * name = "Mustamäe keskuse apteek"
 * identifier.value = "242"
 * identifier.system = "https://fhir.ee/ra-kaitlejate-andmekogu"

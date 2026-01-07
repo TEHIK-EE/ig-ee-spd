@@ -4,7 +4,7 @@ Usage: #example
 Description: "Location Narva Haigla jaoks"
 * meta.profile = "https://fhir.ee/StructureDefinition/ee-spd-location"
 * status = #active
-* name = "Narva Haigla"
+//* name = "Narva Haigla"
 * managingOrganization = Reference(Organization/organization-perh123)
 * address[0]
   //* use = #work

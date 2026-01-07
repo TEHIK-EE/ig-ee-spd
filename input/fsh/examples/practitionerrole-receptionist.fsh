@@ -14,7 +14,7 @@ Description: "PractitionerRole for receptionist"
 //* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
 //* specialty[eriala].coding.code = #E170
 //* specialty[eriala].coding.display = "Kardioloogia"
-* location = Reference(Location/location-y-korpus)
+* location = Reference(Location/location-narva-haigla)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone
 

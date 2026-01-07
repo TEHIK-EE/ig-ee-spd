@@ -18,6 +18,6 @@ Description: "PractitionerRole D99876"
 * specialty = $erialad#E170 "Kardioloogia" // "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
 //* specialty.coding.code = #E170
 //* specialty.coding.display = "Kardioloogia"
-* location = Reference(Location/location-y-korpus)
+* location = Reference(Location/location-narva-haigla)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone

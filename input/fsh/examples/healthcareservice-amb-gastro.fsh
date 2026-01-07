@@ -11,6 +11,6 @@ Description: "Example of healthcare service (ee Tervishoiuteenuse näidis)"
 * type.coding.system = $service-type-test
 * type.coding.display = "ambulatoorsed gastroenteroloogiateenused"
 * providedBy = Reference(Organization/organization-perh123)
-* location = Reference(Location/location-y-korpus)
+* location = Reference(Location/location-narva-haigla)
 
 

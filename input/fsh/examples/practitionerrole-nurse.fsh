@@ -16,6 +16,6 @@ Description: "PractitionerRole N99876"
 * code.coding[tor].code = #22210502
 * code.coding[tor].display = "Õde"
 //* code.coding.value = "doctor"
-//* location = Reference(Location/location-taastusravi)
+//* location = Reference(Location/location-narva-haigla)
 * contact.telecom.value = "5555555"
 * contact.telecom.system = #phone
