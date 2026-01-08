@@ -10,6 +10,9 @@ Description: "PractitionerRole for receptionist"
 * code.coding[tor].system = $occupation
 * code.coding[tor].code = #42260001
 * code.coding[tor].display = "Administraator"
+* code.coding[role].system = $admin-rollid
+* code.coding[role].code = #receptionist
+* code.coding[role].display = "Registraator/klienditeenindaja"
 //* code.coding.value = "doctor"
 //* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
 //* specialty[eriala].coding.code = #E170

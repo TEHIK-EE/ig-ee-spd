@@ -23,6 +23,8 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * period ^short = "Start and end date of working in this role. (ee TÖÖTAMISE AEG)"
 * period.start 1..1
 * period.end 0..1
+* period.id 0..0
+* period.extension 0..0
 * practitioner 1..1
 * practitioner only Reference(EESPDPractitioner)
 * organization 1..1
@@ -41,7 +43,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 //* code.coding.system = "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid"
 //* code.coding.system ^short = "Healthcare professional role e.g. doctor | nurse | consent-representative | specialist | student | receptionist etc. NB! code all on ka TÖR jaotus EEBase järgi kui vaja lisada."
 //* code.coding.system ^definition = "Tervishoiutöötaja rolli väärtus loendist. Näitab, mis õigused konkreetsel rollil on (nt muutmis/vaatamis õigus jne)"
-* code.coding[role].system = "https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid"
+* code.coding[role].system from $rollid-VS
 //* code.coding[role].system from $rollid-VS
 * code.coding[role] ^short = "Practitioner role as defined in autoriseerimismooduli kasutajarollid"
 * code.coding[tor].system = "https://fhir.ee/CodeSystem/ametite-klassifikaator"
@@ -66,12 +68,20 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * specialty.coding.display 1..1
 * specialty.coding.userSelected 0..0
 * specialty.text 0..0
+* specialty.id 0..0
+* specialty.extension 0..0
+* specialty.coding.id 0..0
+* specialty.coding.extension 0..0
 * contact.address only EEBaseAddress
 * contact.address.extension[adsAdrId] 1..1
 * contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use EESPDPractitioner."
 * contact ^definition = "Töötaja kontaktandmed selles konkreetses asutuses ja rollis; kontakttelefoni number, e-posti aadress ja/või faksinumber"
 * contact.purpose 0..0
 * contact.name 0..0
+* contact.id 0..0
+* contact.extension 0..0
+* contact.telecom.id 0..0
+* contact.telecom.extension 0..0
 * contact.telecom 1..*
 * contact.telecom.system 1..1
 * contact.telecom.value 1..1

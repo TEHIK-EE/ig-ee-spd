@@ -15,6 +15,7 @@ Description: "PractitionerRole N99876"
 * code.coding[tor].system = $occupation
 * code.coding[tor].code = #22210502
 * code.coding[tor].display = "Õde"
+* specialty = $erialad#N300 "terviseõendus"
 //* code.coding.value = "doctor"
 //* location = Reference(Location/location-narva-haigla)
 * contact.telecom.value = "5555555"

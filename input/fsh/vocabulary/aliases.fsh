@@ -9,6 +9,7 @@ Alias: $tervishoiutootaja-kutse-VS = https://fhir.ee/ValueSet/medre-tervishoiuto
 
 Alias: $rollid = https://fhir.ee/CodeSystem/autoriseerimismooduli-kasutajarollid
 Alias: $rollid-VS = https://fhir.ee/ValueSet/autoriseerimismooduli-kasutajarollid
+Alias: $admin-rollid = https://fhir.ee/ValueSet/autorseerimismooduli-administratiivsed-kasutajarollid
 
 Alias: $tegevusloa-liik-vs = https://fhir.ee/ValueSet/medre-tegevusloa-liik
 Alias: $tegevusloa-liik = https://fhir.ee/CodeSystem/medre-tegevusloa-liik
