@@ -16,7 +16,9 @@ Description: "Asutus. Organization in SPD"
 * identifier.extension 0..0
 //* identifier.system ^binding.description = "Äriregistril https://fhir.ee/sid/org/est/br, KMKR puhul https://fhir.ee/sid/org/est/vatin"
 * alias 0..0
-
+* contained 0..0
+* extension 0..0
+* modifierExtension 0..0
 * contact 0..*
 * contact.telecom.id 0..0
 * contact.telecom.extension 0..0
@@ -45,11 +47,16 @@ Description: "Asutus. Organization in SPD"
 * contact.address 0..0
 * contact.organization 0..0
 * contact.period 0..0  
+* contact.id 0..0
+* contact.extension 0..0
 * contact ^short = "Contact details of the organization. (ee Asutuse kontaktandmed, email, telefon. (aadress tuleb locationi alt iga tegevuskoha kohta eraldi))"
 * active ^short = "Status of organization. (ee STAATUS näitab, kas asutus on  Äriregistris aktiivne)"
 * active ^definition = "STAATUS, kas organisatsioon on aktiivne või mitte"
 * type 1..*
 * type.id 0..0
+* type.coding.id 0..0
+* type.coding.extension 0..0
+* type.coding.userSelected 0..0
 * type.extension 0..0
 * type.coding.version 0..0
 * type ^short = "Type of organization. Use slice hospital when expressing hospital type. (ee Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga. Haigla liik läheb hospital alla.)"
@@ -62,8 +69,14 @@ Description: "Asutus. Organization in SPD"
 * type[organizationType] from http://hl7.org/fhir/ValueSet/organization-type //https://fhir.ee/ValueSet/organisatsiooni-tyyp // //.coding.system 
 //* type[organizationType].coding.system 1..1
 * type[organizationType].coding.userSelected 0..0
+* type[organizationType].coding.system 1..1
+* type[organizationType].coding.code 1..1
+* type[organizationType].coding.display 1..1
+* type[organizationType].text 0..0
 * type[hospitalType] ^short = "As long as there is no VS, use text to describe the hospital type. FAKE codesystem is for slicing purposes. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla|)"
 * type[hospitalType] from https://fhir.ee/ValueSet/medre-haigla-liik //.coding.system 
+* type[hospitalType].coding 0..0
+* type[hospitalType].text 1..1
 //* type[hospitalType].coding.display ^short = "medre-haigla-liik VS does NOT excist, use text"
 * name ^short = "Name of the organization. (ee Asutuse NIMETUS)"
 * name ^definition = "Asutuse NIMETUS."
@@ -71,6 +84,13 @@ Description: "Asutus. Organization in SPD"
 * qualification ^definition = "TEGEVUSLUBA"
 * qualification.modifierExtension 0..0
 * qualification.id 0..0
+* qualification.code.id 0..0
+* qualification.code.extension 0..0
+* qualification.code.text 0..0
+* qualification.code.coding.id 0..0
+* qualification.code.coding.extension 0..0
+* qualification.code.coding.userSelected 0..0
+* qualification.code.coding.version 0..0
 * qualification.extension 0..*
 * qualification.extension contains 
      ExtensionEETISEffectivePeriod named licenceStopped 0..1
