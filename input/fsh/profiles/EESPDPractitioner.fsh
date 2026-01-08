@@ -97,5 +97,8 @@ Kiirabibrigaadi liikmed.) Healthcare professional as Practitioner in SPD"
 * telecom.system 1..1
 * telecom.value 1..1
 * telecom.use 1..1
+* telecom.use = #work
 * telecom.period 0..0
+* telecom.id 0..0
+* telecom.extension 0..0
 * address 0..0
