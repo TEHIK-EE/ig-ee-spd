@@ -13,7 +13,7 @@ Description: "TEGEVUSKOHT (näiteks korpus, osakond, korrus, palat jne). Locatio
 * extension[validityPeriod] ^short = "Period when location is actively operating. (ee TEGEVUSKOHA KEHTIVUSE AJAVAHEMIK)"
 * status 0..1 
 * address ^short = "AdrId is mandatory"
-* identifier ^short = "Identifier for this location, used for PHARMACIES only. (ee TEGEVUSKOHA KOOD AINULT apteekide puhul)"
+* identifier ^short = "Identifier for this location, used for PHARMACIES only. Use https://fhir.ee/sid/org/est/locpharm as identifier system (ee TEGEVUSKOHA KOOD AINULT apteekide puhul)"
 //* identifier.system ^binding.description = "Apteekide puhul on Ravimikäitlejate andmekogu"
 * identifier.use 0..0
 * identifier.type 0..0

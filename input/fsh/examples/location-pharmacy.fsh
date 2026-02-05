@@ -9,7 +9,7 @@ Description: "Location for Mustamäe keskuses apteek"
 * extension[=].valuePeriod.end = "2100-01-01"
 * name = "Mustamäe keskuse apteek"
 * identifier.value = "242"
-* identifier.system = "https://fhir.ee/ra-kaitlejate-andmekogu"
+* identifier.system = "https://fhir.ee/sid/org/est/locpharm"
 * managingOrganization = Reference(Organization/organization-pharmacy)
 * address[0]
   * use = #work

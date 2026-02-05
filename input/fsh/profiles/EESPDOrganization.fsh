@@ -108,11 +108,11 @@ Description: "Asutus. Organization in SPD"
 * qualification.identifier[hcpIdentifier].system = "https://fhir.ee/sid/org/est/fi" (exactly)
 * qualification.identifier[hcpIdentifier].value only string
 * qualification.identifier[pharmacyIdentifier] ^short = "Identifier of pharmacy licence. (ee Apteegi tegevusluba on KOLMEKOHALINE NUMBER mis erineb tegevuskoha koodist.)"
-//* qualification.identifier[pharmacyIdentifier].system = "https://fhir.ee/sid/org/est/fi" (exactly)
+* qualification.identifier[pharmacyIdentifier].system = "https://fhir.ee/sid/org/est/pharm" (exactly)
 * qualification.identifier[pharmacyIdentifier].value only string
 * qualification.identifier[pharmacyIdentifier].system 0..0 //^binding.description = "something something"
 //* qualification.identifier.system 1..1
-//* qualification.identifier.system ^short = "(ee TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms)"
+//* qualification.identifier.system ^short = "(ee TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/sid/org/est/pharm)"
 //* qualification.identifier.system from https://fhir.ee/sid/org/est/fi
 //* qualification.identifier.value 1..1
 //* qualification.identifier 1..1
