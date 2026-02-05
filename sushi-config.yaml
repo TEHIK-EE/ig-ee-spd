@@ -106,7 +106,8 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Guidance: 
+  Guidance:
+    FHIR API Kirjeldus: fhir-api.html
     Operations: operations.html
     Documentation: documentation.html
     Controls: controls.html
