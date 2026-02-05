@@ -42,7 +42,7 @@ HTTP/1.1 200 OK
 
 #### Päring identifikaatori alusel
 
-> Identifier on kujul url|kood, aga püstkriips peab olema URL kodeeritud, seega %7C.
+Identifier on kujul url\|kood, aga püstkriips peab olema URL kodeeritud, seega %7C.
 
 **URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C[practitionerIdCode]&organization=Organization/[organizationCode]`
 
@@ -77,7 +77,7 @@ HTTP/1.1 200 OK
 
 #### Päring arsti koodi alusel
 
-> Identifier on kujul url|kood, aga püstkriips peab olema URL kodeeritud, seega %7C.
+Identifier on kujul url\|kood, aga püstkriips peab olema URL kodeeritud, seega %7C.
 
 **URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pro/est/pho%7CPRACTITIONER_REG_CODE`
 
