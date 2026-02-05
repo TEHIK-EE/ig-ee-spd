@@ -79,9 +79,9 @@ HTTP/1.1 200 OK
 
 Identifier on kujul url\|kood, aga püstkriips peab olema URL kodeeritud, seega %7C.
 
-**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pro/est/pho%7CPRACTITIONER_REG_CODE`
+**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pro/est/pho%7C[practitionerCode]`
 
-- PRACTITIONER_REG_CODE: arsti TAM kood, nt. D00001
+- practitionerCode: arsti TAM kood, nt. D00001
 
 #### Vastus
 
