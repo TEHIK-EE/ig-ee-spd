@@ -51,6 +51,8 @@ pages:
     title: Home
   guidance.md:
     title: Guidance
+  fhir-api.md:
+    title: FHIR API kirjeldus
   operations.md:
     title: Operations  
   knownissues.md:
