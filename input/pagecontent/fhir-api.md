@@ -3,9 +3,6 @@
 Käesolevas juhendis kirjeldatakse HCERT teenuse poolt toetatud FHIR otspunktid ja operatsioonid.
 Toodud näidispäringud ja näidisvastused ei kajasta reaalseid andmeid aga vastavad oodatud/toetatud ressursi struktuurile.
 
-> API kasutamise juhised ja näidis Postman kollektsioon on leitav [siit](dev.html).
-
-
 ### PractitionerRole ehk töötaja rolli pärimine
 
 Süsteem võtab vastu töötaja rolli päringu ja tagastab isiku ja töösuhte andmed koos kontaktandmetega.
@@ -13,7 +10,7 @@ Kui isiku andmed puuduvad SPD-s, siis tehakse taustas päringud MEDRE-sse ja TÖ
 
 #### Päring id alusel
 
-**URL**: `GET [base]/fhir/PractitionerRole/{{PRACTITIONER_ID_CODE}}-{{ORGANIZATION_REG_CODE}}`
+**URL**: `GET [base]/fhir/PractitionerRole/PRACTITIONER_ID_CODE-ORGANIZATION_REG_CODE`
 
 - PRACTITIONER_ID_CODE: arsti isikukood
 - ORGANIZATION_REG_CODE: arsti asutuse kood
@@ -45,7 +42,9 @@ HTTP/1.1 200 OK
 
 #### Päring identifikaatori alusel
 
-**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C{{PRACTITIONER_ID_CODE}}&organization=Organization/{{ORGANIZATION_REG_CODE}}`
+> Identifier on kujul url|kood, aga püstkriips peab olema URL kodeeritud, seega %7C.
+
+**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7CPRACTITIONER_ID_CODE&organization=Organization/ORGANIZATION_REG_CODE`
 
 - PRACTITIONER_ID_CODE: arsti isikukood
 - ORGANIZATION_REG_CODE: arsti asutuse kood
@@ -78,7 +77,9 @@ HTTP/1.1 200 OK
 
 #### Päring arsti koodi alusel
 
-**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pro/est/pho%7C{{PRACTITIONER_REG_CODE}}`
+> Identifier on kujul url|kood, aga püstkriips peab olema URL kodeeritud, seega %7C.
+
+**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pro/est/pho%7CPRACTITIONER_REG_CODE`
 
 - PRACTITIONER_REG_CODE: arsti TAM kood, nt. D00001
 
@@ -114,7 +115,7 @@ HTTP/1.1 200 OK
 - ORGANIZATION_REG_CODE: arsti asutuse kood
 - VERSION: ressursi versioon
 
-**URL**: `GET [base]/fhir/PractitionerRole/{{PRACTITIONER_ID_CODE}}-{{ORGANIZATION_REG_CODE}}/_history/{{VERSION}}`
+**URL**: `GET [base]/fhir/PractitionerRole/PRACTITIONER_ID_CODE-ORGANIZATION_REG_CODE/_history/VERSION`
 
 #### Vastus
 
@@ -150,7 +151,7 @@ Kui isiku andmed puuduvad SPD-s, siis tehakse taustas päringud MEDRE-sse ja TÖ
 
 - PRACTITIONER_ID_CODE: arsti isikukood
 
-**URL**: `GET [base]/fhir/Practitioner/{{PRACTITIONER_ID_CODE}}`
+**URL**: `GET [base]/fhir/Practitioner/PRACTITIONER_ID_CODE`
 
 #### Ajaloo päring
 
@@ -159,7 +160,7 @@ On võimalik pärida varajasemat versiooni ressursist kasutades ajaloo päringut
 - PRACTITIONER_ID_CODE: arsti isikukood
 - VERSION: ressursi versioon
 
-**URL**: `GET [base]/fhir/Practitioner/{{PRACTITIONER_ID_CODE}}/_history/{{VERSION}}`
+**URL**: `GET [base]/fhir/Practitioner/PRACTITIONER_ID_CODE/_history/VERSION`
 
 #### Vastus
 
@@ -256,14 +257,14 @@ Kui asutuse andmed puuduvad SPD-s, siis tehakse taustas asutuse päring MEDRE-ss
 
 - ORGANIZATION_REG_CODE: asutuse kood
 
-**URL**: `GET [base]/fhir/Organization/{{ORGANIZATION_REG_CODE}}`
+**URL**: `GET [base]/fhir/Organization/ORGANIZATION_REG_CODE`
 
 #### Ajaloo päring
 
 - ORGANIZATION_REG_CODE: asutuse kood
 - VERSION: ressursi versioon
 
-**URL**: `GET [base]/fhir/Organization/{{ORGANIZATION_REG_CODE}}/_history/{{VERSION}}`
+**URL**: `GET [base]/fhir/Organization/ORGANIZATION_REG_CODE/_history/VERSION`
 
 #### Vastus
 
