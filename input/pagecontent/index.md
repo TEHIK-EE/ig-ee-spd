@@ -5,8 +5,6 @@
 >**Juhendit täiendatakse igapäevaselt. Kõik liidestumiseks vajalik materjal pole veel juhendisse lisatud, tegu on MUSTANDIGA!**
 >
 
-KAS ÜLDSE ON VÕIMALIK MIDAGI MUUTA?!?!?!?!?
-
 This implementation guide describes the service provider directory maintained by Health and Welfare Information Systems Centre. Main content is provided in English, more detailed specifications and names of local value sets and code systems may occasionally be available only in Estonian.
 
 Käesolev juhis kirjeldab SPD-d, mida haldab Tervise ja Heaolu Infosüsteemide Keskus. Juhis on kirjutatud eesti ja inglise keeles, kusjuures eestikeelne tekst on kohati põhjalikum ja detailsem, olles suunatud kohalikule arendajale.
