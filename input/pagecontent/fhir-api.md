@@ -108,6 +108,52 @@ HTTP/1.1 200 OK
 }
 ```
 
+#### $lookup filtering operation
+
+The operation allows querying practitioner roles using filters. Each filter can be used once.
+
+**URL**: `GET [base]/fhir/PractitionerRole/$lookup?identifier=[identifier]&organization=[organization]&role=[role]`
+
+- identifier: practitioner identifier (personal code or THT code) used as a filter.
+- organization: organization reference or code.
+- role: role code.
+
+#### Response
+
+- **HTTP status**: 200 OK
+- **Response type**: Bundle containing PractitionerRole resources.
+
+```
+HTTP/1.1 200 OK
+
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "fullUrl": "https://fhir.ee/fhir/PractitionerRole/11111111111-70009770",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "11111111111-70009770",
+        "meta": {
+          "versionId": "1",
+          "profile": [
+            "https://fhir.ee/base/StructureDefinition/ee-practitioner-role"
+          ]
+        },
+        "practitioner": {
+          "reference": "Practitioner/11111111111"
+        },
+        "organization": {
+          "reference": "Organization/70009770"
+        }
+      }
+    }
+  ]
+}
+```
+
 
 #### Ajaloo päring
 
