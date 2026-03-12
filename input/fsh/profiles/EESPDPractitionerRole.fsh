@@ -76,6 +76,8 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * contact.address.extension[adsAdrId] 1..1
 * contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use EESPDPractitioner."
 * contact ^definition = "Töötaja kontaktandmed selles konkreetses asutuses ja rollis; kontakttelefoni number, e-posti aadress ja/või faksinumber"
+* contact.address.use = #work
+* contact.address.country = #EE
 * contact.purpose 0..0
 * contact.name 0..0
 * contact.id 0..0
