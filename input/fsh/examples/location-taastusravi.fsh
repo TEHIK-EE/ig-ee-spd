@@ -2,7 +2,7 @@
 InstanceOf: EESPDLocation
 Usage: #example
 Description: "Location taastusravihaigla jaoks"
-* meta.profile = "https://fhir.ee/StructureDefinition/ee-spd-location"
+* meta.profile = "https://fhir.ee/spd/StructureDefinition/ee-spd-location"
 * status = #active
 * name = "Taastusravi haigla"
 * managingOrganization = Reference(Organization/organization-perh123)
