@@ -93,9 +93,9 @@ Description: "Asutus. Organization in SPD"
 * qualification.code.coding.version 0..0
 * qualification.extension 0..*
 * qualification.extension contains 
-     ExtensionEETISEffectivePeriod named licenceStopped 0..1
+     ExtensionEETISEffectivePeriod named licenceStopped 0..*
 //* qualification.extension[licenceStopped].url = "https://fhir.ee/StructureDefinition/ee-tis-effective-period"
-* qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED." 
+* qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED. (ee Tegevusloa peatamise periood)" 
 //* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier ^short = "Healthcareprovider identifier system must be ... pharmacy has no identifier system"
 * qualification.identifier ^slicing.discriminator.type = #value
@@ -141,10 +141,10 @@ Description: "Asutus. Organization in SPD"
     pharmacy 0..*
 * qualification.code.coding[tto].system from $tegevusloa-liik-vs
 //* code.coding[role].system from $rollid-VS
-* qualification.code.coding[tto] ^short = "Tegevusloa liik on TTO"
+* qualification.code.coding[tto] ^short = "Tegevusloa liik (näiteks Eriarstiabi teenus, Iseseisva õendusabi osutamine jne)"
 * qualification.code.coding[pharmacy].system from $ravimiameti-apteegiteenuse-tegevusloa-liigi-tapsustus-VS
 //* code.coding[tor].system from $occupation-VS
-* qualification.code.coding[pharmacy] ^short = "Pharmacy licence"
+* qualification.code.coding[pharmacy] ^short = "Pharmacy licence. (Näiteks Haiglaapteek, Üldapteek või Veterinaarapteek)"
 * description 0..0
 * partOf 0..0
 * endpoint 0..0
