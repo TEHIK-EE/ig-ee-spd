@@ -1,7 +1,7 @@
 Instance: organization-perh123
 InstanceOf: EESPDOrganization
 Usage: #example
-Description: "Organization PERH with several licences. (ee Asutus Põhja-Eesti Regionaalhaigla tegvuslubadega)"
+Description: "Organization PERH with several licences and several licence suspensions. (ee Asutus Põhja-Eesti Regionaalhaigla tegvuslubadega ja mitme tegevusloa peatamisega.)"
 * language = #et
 * identifier.value = "90006399"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
