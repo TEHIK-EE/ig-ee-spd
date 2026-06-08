@@ -7,7 +7,7 @@ Description:  "(ee Asutus Põhja-Eesti Regionaalhaigla mitme tegevusloa peatamis
 * identifier.value = "90006399"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
-* name = "Sihtasutus Põhja-Eesti Regionaalhaigla"
+* name = "SA PERH 2"
 * contact.telecom[email].system = #email
 * contact.telecom[email].value = "info@regionaalhaigla.ee"
 * contact.telecom[phone].system = #phone
