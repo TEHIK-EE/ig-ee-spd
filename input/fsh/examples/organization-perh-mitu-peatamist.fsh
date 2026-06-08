@@ -1,7 +1,8 @@
 Instance: organization-perh-mitu-peatamist
 InstanceOf: EESPDOrganization
 Usage: #example
-Description: "Example of organization (PERH) with several licence suspensions. (ee Asutus Põhja-Eesti Regionaalhaigla tegvuslubadega ja mitme tegevusloa peatamisega.)"
+Title: "Example of organization (PERH) with several licence suspensions."
+Description:  "(ee Asutus Põhja-Eesti Regionaalhaigla mitme tegevusloa peatamisega.)"
 * language = #et
 * identifier.value = "90006399"
 * identifier.system = "https://fhir.ee/sid/org/est/br"
