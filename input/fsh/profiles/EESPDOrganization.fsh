@@ -60,8 +60,8 @@ Description: "Asutus. Organization in SPD"
 * type.extension 0..0
 * type.coding.version 0..0
 * type ^short = "Type of organization. Use slice hospital when expressing hospital type. (ee Asutuse tüüp. Nt.|prov| = TTO, |bus| = kui tegemist on mitte-TTOga. Haigla liik läheb hospital alla.)"
-* type ^slicing.discriminator.type = #value
-* type ^slicing.discriminator.path = "$this" //oli
+* type ^slicing.discriminator.type = #exists
+* type ^slicing.discriminator.path = "coding" //oli value this
 * type ^slicing.rules = #open
 * type contains
     organizationType 1..1 and
