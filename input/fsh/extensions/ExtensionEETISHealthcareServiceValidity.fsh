@@ -1,4 +1,4 @@
-Extension: ExtensionEETISHealthcareServiceValidity
+/*Extension: ExtensionEETISHealthcareServiceValidity
 Id: ee-tis-healthcareservice-validity
 Description: "Validity start and end date of a healthcare service code"
 * ^status = #draft
@@ -11,3 +11,4 @@ Description: "Validity start and end date of a healthcare service code"
 * value[x] ^definition = "Tervishoiuteenuse kehtivuse algus (ja lõpp)."
 * valuePeriod.start 1..1
 * valuePeriod.end 0..1
+*/

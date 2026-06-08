@@ -82,7 +82,7 @@ Description: "Asutus. Organization in SPD"
 * name ^definition = "Asutuse NIMETUS."
 * qualification ^short = "Licence(s) to provide healthcare service. (ee TEGEVUSLUBA)"
 * qualification ^definition = "TEGEVUSLUBA"
-* qualification.modifierExtension 0..0
+* qualification.modifierExtension 0..*
 * qualification.id 0..0
 * qualification.code.id 0..0
 * qualification.code.extension 0..0
@@ -92,10 +92,10 @@ Description: "Asutus. Organization in SPD"
 * qualification.code.coding.userSelected 0..0
 * qualification.code.coding.version 0..0
 * qualification.extension 0..*
-* qualification.extension contains 
-     ExtensionEETISEffectivePeriod named licenceStopped 0..*
+* qualification.modifierExtension contains 
+     ExtensionEETISSuspensionPeriod named licenceStopped 0..1
 //* qualification.extension[licenceStopped].url = "https://fhir.ee/StructureDefinition/ee-tis-effective-period"
-* qualification.extension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED. (ee Tegevusloa peatamise periood)" 
+* qualification.modifierExtension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED. (ee Tegevusloa peatamise periood. Kui on mitu peatamist, tuleb elementi qualification koos laiendusega korrata vastav arv kordi.)" 
 //* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier ^short = "Healthcareprovider identifier system must be ... pharmacy has no identifier system"
 * qualification.identifier ^slicing.discriminator.type = #value
