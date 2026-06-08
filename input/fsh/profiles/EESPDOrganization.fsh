@@ -74,7 +74,7 @@ Description: "Asutus. Organization in SPD"
 * type[organizationType].coding.display 1..1
 * type[organizationType].text 0..0
 * type[hospitalType] ^short = "As long as there is no VS, use TEXT to describe the hospital type. FAKE codesystem is for slicing purposes. (ee |Taastusravihaigla| Keskhaigla| Üldhaigla| Piirkondlik haigla| Erihaigla| Hooldushaigla| Kohalik haigla| NB! Siin EI OLE loendit, kasutada text-i.)"
-* type[hospitalType] from https://fhir.ee/ValueSet/medre-haigla-liik //.coding.system 
+//* type[hospitalType] from https://fhir.ee/ValueSet/medre-haigla-liik //.coding.system 
 * type[hospitalType].coding 0..0
 * type[hospitalType].text 1..1
 //* type[hospitalType].coding.display ^short = "medre-haigla-liik VS does NOT excist, use text"
