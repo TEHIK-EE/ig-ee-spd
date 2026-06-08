@@ -11,7 +11,7 @@ Description: "Organization PERH with several licences and several licence suspen
 * contact.telecom[email].value = "info@regionaalhaigla.ee"
 * contact.telecom[phone].system = #phone
 * contact.telecom[phone].value = "+372 617 1300" 
-* type[organizationType].coding.system = $org-type-CS 
+* type[organizationType].coding.system = $org-type
 * type[organizationType].coding.code = #prov
 * type[organizationType].coding.display = "TTO"
 //* type[=].coding.code = #prov //"http://terminology.hl7.org/CodeSystem/organization-type"
