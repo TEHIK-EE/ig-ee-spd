@@ -69,6 +69,7 @@ Description: "Asutus. Organization in SPD"
 * type[organizationType] from https://fhir.ee/ValueSet/organisatsiooni-tyyp // //.coding.system 
 //* type[organizationType].coding.system 1..1
 * type[organizationType].coding.userSelected 0..0
+* type[organizationType].coding 1..1
 * type[organizationType].coding.system 1..1
 * type[organizationType].coding.code 1..1
 * type[organizationType].coding.display 1..1
