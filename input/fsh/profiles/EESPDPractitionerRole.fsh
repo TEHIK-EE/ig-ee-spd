@@ -45,7 +45,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 //* code.coding.system ^definition = "Tervishoiutöötaja rolli väärtus loendist. Näitab, mis õigused konkreetsel rollil on (nt muutmis/vaatamis õigus jne)"
 * code.coding[role].system from $rollid-VS
 //* code.coding[role].system from $rollid-VS
-* code.coding[role] ^short = "Practitioner role as defined in autoriseerimismooduli kasutajarollid"
+* code.coding[role] ^short = "Practitioner role as defined in Autoriseerimismooduli-kasutajarollid"
 * code.coding[tor].system from $occupation-VS //"https://fhir.ee/ValueSet/ametite-klassifikaator"
 //* code.coding[tor].system from $occupation-VS
 * code.coding[tor] ^short = "Official occupation at the national register (ee Ametinimetus TÖRi andmete järgi)"
