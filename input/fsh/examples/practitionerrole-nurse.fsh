@@ -11,7 +11,7 @@ Description: "PractitionerRole N99876"
 * contact.telecom.value = "+372 444555" 
 //* identifier.system = "https://fhir.ee/sid/pro/est/pho"
 * identifier.value = "N99876"
-* identifier.system = $practitioner-identifier-domain-VS
+* identifier.system = "https://fhir.ee/sid/pro/est/pho" //$practitioner-identifier-domain-VS
 * code.coding[tor].system = $occupation
 * code.coding[tor].code = #22210502
 * code.coding[tor].display = "Õde"
