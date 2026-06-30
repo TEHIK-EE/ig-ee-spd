@@ -22,3 +22,9 @@ A code with no system has no defined meaning. A system should be provided
 
 # deprecated but no alternative is provided
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+
+# Estonian supplement pole veel produktsiooni tx-serveris (tx.fhir.org)
+Wrong Display Name 'TTO' for http://terminology.hl7.org/CodeSystem/organization-type#prov
+
+# Estonian supplement pole veel produktsiooni tx-serveris (tx.fhir.org)
+Wrong Display Name 'Muu asutus' for http://terminology.hl7.org/CodeSystem/organization-type#bus
