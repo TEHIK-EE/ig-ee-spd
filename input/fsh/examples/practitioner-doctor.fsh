@@ -17,7 +17,7 @@ Description: "Practitioner D99876"
 * qualification[=].code.coding.code = #E260 
 * qualification[=].code.coding.display = "ortopeedia"
 * qualification[=].period.start = "2001-12-01"
-* qualification[+].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[+].code.coding.system = $tervishoiutootaja-kutse
 * qualification[=].code.coding.code = #E600 
 * qualification[=].code.coding.display = "arst"
 * qualification[=].period.start = "1999-12-01"

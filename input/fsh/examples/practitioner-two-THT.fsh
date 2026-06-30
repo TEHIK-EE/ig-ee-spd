@@ -25,13 +25,13 @@ Description: "Practitioner with two THT codes"
 * qualification[specialty][=].period.start = "1999-08-09"
 * qualification[specialty][1].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
 * qualification[specialty][=].extension[THTcode].valueString = "N99876"
-* qualification[profession][0].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[profession][0].code.coding.system = $tervishoiutootaja-kutse
 * qualification[profession][=].code.coding.code = #15 
 * qualification[profession][=].code.coding.display = "õde"
 * qualification[profession][=].period.start = "1999-05-21"
 * qualification[profession][=].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
 * qualification[profession][=].extension[THTcode].valueString = "N99876"
-* qualification[profession][1].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[profession][1].code.coding.system = $tervishoiutootaja-kutse
 * qualification[profession][=].code.coding.code = #17 
 * qualification[profession][=].code.coding.display = "ämmaemand"
 * qualification[profession][=].period.start = "1992-05-21"

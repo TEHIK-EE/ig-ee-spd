@@ -22,12 +22,12 @@ Description: "Practitioner with two qualifications"
 * qualification[specialty][=].period.start = "1998-01-01"
 * qualification[specialty][=].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
 * qualification[specialty][=].extension[THTcode].valueString = "D99876"
-* qualification[profession][0].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[profession][0].code.coding.system = $tervishoiutootaja-kutse
 * qualification[profession][=].code.coding.code = #11 
 * qualification[profession][=].code.coding.display = "arst"
 * qualification[profession][=].period.start = "1998-01-01"
 * qualification[profession][=].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"
 * qualification[profession][=].extension[THTcode].valueString = "D99876"
-* qualification[profession][1].code.coding.system = $tervishoiutootaja-kutse-VS
+* qualification[profession][1].code.coding.system = $tervishoiutootaja-kutse
 * qualification[profession][=].code.coding.code = #33 
 * qualification[profession][=].code.coding.display = "füsioterapeut"
