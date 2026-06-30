@@ -94,9 +94,9 @@ Description: "Asutus. Organization in SPD"
 * qualification.code.coding.version 0..0
 * qualification.extension 0..*
 * qualification.modifierExtension contains 
-     ExtensionEETISSuspensionPeriod named licenceStopped 0..1
+     ExtensionEETISSuspensionPeriod named licenceStopped 0..*
 //* qualification.extension[licenceStopped].url = "https://fhir.ee/StructureDefinition/ee-tis-effective-period"
-* qualification.modifierExtension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED. (ee Tegevusloa peatamise periood. Kui on mitu peatamist, tuleb elementi qualification koos laiendusega korrata vastav arv kordi.)" 
+* qualification.modifierExtension[licenceStopped] ^short = "Period during which healthcare provision licence is STOPPED. (ee Tegevusloa peatamise periood. Ühe tegevusloa KÕIK peatamised lähevad kokku.)" 
 //* qualification.identifier.system ^binding.description = "TTO-del https://fhir.ee/sid/org/est/fi ja apteekidel https://fhir.ee/ra-kaitlejate-andmekogu vms "
 * qualification.identifier ^short = "Healthcareprovider identifier system must be ... pharmacy has no identifier system"
 * qualification.identifier ^slicing.discriminator.type = #value

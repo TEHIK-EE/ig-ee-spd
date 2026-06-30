@@ -7,7 +7,7 @@ Description: "KRA. Organization without licence. (ee Tegevusloata organisatsioon
 * identifier.system = "https://fhir.ee/sid/org/est/br"
 * active = true
 //* type[organizationType] = $org-type#bus "Muu asutus"
-* type[organizationType].coding.system = $org-type-CS 
+* type[organizationType].coding.system = $org-type
 * type[organizationType].coding.code = #bus
 * type[organizationType].coding.display = "Muu asutus"
 //* type[=].coding.system = $org-type 
