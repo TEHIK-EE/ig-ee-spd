@@ -12,7 +12,7 @@ Description: "Organization pharmacy. (Organisatsioon apteek, mis ei ole TTO)"
 * contact.telecom[phone].system = #phone
 * contact.telecom[phone].value = "+372 444555" 
 //* type[organizationType] = $org-type-muu# 
-* type[organizationType].coding.system = $org-type-CS 
+* type[organizationType].coding.system = $org-type-muu 
 * type[organizationType].coding.code = #pharm
 * type[organizationType].coding.display = "Üldapteek"
 //* type[=].coding.system = $org-type 
