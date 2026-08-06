@@ -12,6 +12,7 @@ Toodud näidispäringud ja näidisvastused ei kajasta reaalseid andmeid aga vast
 | Organization | ✓ | ✓ | ✓ | – | – |
 | Location | ✓ | ✓ | ✓ | – | – |
 | HealthcareService | ✓ | ✓ | ✓ | – | – |
+| OperationDefinition | – | – | ✓ | – | – |
 
 ---
 
@@ -827,6 +828,133 @@ HTTP/1.1 200 OK
                     "value": "info@regionaalhaigla.ee"
                 }
             ]
+        }
+    ]
+}
+```
+
+---
+
+### OperationDefinition ehk toetatud operatsioonide pärimine
+
+Tagastab loendi operatsioonidest, mida SPD FHIR API toetab (nt `PractitionerRole/$lookup`).
+Kasutatav liidese avastamiseks (API discovery) – klient saab kontrollida, milliseid operatsioone
+server toetab, ilma operatsiooni ennast käivitamata.
+
+#### Otsing
+
+**URL**: `GET [base]/fhir/OperationDefinition`
+
+Otsing ei nõua parameetreid – tagastatakse kõik SPD poolt toetatud operatsioonid.
+
+#### Vastus
+
+- **HTTP status**: 200 OK
+- **Vastuse tüüp**: Bundle (searchset), mis sisaldab OperationDefinition ressursse.
+
+```
+HTTP/1.1 200 OK
+
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://tis.dev.tehik.ee/fhir/OperationDefinition?_page=1"
+        },
+        {
+            "relation": "first",
+            "url": "https://tis.dev.tehik.ee/fhir/OperationDefinition?_page=1"
+        },
+        {
+            "relation": "last",
+            "url": "https://tis.dev.tehik.ee/fhir/OperationDefinition?_page=1"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "OperationDefinition/PractitionerRole-lookup",
+            "resource": {
+                "resourceType": "OperationDefinition",
+                "id": "PractitionerRole-lookup",
+                "url": "http://hl7.org/fhir/OperationDefinition/PractitionerRole-lookup",
+                "version": "1.0.0",
+                "name": "PractitionerRoleLookup",
+                "title": "PractitionerRole Lookup Operation",
+                "status": "active",
+                "kind": "operation",
+                "experimental": false,
+                "date": "2026-03-02T12:09:32+00:00",
+                "publisher": "TEHIK",
+                "contact": [
+                    {
+                        "name": "TEHIK",
+                        "telecom": [
+                            {
+                                "system": "url",
+                                "value": "https://tehik.ee"
+                            },
+                            {
+                                "system": "email",
+                                "value": "abi@tehik.ee"
+                            }
+                        ]
+                    }
+                ],
+                "description": "The lookup operation for PractitionerRole resources.",
+                "affectsState": false,
+                "code": "lookup",
+                "resource": [
+                    "PractitionerRole"
+                ],
+                "system": false,
+                "type": true,
+                "instance": false,
+                "parameter": [
+                    {
+                        "name": "identifier",
+                        "use": "in",
+                        "min": 1,
+                        "max": "1",
+                        "documentation": "The identifier of the practitioner as system|code.",
+                        "type": "string"
+                    },
+                    {
+                        "name": "organization",
+                        "use": "in",
+                        "min": 0,
+                        "max": "1",
+                        "documentation": "The organization resource reference. Either this or organization.identifier must be provided.",
+                        "type": "Reference"
+                    },
+                    {
+                        "name": "organization.identifier",
+                        "use": "in",
+                        "min": 0,
+                        "max": "1",
+                        "documentation": "The organization's business registry code as system|code (system must be https://fhir.ee/sid/org/est/br). Either this or organization must be provided.",
+                        "type": "string"
+                    },
+                    {
+                        "name": "role",
+                        "use": "in",
+                        "min": 1,
+                        "max": "1",
+                        "documentation": "Role name of practitioner, e.g. 'receptionist'.",
+                        "type": "string"
+                    },
+                    {
+                        "name": "return",
+                        "use": "out",
+                        "min": 1,
+                        "max": "1",
+                        "documentation": "The found or created PractitionerRole resource.",
+                        "type": "PractitionerRole"
+                    }
+                ]
+            }
         }
     ]
 }
