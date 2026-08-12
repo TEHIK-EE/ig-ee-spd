@@ -29,17 +29,11 @@ Description: "The lookup operation for PractitionerRole resources."
 * parameter[=].max = "1"
 * parameter[=].documentation = "The identifier of the practitioner as system|code."
 * parameter[=].type = #string
-* parameter[+].name = #organization
-* parameter[=].use = #in
-* parameter[=].min = 0
-* parameter[=].max = "1"
-* parameter[=].documentation = "The organization resource reference. Either this or organization.identifier must be provided."
-* parameter[=].type = #Reference
 * parameter[+].name = #organization.identifier
 * parameter[=].use = #in
-* parameter[=].min = 0
+* parameter[=].min = 1
 * parameter[=].max = "1"
-* parameter[=].documentation = "The organization's business registry code as system|code (system must be https://fhir.ee/sid/org/est/br). Either this or organization must be provided."
+* parameter[=].documentation = "The organization's business registry code as system|code (system must be https://fhir.ee/sid/org/est/br)."
 * parameter[=].type = #string
 * parameter[+].name = #role
 * parameter[=].use = #in

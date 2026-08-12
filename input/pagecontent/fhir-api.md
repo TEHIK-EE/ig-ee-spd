@@ -12,7 +12,7 @@ Toodud näidispäringud ja näidisvastused ei kajasta reaalseid andmeid aga vast
 | Organization | ✓ | ✓ | ✓ | – | – |
 | Location | ✓ | ✓ | ✓ | – | – |
 | HealthcareService | ✓ | ✓ | ✓ | – | – |
-| OperationDefinition | – | – | ✓ | – | – |
+| OperationDefinition | ✓ | – | ✓ | – | – |
 
 ---
 
