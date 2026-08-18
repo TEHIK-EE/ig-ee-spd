@@ -1,10 +1,10 @@
-Instance: PractitionerRole-lookup
+Instance: practitioner-role-lookup
 InstanceOf: EESPDOperationDefinition
 Usage: #example
 Description: "The lookup operation for PractitionerRole resources."
-* url = "http://hl7.org/fhir/OperationDefinition/PractitionerRole-lookup"
+* url = "https://fhir.ee/spd/OperationDefinition/practitioner-role-lookup"
 * version = "1.0.0"
-* name = "PractitionerRoleLookup"
+* name = "EESPDPractitionerRoleLookup"
 * title = "PractitionerRole Lookup Operation"
 * status = #active
 * kind = #operation

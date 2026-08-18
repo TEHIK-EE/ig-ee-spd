@@ -900,13 +900,13 @@ HTTP/1.1 200 OK
     ],
     "entry": [
         {
-            "fullUrl": "OperationDefinition/PractitionerRole-lookup",
+            "fullUrl": "OperationDefinition/practitioner-role-lookup",
             "resource": {
                 "resourceType": "OperationDefinition",
-                "id": "PractitionerRole-lookup",
-                "url": "http://hl7.org/fhir/OperationDefinition/PractitionerRole-lookup",
+                "id": "practitioner-role-lookup",
+                "url": "https://fhir.ee/spd/OperationDefinition/practitioner-role-lookup",
                 "version": "1.0.0",
-                "name": "PractitionerRoleLookup",
+                "name": "EESPDPractitionerRoleLookup",
                 "title": "PractitionerRole Lookup Operation",
                 "status": "active",
                 "kind": "operation",
@@ -947,19 +947,11 @@ HTTP/1.1 200 OK
                         "type": "string"
                     },
                     {
-                        "name": "organization",
-                        "use": "in",
-                        "min": 0,
-                        "max": "1",
-                        "documentation": "The organization resource reference. Either this or organization.identifier must be provided.",
-                        "type": "Reference"
-                    },
-                    {
                         "name": "organization.identifier",
                         "use": "in",
-                        "min": 0,
+                        "min": 1,
                         "max": "1",
-                        "documentation": "The organization's business registry code as system|code (system must be https://fhir.ee/sid/org/est/br). Either this or organization must be provided.",
+                        "documentation": "The organization's business registry code as system|code (system must be https://fhir.ee/sid/org/est/br).",
                         "type": "string"
                     },
                     {
