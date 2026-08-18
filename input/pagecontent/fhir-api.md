@@ -50,7 +50,12 @@ HTTP/1.1 200 OK
         "reference": "Practitioner/117"
     },
     "organization": {
-        "reference": "Organization/14977"
+        "reference": "Organization/14977",
+        "identifier": {
+          "system": "https://fhir.ee/sid/org/est/br",
+          "value": "10649954"
+        },
+        "display": "Osaühing Näidiskliinik"
     },
     "specialty": [
         {
@@ -163,7 +168,12 @@ HTTP/1.1 200 OK
           "reference": "Practitioner/117"
         },
         "organization": {
-          "reference": "Organization/13507"
+          "reference": "Organization/13507",
+          "identifier": {
+            "system": "https://fhir.ee/sid/org/est/br",
+            "value": "10649954"
+          },
+          "display": "Osaühing Näidiskliinik"
         },
         "specialty": [
           {
@@ -224,7 +234,12 @@ HTTP/1.1 200 OK
           "reference": "Practitioner/117"
         },
         "organization": {
-          "reference": "Organization/13507"
+          "reference": "Organization/13507",
+          "identifier": {
+            "system": "https://fhir.ee/sid/org/est/br",
+            "value": "10649954"
+          },
+          "display": "Osaühing Näidiskliinik"
         },
         "code": [
           {
@@ -295,7 +310,12 @@ HTTP/1.1 200 OK
         "reference": "Practitioner/12345"
     },
     "organization": {
-        "reference": "Organization/678"
+        "reference": "Organization/678",
+        "identifier": {
+          "system": "https://fhir.ee/sid/org/est/br",
+          "value": "10649954"
+        },
+        "display": "Osaühing Näidiskliinik"
     },
     "code": [
         {
@@ -360,7 +380,12 @@ HTTP/1.1 200 OK
         "reference": "Practitioner/117"
     },
     "organization": {
-        "reference": "Organization/14977"
+        "reference": "Organization/14977",
+        "identifier": {
+          "system": "https://fhir.ee/sid/org/est/br",
+          "value": "10649954"
+        },
+        "display": "Osaühing Näidiskliinik"
     },
     "specialty": [
         {
