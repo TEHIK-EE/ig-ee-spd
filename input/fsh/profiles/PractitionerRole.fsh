@@ -1,4 +1,4 @@
-Profile: EESPDPractitionerRole
+Profile: PractitionerRole
 Parent: EEBasePractitionerRole
 Id: ee-spd-practitioner-role
 Title: "EE SPD PractitionerRole"
@@ -26,12 +26,12 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * period.id 0..0
 * period.extension 0..0
 * practitioner 1..1
-* practitioner only Reference(EESPDPractitioner)
+* practitioner only Reference(Practitioner)
 * organization 1..1
 * organization ^short = "Organization where practitioner has this role. E.g PERH"
 * organization ^definition = "Organisatsioon, kus tervishoiutöötajal on konkreetne roll. Näiteks PERH. Siit tuleb tegevusluba."
-* organization only Reference(EESPDOrganization)
-* location only Reference(EESPDLocation)
+* organization only Reference(Organization)
+* location only Reference(Location)
 * location ^short = "Address and exact location where this practitioner in this role performs healthcare service. HCP may have several roles each with different location (and address)"
 * location ^definition = "Näitab millise asutuse tegevuskohaga see isik ja roll seotud on. Sest organisatsiooni aadress võib olla juriidiline aadress aga mitte täpne asukoha aadress. Location profiili kaudu saab aadressi ja seda aadressi haldava organisatsiooni kätte"
 * code.coding ^slicing.discriminator.type = #value
@@ -74,7 +74,7 @@ Description: "Tervishoiutöötaja roll. Practitioner role in SPD"
 * specialty.coding.extension 0..0
 * contact.address only EEBaseAddress
 * contact.address.extension[adsAdrId] 1..1
-* contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use EESPDPractitioner."
+* contact ^short = "HCP's contact details in this particular organization and role. NB! For personal contact details use Practitioner."
 * contact ^definition = "Töötaja kontaktandmed selles konkreetses asutuses ja rollis; kontakttelefoni number, e-posti aadress ja/või faksinumber"
 * contact.address.use = #work
 * contact.address.country = #EE

@@ -1,5 +1,5 @@
 Instance: practitioner-nurse
-InstanceOf: EESPDPractitioner
+InstanceOf: Practitioner
 Usage: #example
 Description: "Practitioner N99876"
 * language = #et

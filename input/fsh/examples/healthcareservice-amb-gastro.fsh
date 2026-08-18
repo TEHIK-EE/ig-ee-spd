@@ -1,5 +1,5 @@
 Instance: healthcareservice-amb-gastro
-InstanceOf: EESPDHealthcareService
+InstanceOf: HealthcareService
 Usage: #example
 Description: "Example of healthcare service (ee Tervishoiuteenuse näidis)"
 * language = #et

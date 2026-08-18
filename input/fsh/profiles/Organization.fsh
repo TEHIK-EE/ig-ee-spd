@@ -1,4 +1,4 @@
-Profile: EESPDOrganization
+Profile: Organization
 Parent: EEBaseOrganization
 Id: ee-spd-organization
 Title: "EE SPD Organization"

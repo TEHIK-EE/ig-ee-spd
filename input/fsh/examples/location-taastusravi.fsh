@@ -1,5 +1,5 @@
 /*Instance: location-taastusravi
-InstanceOf: EESPDLocation
+InstanceOf: Location
 Usage: #example
 Description: "Location taastusravihaigla jaoks"
 * meta.profile = "https://fhir.ee/spd/StructureDefinition/ee-spd-location"

@@ -1,5 +1,5 @@
 Instance: oganization-otherKRA
-InstanceOf: EESPDOrganization
+InstanceOf: Organization
 Usage: #example
 Description: "KRA. Organization without licence. (ee Tegevusloata organisatsioon. Ei ole TTO, aga samas on õigus edastada seal töötaval tervihsoiutöötajal TIS-i dokumente. Ei oma tegevusluba.)"
 * language = #et

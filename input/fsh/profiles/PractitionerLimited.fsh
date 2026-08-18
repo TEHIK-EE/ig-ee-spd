@@ -1,4 +1,4 @@
-Profile: EESPDPractitionerLimited
+Profile: PractitionerLimited
 Parent: EEBasePractitioner
 Id: ee-spd-practitioner-limited 
 Title: "EE SPD PractitionerLimited"

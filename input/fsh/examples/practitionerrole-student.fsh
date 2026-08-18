@@ -1,5 +1,5 @@
 /*Instance: practitionerrole-student
-InstanceOf: EESPDPractitionerRole
+InstanceOf: PractitionerRole
 Usage: #example
 Description: "PractitionerRole for student who hasn't got MEDRE D-code yet)"
 * language = #et

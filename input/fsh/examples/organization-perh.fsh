@@ -1,5 +1,5 @@
 Instance: organization-perh123
-InstanceOf: EESPDOrganization
+InstanceOf: Organization
 Usage: #example
 Description: "Organization PERH with several licences and several licence suspensions. (ee Asutus Põhja-Eesti Regionaalhaigla tegvuslubadega ja mitme tegevusloa peatamisega.)"
 * language = #et

@@ -1,5 +1,5 @@
 Instance: practitioner-limited
-InstanceOf: EESPDPractitionerLimited
+InstanceOf: PractitionerLimited
 Usage: #example
 Description: "Practitioner for whom is only the THT code provided, no national identification code."
 * language = #et

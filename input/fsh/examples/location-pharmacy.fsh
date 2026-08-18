@@ -1,5 +1,5 @@
 Instance: location-pharmacy
-InstanceOf: EESPDLocation
+InstanceOf: Location
 Usage: #example
 Description: "Location for Mustamäe keskuses apteek"
 * meta.profile = "https://fhir.ee/spd/StructureDefinition/ee-spd-location"

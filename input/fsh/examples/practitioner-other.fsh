@@ -1,5 +1,5 @@
 Instance: practitioner-other
-InstanceOf: EESPDPractitioner
+InstanceOf: Practitioner
 Usage: #example
 Description: "Practitioner who is NOT healthcare specialist but works in healthcare"
 * language = #et

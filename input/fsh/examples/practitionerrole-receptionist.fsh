@@ -1,5 +1,5 @@
 Instance: practitionerrole-receptionist
-InstanceOf: EESPDPractitionerRole
+InstanceOf: PractitionerRole
 Usage: #example
 Description: "PractitionerRole for receptionist"
 * language = #et
