@@ -1,4 +1,4 @@
-Profile: Location
+Profile: EESPDLocation
 Parent: EEBaseLocation
 Id: ee-spd-location
 Title: "EE SPD Location"
@@ -20,9 +20,9 @@ Description: "TEGEVUSKOHT (näiteks korpus, osakond, korrus, palat jne). Locatio
 * identifier.type 0..0
 * identifier.period 0..0
 * identifier.assigner 0..0
-* managingOrganization only Reference(Organization)
+* managingOrganization only Reference(EESPDOrganization)
 * managingOrganization 1..1
-* partOf only Reference(Location)
+* partOf only Reference(EESPDLocation)
 //* description ^short = "If location has no other characteristic"
 //* description ^definition = "Kui asukohta pole võimalik muul viisil kirjeldada."
 * contact 0..*

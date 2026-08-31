@@ -1,5 +1,5 @@
 /*Instance: practitioner-specialist
-InstanceOf: Practitioner
+InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Healthcare specialist, speech therapist "
 * language = #et

@@ -1,5 +1,5 @@
 Instance: organization-perh-mitu-peatamist
-InstanceOf: Organization
+InstanceOf: EESPDOrganization
 Usage: #example
 Title: "Example of organization (PERH) with several licence suspensions."
 Description:  "(ee Asutus Põhja-Eesti Regionaalhaigla mitme tegevusloa peatamisega.)"

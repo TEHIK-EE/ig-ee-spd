@@ -1,5 +1,5 @@
 Instance: practitioner-two-occupations
-InstanceOf: Practitioner
+InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner with two qualifications"
 * language = #et

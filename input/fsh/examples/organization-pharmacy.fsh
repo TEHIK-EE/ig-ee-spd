@@ -1,5 +1,5 @@
 Instance: organization-pharmacy
-InstanceOf: Organization
+InstanceOf: EESPDOrganization
 Usage: #example
 Description: "Organization pharmacy. (Organisatsioon apteek, mis ei ole TTO)"
 * language = #et

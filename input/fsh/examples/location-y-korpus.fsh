@@ -1,5 +1,5 @@
 /*Instance: location-y-korpus
-InstanceOf: Location
+InstanceOf: EESPDLocation
 Usage: #example
 Description: "Location Y-korpuse jaoks"
 * meta.profile = "https://fhir.ee/spd/StructureDefinition/ee-spd-location"

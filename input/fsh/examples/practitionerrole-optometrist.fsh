@@ -1,5 +1,5 @@
 /*Instance: practitionerrole-other-specialist-optometrist
-InstanceOf: PractitionerRole
+InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole for other specialist e.g optometrist"
 * language = #et

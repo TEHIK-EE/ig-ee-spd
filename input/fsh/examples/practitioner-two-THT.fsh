@@ -1,5 +1,5 @@
 Instance: practitioner-two-THT
-InstanceOf: Practitioner
+InstanceOf: EESPDPractitioner
 Usage: #example
 Description: "Practitioner with two THT codes"
 * language = #et

@@ -1,5 +1,5 @@
 Instance: practitionerrole-nurse
-InstanceOf: PractitionerRole
+InstanceOf: EESPDPractitionerRole
 Usage: #example
 Description: "PractitionerRole N99876"
 * language = #et

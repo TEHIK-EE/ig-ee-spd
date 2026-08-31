@@ -1,4 +1,4 @@
-Profile: HealthcareService
+Profile: EESPDHealthcareService
 Parent: EEBaseHealthcareService
 Id: ee-spd-healthcare-service
 Title: "EE SPD HealthcareService"
@@ -22,10 +22,10 @@ Description: "Teenus"
 * type.coding.version 0..0
 * type.coding.userSelected 0..0
 * category 0..0
-* providedBy ^short = "Teenuse osutamise tegevuskohad."
-* providedBy only Reference(Organization)
+* providedBy ^short = "Teenuse osutamise tegevuskohad. Viide EESPDOrganizationile?"
+* providedBy only Reference(EESPDOrganization)
 * location ^short = "Viide tegevuskohale"
-* location only Reference(Location)
+* location only Reference(EESPDLocation)
 * contained 0..0
 * modifierExtension 0..0 
 * identifier 0..0

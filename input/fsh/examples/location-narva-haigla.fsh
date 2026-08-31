@@ -1,5 +1,5 @@
 Instance: location-narva-haigla
-InstanceOf: Location
+InstanceOf: EESPDLocation
 Usage: #example
 Description: "Location Narva Haigla jaoks"
 * meta.profile = "https://fhir.ee/spd/StructureDefinition/ee-spd-location"
