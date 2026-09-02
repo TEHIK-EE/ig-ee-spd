@@ -22,7 +22,7 @@ Description: "Teenus"
 * type.coding.version 0..0
 * type.coding.userSelected 0..0
 * category 0..0
-* providedBy ^short = "Teenuse osutamise tegevuskohad. Viide EESPDOrganizationile?"
+* providedBy ^short = "Teenuse osutamise tegevuskohad."
 * providedBy only Reference(EESPDOrganization)
 * location ^short = "Viide tegevuskohale"
 * location only Reference(EESPDLocation)
