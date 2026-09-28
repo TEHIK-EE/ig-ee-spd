@@ -100,6 +100,8 @@ pages:
 #    - https://fhir.ee/CodeSystem
 #    - https://fhir.ee/ValueSet
 #   validation: [allow-any-extensions, no-broken-links]
+parameters:
+  display-warnings: true
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │

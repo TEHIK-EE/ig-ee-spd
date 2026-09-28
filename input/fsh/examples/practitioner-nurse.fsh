@@ -24,11 +24,11 @@ Description: "Practitioner N99876"
 * qualification.extension[THTcode].valueString = "N99876"
 * qualification[0].code.coding.system = $erialad
 * qualification[0].code.coding.code = #N100
-* qualification[0].code.coding.display = "Intensiivõendus"
+* qualification[0].code.coding.display = "intensiivõendus"
 * qualification[0].period.start = "2017-01-12"
 * qualification[1].code.coding.system = $erialad
 * qualification[1].code.coding.code = #N300
-* qualification[1].code.coding.display = "Terviseõendus"
+* qualification[1].code.coding.display = "terviseõendus"
 * qualification[1].period.start = "2015-01-12"
 * qualification[+].code.coding.system = $tervishoiutootaja-kutse
 * qualification[=].extension[THTcode].url = "https://fhir.ee/spd/StructureDefinition/ee-tis-tht-code"

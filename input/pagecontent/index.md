@@ -9,7 +9,7 @@ Käesolev juurutusjuhend kirjeldab teenuseosutajate registrit (Service Provider 
 SPD pakub FHIR-liidest tervishoiu asutuste (Organization), nende tegevuskohtade (Location) ja pakutavate
 teenuste (HealthcareService) ning tervishoiutöötajate ja nende töösuhete (Practitioner, PractitionerRole)
 andmete pärimiseks.
-
+p
 SPD hoiab enda andmebaasis koopiat mitmest riiklikust allikregistrist — Tervishoiuteenuste
 korraldamise infosüsteemi registrist (MEDRE), Tervishoiutöötajate registrist (TÖR), Ravimikäitlejate
 andmekogust ja Aadressiandmete süsteemist (ADS) — ning uuendab seda andmetarbija päringu käigus
