@@ -1,5 +1,3 @@
-## API kirjeldus
-
 Käesolevas juhendis kirjeldatakse SPD teenuse poolt toetatud FHIR otspunktid ja operatsioonid.
 Toodud näidispäringud ja näidisvastused ei kajasta reaalseid andmeid aga vastavad oodatud/toetatud ressursi struktuurile.
 
@@ -25,7 +23,7 @@ Kui isiku andmed puuduvad SPD-s, siis tehakse taustas päringud MEDRE-sse ja TÖ
 
 **URL**: `GET [base]/fhir/PractitionerRole/[id]`
 
-- id: ressursi SPD süsteemne numbriline id.
+- `id`: ressursi SPD süsteemne numbriline id.
 
 #### Vastus
 
@@ -107,7 +105,7 @@ otsinguparameetrid:
 - `identifier`: isiku identifikaator kujul `system|value`. Toetatud süsteemid:
     - `https://fhir.ee/sid/pid/est/ni` (isikukood)
     - `https://fhir.ee/sid/pro/est/pho` (arsti TAM kood, nt. D00001)
-- `organization`: asutuse viide kujul `Organization/[id]`, kus `[id]` on asutuse SPD süsteemne numbriline id.
+- `organization.identifier`: asutuse äriregistrikood kujul `system|value`, kus süsteem on `https://fhir.ee/sid/org/est/br`.
 - `specialty`: eriala/ameti kood kujul `system|code`. Toetatud süsteemid:
     - `https://fhir.ee/CodeSystem/erialad` (eriala)
     - `https://fhir.ee/CodeSystem/ametite-klassifikaator` (amet)
@@ -117,7 +115,7 @@ otsinguparameetrid:
 
 ##### Näide: päring isikukoodi alusel
 
-**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C[isikukood]&organization=Organization/[id]`
+**URL**: `GET [base]/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C[isikukood]&organization.identifier=https://fhir.ee/sid/org/est/br%7C[äriregistrikood]`
 
 ##### Näide: päring arsti TAM koodi alusel
 
@@ -138,15 +136,15 @@ HTTP/1.1 200 OK
   "link": [
     {
       "relation": "self",
-      "url": "https://fhir.ee/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C48801130337&organization=Organization/13507&_page=1"
+      "url": "https://fhir.ee/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C48801130337&organization.identifier=https://fhir.ee/sid/org/est/br%7C10649954&_page=1"
     },
     {
       "relation": "first",
-      "url": "https://fhir.ee/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C48801130337&organization=Organization/13507&_page=1"
+      "url": "https://fhir.ee/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C48801130337&organization.identifier=https://fhir.ee/sid/org/est/br%7C10649954&_page=1"
     },
     {
       "relation": "last",
-      "url": "https://fhir.ee/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C48801130337&organization=Organization/13507&_page=1"
+      "url": "https://fhir.ee/fhir/PractitionerRole?identifier=https://fhir.ee/sid/pid/est/ni%7C48801130337&organization.identifier=https://fhir.ee/sid/org/est/br%7C10649954&_page=1"
     }
   ],
   "entry": [
@@ -268,7 +266,7 @@ Operatsioon võtab sisendiks `Parameters` ressursi ja tagastab ühe Practitioner
 Sisendparameetrid (kõik on kohustuslikud):
 
 - `identifier`: isiku identifikaator (isikukood või TAM kood).
-- `organization`: asutuse viide kujul `Organization/[id]`.
+- `organization.identifier`: asutuse äriregistrikood kujul `system|value`, kus süsteem on `https://fhir.ee/sid/org/est/br`.
 - `role`: rolli kood. Peab kuuluma väärtuste hulka
   [`autoriseerimismooduli-kasutajarollid`](https://akk.tehik.ee/classifier/resources/code-systems/autoriseerimismooduli-kasutajarollid/summary).
 
@@ -280,7 +278,7 @@ Content-Type: application/fhir+json
   "resourceType": "Parameters",
   "parameter": [
     { "name": "identifier", "valueString": "11111111111" },
-    { "name": "organization", "valueString": "Organization/678" },
+    { "name": "organization.identifier", "valueString": "https://fhir.ee/sid/org/est/br|10649954" },
     { "name": "role", "valueString": "ADMIN" }
   ]
 }
@@ -354,8 +352,8 @@ HTTP/1.1 200 OK
 
 **URL**: `GET [base]/fhir/PractitionerRole/[id]/_history/[version]`
 
-- id: ressursi SPD süsteemne numbriline id
-- version: ressursi versioon
+- `id`: ressursi SPD süsteemne numbriline id
+- `version`: ressursi versioon
 
 #### Vastus
 
@@ -444,7 +442,7 @@ Olenevalt päringu õigustest võidakse tagastada kas täielik või piiratud pro
 
 **URL**: `GET [base]/fhir/Practitioner/[id]`
 
-- [id]: ressursi SPD süsteemne id. Isikukood ja TAM koodid on leitavad ressursi `identifier` väljalt.
+- `id`: ressursi SPD süsteemne id. Isikukood ja TAM koodid on leitavad ressursi `identifier` väljalt.
 
 #### Otsing
 
@@ -459,8 +457,8 @@ Olenevalt päringu õigustest võidakse tagastada kas täielik või piiratud pro
 
 On võimalik pärida varasemat versiooni ressursist kasutades ajaloo päringut.
 
-- id: ressursi SPD süsteemne id
-- version: ressursi versioon
+- `id`: ressursi SPD süsteemne id
+- `version`: ressursi versioon
 
 **URL**: `GET [base]/fhir/Practitioner/[id]/_history/[version]`
 
@@ -558,7 +556,7 @@ Kui asutuse andmed puuduvad SPD-s, siis tehakse taustas asutuse päring MEDRE-ss
 
 **URL**: `GET [base]/fhir/Organization/[id]`
 
-- [id]: ressursi SPD süsteemne id. Asutuse kood on leitav ressursi `identifier` väljalt.
+- `id`: ressursi SPD süsteemne id. Asutuse kood on leitav ressursi `identifier` väljalt.
 
 #### Otsing
 
@@ -572,8 +570,8 @@ Otsing nõuab vähemalt ühte parameetrit. Toetatud parameetrid:
 
 #### Ajaloo päring
 
-- id: ressursi SPD süsteemne id
-- version: ressursi versioon
+- `id`: ressursi SPD süsteemne id
+- `version`: ressursi versioon
 
 **URL**: `GET [base]/fhir/Organization/[id]/_history/[version]`
 
@@ -684,14 +682,14 @@ Aadressiandmete süsteemist (ADS).
 
 **URL**: `GET [base]/fhir/Location/[id]`
 
-- [id]: ressursi SPD süsteemne numbriline id.
+- `id`: ressursi SPD süsteemne numbriline id.
 
 #### Otsing
 
 Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
 
 - Põhifiltrid (vähemalt üks nõutud):
-    - `organization`: asutuse kood.
+    - `organization.identifier`: asutuse äriregistrikood kujul `system|value`, kus süsteem on `https://fhir.ee/sid/org/est/br`.
     - `identifier`: ADS aadressi id.
     - `_id`: ressursi SPD süsteemne id.
     - `practitionerRole`: PractitionerRole id.
@@ -700,11 +698,14 @@ Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
     - `licenseType`: tegevusloa liik (komaga eraldatud väärtused).
     - `status`: asukoha staatus. Toetatud on ainult väärtus `active`.
 
-**URL**: `GET [base]/fhir/Location?organization=[code]`
+**URL**: `GET [base]/fhir/Location?organization.identifier=https://fhir.ee/sid/org/est/br%7C[äriregistrikood]`
 
 #### Ajaloo päring
 
 **URL**: `GET [base]/fhir/Location/[id]/_history/[version]`
+
+- `id`: ressursi SPD süsteemne numbriline id
+- `version`: ressursi versioon
 
 #### Vastus
 
@@ -775,7 +776,7 @@ kontaktandmetega.
 
 **URL**: `GET [base]/fhir/HealthcareService/[id]`
 
-- [id]: ressursi SPD süsteemne numbriline id.
+- `id`: ressursi SPD süsteemne numbriline id.
 
 #### Otsing
 
@@ -785,17 +786,20 @@ Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
     - `_id`: ressursi SPD süsteemne id.
     - `identifier`: teenuse identifikaator.
     - `service-type`: teenuse tüübi kood.
-    - `organization`: asutuse kood.
+    - `organization.identifier`: asutuse äriregistrikood kujul `system|value`, kus süsteem on `https://fhir.ee/sid/org/est/br`.
     - `license`: tegevusloa kood.
     - `location`: asukoha (Location) id.
 - Lisafilter:
     - `active`: tõeväärtus (`true`/`false`).
 
-**URL**: `GET [base]/fhir/HealthcareService?organization=[code]`
+**URL**: `GET [base]/fhir/HealthcareService?organization.identifier=https://fhir.ee/sid/org/est/br%7C[äriregistrikood]`
 
 #### Ajaloo päring
 
 **URL**: `GET [base]/fhir/HealthcareService/[id]/_history/[version]`
+
+- `id`: ressursi SPD süsteemne numbriline id
+- `version`: ressursi versioon
 
 #### Vastus
 
