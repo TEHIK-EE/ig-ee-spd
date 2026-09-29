@@ -277,7 +277,7 @@ Content-Type: application/fhir+json
 {
   "resourceType": "Parameters",
   "parameter": [
-    { "name": "identifier", "valueString": "11111111111" },
+    { "name": "identifier", "valueString": "https://fhir.ee/sid/pid/est/ni|11111111111" },
     { "name": "organization.identifier", "valueString": "https://fhir.ee/sid/org/est/br|10649954" },
     { "name": "role", "valueString": "ADMIN" }
   ]
@@ -784,13 +784,12 @@ Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
 
 - Põhifiltrid (vähemalt üks nõutud):
     - `_id`: ressursi SPD süsteemne id.
-    - `identifier`: teenuse identifikaator.
     - `service-type`: teenuse tüübi kood.
     - `organization.identifier`: asutuse äriregistrikood kujul `system|value`, kus süsteem on `https://fhir.ee/sid/org/est/br`.
     - `license`: tegevusloa kood.
     - `location`: asukoha (Location) id.
 - Lisafilter:
-    - `active`: tõeväärtus (`true`/`false`).
+    - `active`: tõeväärtus (`true`).
 
 **URL**: `GET [base]/fhir/HealthcareService?organization.identifier=https://fhir.ee/sid/org/est/br%7C[äriregistrikood]`
 
