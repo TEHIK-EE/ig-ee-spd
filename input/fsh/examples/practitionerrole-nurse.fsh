@@ -8,15 +8,13 @@ Description: "PractitionerRole N99876"
 * practitioner = Reference(Practitioner/practitioner-nurse)
 * organization = Reference(Organization/organization-perh123)
 * contact.telecom.system = #phone
-* contact.telecom.value = "+372 444555" 
-//* identifier.system = "https://fhir.ee/sid/pro/est/pho"
+* contact.telecom.value = "+372 444555"
 * identifier.value = "N99876"
 * identifier.system = "https://fhir.ee/sid/pro/est/pho" //$practitioner-identifier-domain-VS
 * code.coding[tor].system = $occupation
 * code.coding[tor].code = #22210502
 * code.coding[tor].display = "Õde"
 * specialty = $erialad#N300 "terviseõendus"
-//* code.coding.value = "doctor"
 //* location = Reference(Location/location-narva-haigla)
 * contact.telecom.value = "5555555"
 * contact.telecom.system = #phone

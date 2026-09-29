@@ -22,3 +22,9 @@ out-fsh
 /output
 /temp
 /template
+
+# AI tooling and feature specs (local only)
+.ai/
+.ai_project_memory/
+.claude/
+specs/

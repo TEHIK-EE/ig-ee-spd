@@ -48,32 +48,37 @@ dependencies:
 #
 pages:
   index.md:
-    title: Home
-  guidance.md:
-    title: Guidance
+    title: Esileht
   fhir-api.md:
     title: FHIR API kirjeldus
-  operations.md:
-    title: Operations  
-  knownissues.md:
-    title: Known Issues    
-  downloads.xml:
-    title: Downloads
-  controls.md:
-    title: Controls
+  dev-juhend.md:
+    title: Juhend arendajale
+  asutused-ja-teenused.md:
+    title: Asutuste, tegevuskohtade ja teenuste päring
+  practitioner.md:
+    title: Teenuseosutaja isiku päring ja uuendamine
+  practitioner-role.md:
+    title: Töötaja rolli päring, uuendamine ja genereerimine
+  perearsti-nimistud.md:
+    title: Perearsti nimistute päringud
+  sunkroniseerimine.md:
+    title: Taustsünkroniseerimine välisregistritega
+  kontrollid.md:
+    title: Kontrollid ja terminoloogia
+  vead.md:
+    title: Vead
+  kasutuslood.md:
+    title: Kasutuslood
   checklist.md:
-    title: Checklist for developers
-  usecases.md:
-    title: Use cases
-  other.md:
-    title: About
-  contacts.md: 
-    title: Contacts
+    title: Eeldused liidestujale
+  knownissues.md:
+    title: Teadaolevad probleemid
+  downloads.xml:
+    title: Allalaadimised
+  contacts.md:
+    title: Kontaktid
   changes.xml:
-    title: Changes
-  documentation.md:
-    title: Documentation
-  
+    title: Muudatused
 
 #   implementation.xml:
 #   examples.xml:
@@ -95,6 +100,8 @@ pages:
 #    - https://fhir.ee/CodeSystem
 #    - https://fhir.ee/ValueSet
 #   validation: [allow-any-extensions, no-broken-links]
+parameters:
+  display-warnings: true
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
@@ -105,22 +112,27 @@ pages:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Guidance:
-    FHIR API Kirjeldus: fhir-api.html
-    Operations: operations.html
-    Documentation: documentation.html
-    Controls: controls.html
-    Use cases: usecases.html
-    Checklist for developers: checklist.html
-  Artifacts: artifacts.html
-  About : 
-    Known Issues: knownissues.html
-    Downloads: downloads.html
-    Contacts: contacts.html
-  Changes: changes.html
-  Table of contents: toc.html
- 
+  Esileht: index.html
+  Juhendid:
+    FHIR API kirjeldus: fhir-api.html
+    Juhend arendajale: dev-juhend.html
+    Asutuste, tegevuskohtade ja teenuste päring: asutused-ja-teenused.html
+    Teenuseosutaja isiku päring ja uuendamine: practitioner.html
+    Töötaja rolli päring, uuendamine ja genereerimine: practitioner-role.html
+    Perearsti nimistute päringud: perearsti-nimistud.html
+    Taustsünkroniseerimine välisregistritega: sunkroniseerimine.html
+    Kontrollid ja terminoloogia: kontrollid.html
+    Vead: vead.html
+    Kasutuslood: kasutuslood.html
+    Eeldused liidestujale: checklist.html
+  Artefaktid: artifacts.html
+  Sisukord: toc.html
+  Muu:
+    Teadaolevad probleemid: knownissues.html
+    Allalaadimised: downloads.html
+    Kontaktid: contacts.html
+  Muudatused: changes.html
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

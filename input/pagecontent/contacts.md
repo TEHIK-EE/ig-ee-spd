@@ -1,5 +1,5 @@
-# Contacts | Kontaktid
+Kui Teil on juurutusjuhendiga seotud probleem, palun looge GitHubi teade projekti lehel:
+[TEHIK-EE/ig-ee-spd](https://github.com/TEHIK-EE/ig-ee-spd).
 
-If you have any issue about Implementation Guide please create the Github ticket on the project site: https://github.com/TEHIK-EE/ig-ee-spd 
-
-If you need further information or wish to provide feedback on this implementation guide, please e-mail andmekorraldus@tehik.ee
+Kui vajate lisainfot või soovite anda tagasisidet juurutusjuhendi kohta, kirjutage e-postile
+[andmekorraldus@tehik.ee](mailto:andmekorraldus@tehik.ee).

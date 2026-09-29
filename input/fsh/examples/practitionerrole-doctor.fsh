@@ -14,10 +14,7 @@ Description: "PractitionerRole D99876"
 * code.coding[tor] = $occupation#22120901 "Kardioloog"
 //* code.coding[role].code = #doctor
 //* code.coding[role].display = "Arst"
-//* code.coding.value = "doctor"
-* specialty = $erialad#E170 "Kardioloogia" // "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
-//* specialty.coding.code = #E170
-//* specialty.coding.display = "Kardioloogia"
+* specialty = $erialad#E170 "kardioloogia"
 * location = Reference(Location/location-narva-haigla)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone

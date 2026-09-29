@@ -13,10 +13,6 @@ Description: "PractitionerRole for receptionist"
 * code[+].coding[role].system = $admin-rollid
 * code[=].coding[role].code = #receptionist
 * code[=].coding[role].display = "Registraator/klienditeenindaja"
-//* code.coding.value = "doctor"
-//* specialty[eriala].coding.system = "https://fhir.ee/CodeSystem/erialad" //NB! EEBases juba valesti see CS lõpp! muuda ära
-//* specialty[eriala].coding.code = #E170
-//* specialty[eriala].coding.display = "Kardioloogia"
 * location = Reference(Location/location-narva-haigla)
 * contact.telecom.value = "5555551"
 * contact.telecom.system = #phone
