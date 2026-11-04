@@ -14,6 +14,7 @@ Description: "TEGEVUSKOHT (näiteks korpus, osakond, korrus, palat jne). Locatio
 * status 0..1 
 * address ^short = "AdrId is mandatory. (ee address.type on alati physical, aadress.use on alati work ning address.country alati EE.)"
 * address.extension[adsAdrId] 1..1
+* address.type 1..1
 * address.type = #physical
 * address.use = #work
 * address.country = $rtk-VS#EE
