@@ -31,4 +31,6 @@ Alias: $org-type = http://terminology.hl7.org/CodeSystem/organization-type
 Alias: $org-type-CS = https://fhir.ee/CodeSystem/organisatsiooni-tyyp
 Alias: $org-type-muu = https://fhir.ee/CodeSystem/organisatsiooni-tyyp-muu
 Alias: $haigla-liik = https://fhir.ee/ValueSet/medre-haigla-liik
+Alias: $rtk = https://fhir.ee/Codesystem/rtk
+Alias: $rtk-VS = https://fhir.ee/ValueSet/rtk
 //Alias: $ads-oid = https://fhir.ee/base/CodeSystem/ads-oid
