@@ -31,7 +31,7 @@ allikregistrist ning tulemus salvestatakse SPD-sse enne vastamist.
   käivitab vajadusel sünkroniseerimise.
 - `name`: asutuse nime osaline vaste (mittetäht­tundlik), otsib ainult SPD juba teadaolevate
   asutuste seast, sünkroniseerimist ei käivita.
-- `_id`: SPD süsteemne id kujul `spd-{id}`.
+- `_id`: SPD süsteemne id kujul `spd-{number}`.
 
 Puudumisel tagastatakse `SPD-003` (id alusel) või `SPD-040` (koodi alusel) — vt [Vead](vead.html).
 

@@ -14,7 +14,7 @@ Toodud näidispäringud ja näidisvastused ei kajasta reaalseid andmeid aga vast
 
 ### Ressursi id
 
-SPD ressursi id on kujul `spd-{id}`, näiteks `spd-240`. Sama kuju kasutatakse päringu URL-is
+SPD ressursi id on kujul `spd-{number}`, näiteks `spd-240`. Sama kuju kasutatakse päringu URL-is
 (`GET [base]/fhir/PractitionerRole/spd-240`), viidetes (`Practitioner/spd-117`) ja `_id`
 otsinguparameetris (`_id=spd-240`).
 
@@ -29,7 +29,7 @@ Kui isiku andmed puuduvad SPD-s, siis tehakse taustas päringud MEDRE-sse ja TÖ
 
 **URL**: `GET [base]/fhir/PractitionerRole/[id]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`.
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`.
 
 #### Vastus
 
@@ -117,7 +117,7 @@ otsinguparameetrid:
     - `https://fhir.ee/CodeSystem/ametite-klassifikaator` (amet)
 - `role`: rolli kood.
 - `active`: tõeväärtus (`true`/`false`).
-- `_id`: ressursi SPD süsteemne id kujul `spd-{id}`.
+- `_id`: ressursi SPD süsteemne id kujul `spd-{number}`.
 
 ##### Näide: päring isikukoodi alusel
 
@@ -358,7 +358,7 @@ HTTP/1.1 200 OK
 
 **URL**: `GET [base]/fhir/PractitionerRole/[id]/_history/[version]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`
 - `version`: ressursi versioon
 
 #### Vastus
@@ -448,7 +448,7 @@ Olenevalt päringu õigustest võidakse tagastada kas täielik või piiratud pro
 
 **URL**: `GET [base]/fhir/Practitioner/[id]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`. Isikukood ja TAM koodid on leitavad ressursi `identifier` väljalt.
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`. Isikukood ja TAM koodid on leitavad ressursi `identifier` väljalt.
 
 #### Otsing
 
@@ -457,13 +457,13 @@ Olenevalt päringu õigustest võidakse tagastada kas täielik või piiratud pro
 - `identifier`: isiku identifikaator kujul `system|value`. Toetatud süsteemid:
     - `https://fhir.ee/sid/pid/est/ni` (isikukood)
     - `https://fhir.ee/sid/pro/est/pho` (TAM kood)
-- `_id`: ressursi SPD süsteemne id kujul `spd-{id}` (lisaks `identifier`-le).
+- `_id`: ressursi SPD süsteemne id kujul `spd-{number}` (lisaks `identifier`-le).
 
 #### Ajaloo päring
 
 On võimalik pärida varasemat versiooni ressursist kasutades ajaloo päringut.
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`
 - `version`: ressursi versioon
 
 **URL**: `GET [base]/fhir/Practitioner/[id]/_history/[version]`
@@ -562,7 +562,7 @@ Kui asutuse andmed puuduvad SPD-s, siis tehakse taustas asutuse päring MEDRE-ss
 
 **URL**: `GET [base]/fhir/Organization/[id]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`. Asutuse kood on leitav ressursi `identifier` väljalt.
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`. Asutuse kood on leitav ressursi `identifier` väljalt.
 
 #### Otsing
 
@@ -571,13 +571,13 @@ Otsing nõuab vähemalt ühte parameetrit. Toetatud parameetrid:
 - `identifier`: asutuse identifikaator kujul `system|value`, nt. äriregistri kood
   `https://fhir.ee/sid/org/est/br%7C90006399`.
 - `name`: asutuse nimi (osaline, tõstutundetu otsing).
-- `_id`: ressursi SPD süsteemne id kujul `spd-{id}`.
+- `_id`: ressursi SPD süsteemne id kujul `spd-{number}`.
 
 **URL**: `GET [base]/fhir/Organization?identifier=https://fhir.ee/sid/org/est/br%7C[code]`
 
 #### Ajaloo päring
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`
 - `version`: ressursi versioon
 
 **URL**: `GET [base]/fhir/Organization/[id]/_history/[version]`
@@ -691,7 +691,7 @@ ei pärita. Ajaloopäring (`vread`) tagastab aadressi, mis salvestati koos vasta
 
 **URL**: `GET [base]/fhir/Location/[id]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`.
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`.
 
 #### Otsing
 
@@ -700,8 +700,8 @@ Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
 - Põhifiltrid (vähemalt üks nõutud):
     - `organization.identifier`: asutuse äriregistrikood kujul `system|value`, kus süsteem on `https://fhir.ee/sid/org/est/br`.
     - `identifier`: ADS aadressi id.
-    - `_id`: ressursi SPD süsteemne id kujul `spd-{id}`.
-    - `practitionerRole`: PractitionerRole id kujul `spd-{id}`.
+    - `_id`: ressursi SPD süsteemne id kujul `spd-{number}`.
+    - `practitionerRole`: PractitionerRole id kujul `spd-{number}`.
     - `addressCode`: aadressi kood.
 - Lisafiltrid:
     - `licenseType`: tegevusloa liik (komaga eraldatud väärtused).
@@ -713,7 +713,7 @@ Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
 
 **URL**: `GET [base]/fhir/Location/[id]/_history/[version]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`
 - `version`: ressursi versioon
 
 #### Vastus
@@ -785,18 +785,18 @@ kontaktandmetega.
 
 **URL**: `GET [base]/fhir/HealthcareService/[id]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`.
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`.
 
 #### Otsing
 
 Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
 
 - Põhifiltrid (vähemalt üks nõutud):
-    - `_id`: ressursi SPD süsteemne id kujul `spd-{id}`.
+    - `_id`: ressursi SPD süsteemne id kujul `spd-{number}`.
     - `service-type`: teenuse tüübi kood.
     - `organization.identifier`: asutuse äriregistrikood kujul `system|value`, kus süsteem on `https://fhir.ee/sid/org/est/br`.
     - `license`: tegevusloa kood.
-    - `location`: asukoha viide kujul `Location/spd-{id}`.
+    - `location`: asukoha viide kujul `Location/spd-{number}`.
 - Lisafilter:
     - `active`: tõeväärtus (`true`).
 
@@ -806,7 +806,7 @@ Otsing nõuab vähemalt ühte põhifiltrit. Toetatud parameetrid:
 
 **URL**: `GET [base]/fhir/HealthcareService/[id]/_history/[version]`
 
-- `id`: ressursi SPD süsteemne id kujul `spd-{id}`
+- `id`: ressursi SPD süsteemne id kujul `spd-{number}`
 - `version`: ressursi versioon
 
 #### Vastus
