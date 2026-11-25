@@ -40,6 +40,8 @@ Kõik ressursid toetavad standardseid FHIR interaktsioone `read` (`GET [base]/[R
 Ressursi kõigi versioonide nimekirja tagastavat ajaloopäringut (`GET [base]/[Resource]/[id]/_history`)
 hetkel ei toetata.
 
+Ressursi `[id]` on kujul `spd-{number}` (nt `spd-240`) — vt [FHIR API kirjeldus](fhir-api.html).
+
 Otsingul lubamatu või tundmatu parameeter tagastab vea `SPD-013`. Osa ressursse (nt PractitionerRole,
 HealthcareService, Location) nõuavad, et otsingul oleks määratud vähemalt üks kindel
 parameetritest — vastasel juhul tagastatakse `SPD-002` või `SPD-018`. Vt täpseid

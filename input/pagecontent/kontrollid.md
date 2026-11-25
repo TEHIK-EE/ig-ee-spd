@@ -5,6 +5,7 @@
 | Tundmatu või lubamatu otsinguparameeter | kõik ressursid | `SPD-013` |
 | Nõutud parameeter puudub | PractitionerRole (`_id` või `identifier`), Location/HealthcareService (vähemalt üks põhifilter) | `SPD-002` / `SPD-018` |
 | Parameeter lubab ainult ühte väärtust | nt Organization `_id` | `SPD-025` |
+| Ressursi id (`[id]`, `_id`, viited) peab olema kujul `spd-{number}` | kõik ressursid | `SPD-028` |
 | Identifikaatori süsteem peab olema teadaolev/toetatud | Organization, Practitioner, PractitionerRole `identifier` | `SPD-042` |
 | `organization.identifier` süsteem peab olema `https://fhir.ee/sid/org/est/br` ja väärtus numbriline | PractitionerRole, Location, HealthcareService | `SPD-028` / `SPD-042` |
 | `active` parameetri ainus lubatud väärtus on `true` | PractitionerRole, HealthcareService | `SPD-032` |

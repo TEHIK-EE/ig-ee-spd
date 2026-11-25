@@ -9,6 +9,7 @@ Otsing nõuab kohustuslikult kas `_id` või `identifier` parameetrit — ilma ne
 
 - `identifier`: isiku identifikaator (isikukood süsteem `https://fhir.ee/sid/pid/est/ni` või TAM
   kood süsteem `https://fhir.ee/sid/pro/est/pho`).
+- `_id`: ressursi SPD süsteemne id kujul `spd-{number}`.
 - `organization.identifier`: asutuse äriregistrikood, süsteem `https://fhir.ee/sid/org/est/br`.
 - `specialty`: eriala või ameti kood, süsteem kas `https://fhir.ee/CodeSystem/erialad` või
   `https://fhir.ee/CodeSystem/ametite-klassifikaator` — muu süsteem või tundmatu kood tagastab
